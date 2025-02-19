@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/timer.dir/clock.c.o CMakeFiles/timer.dir/driver.c.o CMakeFiles/timer.dir/timer.c.o CMakeFiles/timer.dir/stdinout.c.o -o timer 

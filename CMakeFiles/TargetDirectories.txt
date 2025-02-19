@@ -1,3 +1,0 @@
-/mnt/c/Users/syoung/Documents/CppTestLinux/cpptest/examples/Timer/CMakeFiles/timer.dir
-/mnt/c/Users/syoung/Documents/CppTestLinux/cpptest/examples/Timer/CMakeFiles/edit_cache.dir
-/mnt/c/Users/syoung/Documents/CppTestLinux/cpptest/examples/Timer/CMakeFiles/rebuild_cache.dir
