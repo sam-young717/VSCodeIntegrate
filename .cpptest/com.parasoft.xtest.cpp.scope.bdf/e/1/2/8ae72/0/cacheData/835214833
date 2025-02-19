@@ -1,8 +1,0 @@
-file=/mnt/c/Users/syoung/Documents/CppTestLinux/cpptest/examples/Timer/timer.c
-compiler=gcc_9-64
-working_dir=/mnt/c/Users/syoung/Documents/CppTestLinux/cpptest/examples/Timer
-arg=gcc
-arg=-g
-arg=-I.
-arg=-c
-arg=/mnt/c/Users/syoung/Documents/CppTestLinux/cpptest/examples/Timer/timer.c
