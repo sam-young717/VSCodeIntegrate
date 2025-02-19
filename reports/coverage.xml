@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Coverage ver="2" toolVer="2024.2.0" execEnv="linux_x86_64" hasViols="false" project="" buildId="2025-02-17" climode="true" toolDispName="C/C++test" toolId="c++test" machine="syoung-pc" tag="${scontrol_branch}-linux_x86_64" time="2025-02-17T11:25:11-05:00" id="1738440923056" lang="en" user="syoung" toolName="DTP Engine for C/C++">
+	<TestConfig machine="syoung-pc" pseudoUrl="builtin://Coverage" name="Coverage" user="syoung"/>
+	<VersionInfos>
+		<VersionInfo id="LC" ver="1"/>
+	</VersionInfos>
+	<Repositories/>
+	<Locations>
+		<Loc locRef="1" uri="file:/usr/include/x86_64-linux-gnu/bits/byteswap.h" hash="1268675270"/>
+		<Loc locRef="2" uri="file:/mnt/c/Users/syoung/Documents/CppTestLinux/cpptest/examples/Timer/timer.c" hash="1500438919"/>
+		<Loc locRef="3" uri="file:/usr/include/x86_64-linux-gnu/bits/uintn-identity.h" hash="1065012503"/>
+	</Locations>
+	<Tests/>
+	<CoverageData type="LC">
+		<CvgData locRef="1">
+			<Stats>
+				<Item itemRef="1" id="9c9b74af_WusrWincludeWx86W64WlinuxWgnuWbitsWbyteswapWh|__bswap_32" name="__bswap_32" hash="557847692"/>
+				<Item itemRef="2" id="9c9b74af_WusrWincludeWx86W64WlinuxWgnuWbitsWbyteswapWh|__bswap_64" name="__bswap_64" hash="1236036827"/>
+				<Item itemRef="3" id="9c9b74af_WusrWincludeWx86W64WlinuxWgnuWbitsWbyteswapWh|__bswap_16" name="__bswap_16" hash="597134728"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="52" hashes="1206443689"/>
+				<StatCvg itemRef="2" elems="73" hashes="-282470102"/>
+				<StatCvg itemRef="3" elems="37" hashes="-280674909"/>
+			</Static>
+		</CvgData>
+		<CvgData locRef="2">
+			<Stats>
+				<Item itemRef="1" id="31c85df1_uninit_timer" name="uninit_timer" hash="-1167306230"/>
+				<Item itemRef="2" id="31c85df1_query_user" name="query_user" hash="2121820488"/>
+				<Item itemRef="3" id="31c85df1_add_timer" name="add_timer" hash="35349193"/>
+				<Item itemRef="4" id="31c85df1_init_timer" name="init_timer" hash="-923634654"/>
+				<Item itemRef="5" id="31c85df1_format_timer_record" name="format_timer_record" hash="-625208592"/>
+				<Item itemRef="6" id="31c85df1_add_timer_record" name="add_timer_record" hash="-1022087542"/>
+				<Item itemRef="7" id="31c85df1_delete_timer_record" name="delete_timer_record" hash="-403251592"/>
+				<Item itemRef="8" id="31c85df1_list_timers" name="list_timers" hash="-1014441068"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="28 30 31" hashes="1679375043 1743982722 26121042"/>
+				<StatCvg itemRef="2" elems="40 41 42 43 45 46 48 49 52 53 54 55 57 60 61 62 63 65 68 69 71" hashes="1600115799 -456882160 1079331828 1350390768 1705568950 -1526808077 -527707354 1340052799 -337297020 1051372518 -1456902895 -1585297472 -731975428 17156239 1051372518 -129737380 -1585297472 -1409060683 -397800787 1021803899 601074313"/>
+				<StatCvg itemRef="3" elems="76 78 80 81 83 85" hashes="-1646187554 -174357818 -1502932978 1779373602 -992348185 -1256396037"/>
+				<StatCvg itemRef="4" elems="22" hashes="-1074791283"/>
+				<StatCvg itemRef="5" elems="128 129 131 133 134 136 137" hashes="-1285013714 -1725726827 -1356760849 -23883783 -1644342585 130267201 201551585"/>
+				<StatCvg itemRef="6" elems="97 98 100" hashes="-1600799721 -1933903777 -1597326853"/>
+				<StatCvg itemRef="7" elems="110 111 114 116 117 119 122 123" hashes="-1356760849 1679375043 -1694282400 1747357394 207609628 -1724712002 -1575012362 -813884052"/>
+				<StatCvg itemRef="8" elems="144 145 146 147 148 150 151 153" hashes="-2004706563 1679375043 1628413856 1760988551 1531685295 -1846563555 924656480 -332149005"/>
+			</Static>
+		</CvgData>
+		<CvgData locRef="3">
+			<Stats>
+				<Item itemRef="1" id="a06739ab_WusrWincludeWx86W64WlinuxWgnuWbitsWuintnWidentityWh|__uint32_identity" name="__uint32_identity" hash="-372317861"/>
+				<Item itemRef="2" id="a06739ab_WusrWincludeWx86W64WlinuxWgnuWbitsWuintnWidentityWh|__uint64_identity" name="__uint64_identity" hash="2140194616"/>
+				<Item itemRef="3" id="a06739ab_WusrWincludeWx86W64WlinuxWgnuWbitsWuintnWidentityWh|__uint16_identity" name="__uint16_identity" hash="1065099365"/>
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="41" hashes="1786613651"/>
+				<StatCvg itemRef="2" elems="47" hashes="1786613651"/>
+				<StatCvg itemRef="3" elems="35" hashes="1786613651"/>
+			</Static>
+		</CvgData>
+	</CoverageData>
+</Coverage>
