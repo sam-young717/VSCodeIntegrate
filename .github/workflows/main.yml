@@ -34,14 +34,14 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       
-    - name: Configure CMake
-      run: cmake -S . -B build -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++
-      
-    - name: Build
-      run: cmake --build build
+    - name: Install NMake
+      run: choco install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
 
     - name: Configure CMake
-      run: cmake -G "Ninja" -DCMAKE_C_COMPILER=cl -DCMAKE_CXX_COMPILER=cl -S . -B build
+      run: cmake -S . -B build -G "NMake Makefiles" -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++
+
+    - name: Build
+      run: cmake --build build
 
     # Configures your CMake project. Be sure the compile_commands.json file is created.
     - name: Configure project
