@@ -38,10 +38,6 @@ jobs:
     - name: Configure CMake
       run: cmake -G "Unix Makefiles" -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B build
 
-    # Verify that compile_commands.json is present
-    - name: Verify compile_commands.json
-      run: ls build/compile_commands.json
-
     # Builds your CMake project. (This step is optional, as it is not required for code analysis).
     - name: Build project (optional)
       run: cmake --build build
