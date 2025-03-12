@@ -34,6 +34,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
+    - name: Configure CMake
+      run: cmake -G "Ninja" -DCMAKE_C_COMPILER=cl -DCMAKE_CXX_COMPILER=cl -S . -B build
+
     # Configures your CMake project. Be sure the compile_commands.json file is created.
     - name: Configure project
       run: cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B build
