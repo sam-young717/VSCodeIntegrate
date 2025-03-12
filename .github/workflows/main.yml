@@ -36,7 +36,7 @@ jobs:
 
     # Configures your CMake project. Be sure the compile_commands.json file is created.
     - name: Configure CMake
-      run: cmake -G "Visual Studio 17 2022" -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B build
+      run: cmake -G "Unix Makefiles" -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B build
 
     # Verify that compile_commands.json is present
     - name: Verify compile_commands.json
