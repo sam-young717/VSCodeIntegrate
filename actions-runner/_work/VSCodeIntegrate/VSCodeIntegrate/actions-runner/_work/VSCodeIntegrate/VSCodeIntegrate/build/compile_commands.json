@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/build",
+  "command": "C:/MinGW/bin/gcc.exe    -o CMakeFiles/timer.dir/clock.c.obj -c C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/clock.c",
+  "file": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/clock.c",
+  "output": "CMakeFiles/timer.dir/clock.c.obj"
+},
+{
+  "directory": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/build",
+  "command": "C:/MinGW/bin/gcc.exe    -o CMakeFiles/timer.dir/driver.c.obj -c C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/driver.c",
+  "file": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/driver.c",
+  "output": "CMakeFiles/timer.dir/driver.c.obj"
+},
+{
+  "directory": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/build",
+  "command": "C:/MinGW/bin/gcc.exe    -o CMakeFiles/timer.dir/timer.c.obj -c C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/timer.c",
+  "file": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/timer.c",
+  "output": "CMakeFiles/timer.dir/timer.c.obj"
+},
+{
+  "directory": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/build",
+  "command": "C:/MinGW/bin/gcc.exe    -o CMakeFiles/timer.dir/stdinout.c.obj -c C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/stdinout.c",
+  "file": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/stdinout.c",
+  "output": "CMakeFiles/timer.dir/stdinout.c.obj"
+}
+]

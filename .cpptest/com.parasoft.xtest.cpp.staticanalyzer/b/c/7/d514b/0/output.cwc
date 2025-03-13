@@ -1,0 +1,270 @@
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>MISRA2004-20_10
+<b>Do not use the 'atoi' function
+<l>46
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>PB-41
+<b>Do not pass an object of array type as an argument to the 'atoi' function
+<l>46
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>MISRA-013
+<b>The basic numerical type 'int' should not be used
+<l>16
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>MISRA-013
+<b>The basic numerical type 'char' should not be used
+<l>18
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>MISRA-013
+<b>The basic numerical type 'int' should not be used
+<l>19
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>MISRA-013
+<b>The basic numerical type 'char' should not be used
+<l>20
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>MISRA-013
+<b>The basic numerical type 'int' should not be used
+<l>35
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>MISRA-013
+<b>The basic numerical type 'char' should not be used
+<l>40
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>MISRA-013
+<b>The basic numerical type 'int' should not be used
+<l>52
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>MISRA-013
+<b>The basic numerical type 'char' should not be used
+<l>52
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>CODSTA-CPP-53
+<b>Declare local variable 'c' as const
+<l>18
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>CODSTA-69
+<b>Character constant  is used as LHS operand of  binary '+' operator
+<l>40
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>OPT-02_b
+<b>The 'c' local variable is not used
+<l>18
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>CODSTA-CPP-53_b
+<b>Declare parameter 'str' as const
+<l>52
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>MISRA2004-16_7
+<b>Pass parameter "str" with const specifier
+<l>52
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\inout.h
+<c>CODSTA-92
+<b>Reserved name '_input_h_' used
+<l>3
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\inout.h
+<c>MISRA-013
+<b>The basic numerical type 'int' should not be used
+<l>6
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\inout.h
+<c>MISRA-013
+<b>The basic numerical type 'int' should not be used
+<l>9
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\inout.h
+<c>MISRA-013
+<b>The basic numerical type 'char' should not be used
+<l>9
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\inout.h
+<c>MISRA-013
+<b>The basic numerical type 'int' should not be used
+<l>12
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>CODSTA-69
+<b>Character constant  is used as LHS operand of  binary '+' operator
+<l>40
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>OPT-02_b
+<b>The 'c' local variable is not used
+<l>18
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\consts.h
+<c>CODSTA-92
+<b>Reserved name '_consts_h_' used
+<l>3
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>PREPROC-10_b
+<b>#endif pre-processor directive should not be used
+<l>43
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>MISRA2004-20_9
+<b><stdio.h> library shall not be used
+<l>10
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>PREPROC-11
+<b>The #ifdef preprocessor directive is used
+<l>22
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c
+<c>PREPROC-11
+<b>The #else preprocessor directive is used
+<l>32
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

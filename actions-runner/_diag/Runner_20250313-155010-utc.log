@@ -1,0 +1,272 @@
+[2025-03-13 15:50:10Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Root': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner'
+[2025-03-13 15:50:10Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials'
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Root': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner'
+[2025-03-13 15:50:10Z INFO HostContext] Well known config file 'Runner': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.runner'
+[2025-03-13 15:50:10Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2025-03-13 15:50:10Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.26100.
+[2025-03-13 15:50:10Z INFO Listener] Version: 2.322.0
+[2025-03-13 15:50:10Z INFO Listener] Commit: 0edc478ca75d0a753dcbcec7405f3f26db67b1ac
+[2025-03-13 15:50:10Z INFO Listener] Culture: en-US
+[2025-03-13 15:50:10Z INFO Listener] UI Culture: en-US
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Root': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner'
+[2025-03-13 15:50:10Z INFO Listener] Validating directory permissions for: 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner'
+[2025-03-13 15:50:10Z INFO CommandLineParser] Parse
+[2025-03-13 15:50:10Z INFO CommandLineParser] Parsing 1 args
+[2025-03-13 15:50:10Z INFO CommandLineParser] parsing argument
+[2025-03-13 15:50:10Z INFO CommandLineParser] HasArgs: False
+[2025-03-13 15:50:10Z INFO CommandLineParser] Adding Command: run
+[2025-03-13 15:50:10Z INFO Listener] Arguments parsed
+[2025-03-13 15:50:10Z INFO Runner] ExecuteCommand
+[2025-03-13 15:50:10Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin\Runner.Listener.dll
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:50:10Z INFO ConfigurationStore] binPath: C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Root': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner'
+[2025-03-13 15:50:10Z INFO ConfigurationStore] RootFolder: C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Root': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner'
+[2025-03-13 15:50:10Z INFO HostContext] Well known config file 'Runner': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.runner'
+[2025-03-13 15:50:10Z INFO ConfigurationStore] ConfigFilePath: C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.runner
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Root': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner'
+[2025-03-13 15:50:10Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials'
+[2025-03-13 15:50:10Z INFO ConfigurationStore] CredFilePath: C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Root': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner'
+[2025-03-13 15:50:10Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_migrated'
+[2025-03-13 15:50:10Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_migrated
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Root': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner'
+[2025-03-13 15:50:10Z INFO HostContext] Well known config file 'Service': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.service'
+[2025-03-13 15:50:10Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.service
+[2025-03-13 15:50:10Z INFO CommandSettings] Flag 'help': 'False'
+[2025-03-13 15:50:10Z INFO CommandSettings] Flag 'version': 'False'
+[2025-03-13 15:50:10Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-03-13 15:50:10Z INFO CommandSettings] Flag 'check': 'False'
+[2025-03-13 15:50:10Z INFO CommandSettings] Command 'configure': 'False'
+[2025-03-13 15:50:10Z INFO CommandSettings] Command 'remove': 'False'
+[2025-03-13 15:50:10Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-03-13 15:50:10Z INFO ConfigurationManager] LoadSettings
+[2025-03-13 15:50:10Z INFO ConfigurationStore] IsConfigured()
+[2025-03-13 15:50:10Z INFO ConfigurationStore] IsConfigured: True
+[2025-03-13 15:50:10Z INFO ConfigurationManager] Is configured: True
+[2025-03-13 15:50:10Z INFO ConfigurationStore] Read setting file: 318 chars
+[2025-03-13 15:50:10Z INFO ConfigurationManager] Settings Loaded
+[2025-03-13 15:50:10Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-03-13 15:50:10Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-03-13 15:50:10Z INFO CommandSettings] Command 'run': 'True'
+[2025-03-13 15:50:10Z INFO ConfigurationStore] IsConfigured()
+[2025-03-13 15:50:10Z INFO ConfigurationStore] IsConfigured: True
+[2025-03-13 15:50:10Z INFO ConfigurationManager] Is configured: True
+[2025-03-13 15:50:10Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-03-13 15:50:10Z INFO Runner] Set runner startup type - Manual
+[2025-03-13 15:50:10Z INFO CommandSettings] Flag 'once': 'False'
+[2025-03-13 15:50:10Z INFO CommandSettings] Flag 'once': 'False'
+[2025-03-13 15:50:10Z INFO Runner] RunAsync
+[2025-03-13 15:50:10Z INFO ConfigurationManager] LoadSettings
+[2025-03-13 15:50:10Z INFO ConfigurationStore] IsConfigured()
+[2025-03-13 15:50:10Z INFO ConfigurationStore] IsConfigured: True
+[2025-03-13 15:50:10Z INFO ConfigurationManager] Is configured: True
+[2025-03-13 15:50:10Z INFO ConfigurationManager] Settings Loaded
+[2025-03-13 15:50:10Z INFO MessageListener] {
+  "AgentId": 23,
+  "AgentName": "default-runner",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus14.actions.githubusercontent.com/BJPx9ZceWNzPVl6cmFlKWSAIvlcLp9xiRKqBOhdKPGJHS8dIFy/",
+  "GitHubUrl": "https://github.com/sam-young717/VSCodeIntegrate",
+  "WorkFolder": "_work"
+}
+[2025-03-13 15:50:10Z INFO MessageListener] Loading Credentials
+[2025-03-13 15:50:10Z INFO ConfigurationStore] HasCredentials()
+[2025-03-13 15:50:10Z INFO ConfigurationStore] stored True
+[2025-03-13 15:50:10Z INFO CredentialManager] GetCredentialProvider
+[2025-03-13 15:50:10Z INFO CredentialManager] Creating type OAuth
+[2025-03-13 15:50:10Z INFO CredentialManager] Creating credential type: OAuth
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:50:10Z INFO HostContext] Well known directory 'Root': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner'
+[2025-03-13 15:50:10Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams'
+[2025-03-13 15:50:10Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 15:50:10Z INFO MessageListener] Attempt to create session.
+[2025-03-13 15:50:10Z INFO MessageListener] Connecting to the Runner Server...
+[2025-03-13 15:50:10Z INFO RunnerServer] EstablishVssConnection
+[2025-03-13 15:50:10Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-03-13 15:50:10Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-03-13 15:50:10Z INFO RunnerServer] EstablishVssConnection
+[2025-03-13 15:50:10Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-03-13 15:50:10Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-03-13 15:50:10Z INFO RunnerServer] EstablishVssConnection
+[2025-03-13 15:50:10Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-03-13 15:50:10Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-03-13 15:50:10Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-03-13 15:50:10Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-03-13 15:50:10Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-03-13 15:50:10Z INFO MessageListener] VssConnection created
+[2025-03-13 15:50:10Z INFO Terminal] WRITE LINE: 
+[2025-03-13 15:50:10Z INFO Terminal] WRITE LINE: 
+[2025-03-13 15:50:10Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 15:50:10Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 15:50:11Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-03-13 15:50:11Z INFO MessageListener] Session created.
+[2025-03-13 15:50:11Z INFO Terminal] WRITE LINE: Current runner version: '2.322.0'
+[2025-03-13 15:50:11Z INFO Terminal] WRITE LINE: 2025-03-13 15:50:11Z: Listening for Jobs
+[2025-03-13 15:50:11Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2025-03-13 15:50:11Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 15:50:11Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-03-13 15:50:12Z INFO MessageListener] Message '4628161186038509570' received from session '04a9835a-3a24-4fcc-95da-7cd6530964b4'.
+[2025-03-13 15:50:12Z INFO ConfigurationStore] HasCredentials()
+[2025-03-13 15:50:12Z INFO ConfigurationStore] stored True
+[2025-03-13 15:50:12Z INFO CredentialManager] GetCredentialProvider
+[2025-03-13 15:50:12Z INFO CredentialManager] Creating type OAuth
+[2025-03-13 15:50:12Z INFO CredentialManager] Creating credential type: OAuth
+[2025-03-13 15:50:12Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 15:50:12Z INFO ActionsRunServer] EstablishVssConnection
+[2025-03-13 15:50:12Z INFO ActionsRunServer] Establish connection with 100 seconds timeout.
+[2025-03-13 15:50:12Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-03-13 15:50:13Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-03-13 15:50:13Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 15:50:13Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 15:50:13Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-03-13 15:50:13Z INFO JobDispatcher] Job request 37 for plan 4d2bd41b-7361-4e2e-b887-5618b80f872e job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8 received.
+[2025-03-13 15:50:13Z INFO JobDispatcher] Pull OrchestrationId 4d2bd41b-7361-4e2e-b887-5618b80f872e.run-cpptest-make.__default from JWT claims
+[2025-03-13 15:50:13Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-03-13 15:50:13Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-03-13 15:50:13Z INFO Terminal] WRITE LINE: 2025-03-13 15:50:13Z: Running job: Analyze project with C/C++test
+[2025-03-13 15:50:13Z INFO JobDispatcher] Start renew job request 37 for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8.
+[2025-03-13 15:50:13Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 3/13/2025 4:00:13 PM
+[2025-03-13 15:50:13Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:50:13Z INFO ProcessInvokerWrapper] Starting process:
+[2025-03-13 15:50:13Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin\Runner.Worker.exe'
+[2025-03-13 15:50:13Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2304 2316'
+[2025-03-13 15:50:13Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:50:13Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-03-13 15:50:13Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-03-13 15:50:13Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-03-13 15:50:13Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-03-13 15:50:13Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-03-13 15:50:13Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-03-13 15:50:13Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-03-13 15:50:13Z INFO ProcessInvokerWrapper] Process started with process id 47420, waiting for process exit.
+[2025-03-13 15:50:13Z INFO JobDispatcher] Send job request message to worker for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8.
+[2025-03-13 15:50:13Z INFO ProcessChannel] Sending message of length 25231, with hash '7db463c133fa55c53d9b823de568214a9453d70aaf55b232a4e47b13a1b80ecb'
+[2025-03-13 15:50:14Z INFO JobNotification] Entering JobStarted Notification
+[2025-03-13 15:50:14Z INFO JobNotification] Entering StartMonitor
+[2025-03-13 15:51:13Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 3/13/2025 4:01:13 PM
+[2025-03-13 15:52:13Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 3/13/2025 4:02:13 PM
+[2025-03-13 15:52:25Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-03-13 15:52:25Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-03-13 15:52:25Z INFO ProcessInvokerWrapper] Finished process 47420 with exit code 100, and elapsed time 00:02:11.3820339.
+[2025-03-13 15:52:25Z INFO JobDispatcher] Worker finished for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8. Code: 100
+[2025-03-13 15:52:25Z INFO JobDispatcher] finish job request for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8 with result: Succeeded
+[2025-03-13 15:52:25Z INFO Terminal] WRITE LINE: 2025-03-13 15:52:25Z: Job Analyze project with C/C++test completed with result: Succeeded
+[2025-03-13 15:52:25Z INFO JobDispatcher] Stop renew job request for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8.
+[2025-03-13 15:52:25Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 37.
+[2025-03-13 15:52:25Z INFO JobNotification] Entering JobCompleted Notification
+[2025-03-13 15:52:25Z INFO JobNotification] Entering EndMonitor
+[2025-03-13 15:52:25Z INFO MessageListener] Received job status event. JobState: Online
+[2025-03-13 15:58:27Z INFO MessageListener] Message '2073374765764906128' received from session '04a9835a-3a24-4fcc-95da-7cd6530964b4'.
+[2025-03-13 15:58:27Z INFO ConfigurationStore] HasCredentials()
+[2025-03-13 15:58:27Z INFO ConfigurationStore] stored True
+[2025-03-13 15:58:27Z INFO CredentialManager] GetCredentialProvider
+[2025-03-13 15:58:27Z INFO CredentialManager] Creating type OAuth
+[2025-03-13 15:58:27Z INFO CredentialManager] Creating credential type: OAuth
+[2025-03-13 15:58:27Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 15:58:27Z INFO ActionsRunServer] EstablishVssConnection
+[2025-03-13 15:58:27Z INFO ActionsRunServer] Establish connection with 100 seconds timeout.
+[2025-03-13 15:58:27Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-03-13 15:58:27Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-03-13 15:58:27Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 15:58:27Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 15:58:27Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-03-13 15:58:28Z INFO JobDispatcher] Job request 38 for plan 90c8532a-f421-4f21-a0d5-c5852a18b807 job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8 received.
+[2025-03-13 15:58:28Z INFO JobDispatcher] Pull OrchestrationId 90c8532a-f421-4f21-a0d5-c5852a18b807.run-cpptest-make.__default from JWT claims
+[2025-03-13 15:58:28Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-03-13 15:58:28Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-03-13 15:58:28Z INFO JobDispatcher] Job request 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8 processed succeed.
+[2025-03-13 15:58:28Z INFO Terminal] WRITE LINE: 2025-03-13 15:58:28Z: Running job: Analyze project with C/C++test
+[2025-03-13 15:58:28Z INFO JobDispatcher] Start renew job request 38 for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8.
+[2025-03-13 15:58:28Z INFO JobDispatcher] Successfully renew job request 38, job is valid till 3/13/2025 4:08:28 PM
+[2025-03-13 15:58:28Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:58:28Z INFO ProcessInvokerWrapper] Starting process:
+[2025-03-13 15:58:28Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin\Runner.Worker.exe'
+[2025-03-13 15:58:28Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1284 2388'
+[2025-03-13 15:58:28Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 15:58:28Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-03-13 15:58:28Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-03-13 15:58:28Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-03-13 15:58:28Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-03-13 15:58:28Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-03-13 15:58:28Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-03-13 15:58:28Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-03-13 15:58:28Z INFO ProcessInvokerWrapper] Process started with process id 48288, waiting for process exit.
+[2025-03-13 15:58:28Z INFO JobDispatcher] Send job request message to worker for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8.
+[2025-03-13 15:58:28Z INFO ProcessChannel] Sending message of length 46005, with hash '17d00422d70a8ffd89be9e7093437511e71da49fe39974aacd442ddd9cb3187a'
+[2025-03-13 15:58:28Z INFO JobNotification] Entering JobStarted Notification
+[2025-03-13 15:58:28Z INFO JobNotification] Entering StartMonitor
+[2025-03-13 15:59:28Z INFO JobDispatcher] Successfully renew job request 38, job is valid till 3/13/2025 4:09:28 PM
+[2025-03-13 16:00:01Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-03-13 16:00:01Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-03-13 16:00:01Z INFO ProcessInvokerWrapper] Finished process 48288 with exit code 100, and elapsed time 00:01:33.0667363.
+[2025-03-13 16:00:01Z INFO JobDispatcher] Worker finished for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8. Code: 100
+[2025-03-13 16:00:01Z INFO JobDispatcher] finish job request for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8 with result: Succeeded
+[2025-03-13 16:00:01Z INFO Terminal] WRITE LINE: 2025-03-13 16:00:01Z: Job Analyze project with C/C++test completed with result: Succeeded
+[2025-03-13 16:00:01Z INFO JobDispatcher] Stop renew job request for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8.
+[2025-03-13 16:00:01Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 38.
+[2025-03-13 16:00:01Z INFO JobNotification] Entering JobCompleted Notification
+[2025-03-13 16:00:01Z INFO JobNotification] Entering EndMonitor
+[2025-03-13 16:00:01Z INFO MessageListener] Received job status event. JobState: Online
+[2025-03-13 16:00:24Z INFO MessageListener] Message '6378023595397603586' received from session '04a9835a-3a24-4fcc-95da-7cd6530964b4'.
+[2025-03-13 16:00:24Z INFO ConfigurationStore] HasCredentials()
+[2025-03-13 16:00:24Z INFO ConfigurationStore] stored True
+[2025-03-13 16:00:24Z INFO CredentialManager] GetCredentialProvider
+[2025-03-13 16:00:24Z INFO CredentialManager] Creating type OAuth
+[2025-03-13 16:00:24Z INFO CredentialManager] Creating credential type: OAuth
+[2025-03-13 16:00:24Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 16:00:24Z INFO ActionsRunServer] EstablishVssConnection
+[2025-03-13 16:00:24Z INFO ActionsRunServer] Establish connection with 100 seconds timeout.
+[2025-03-13 16:00:24Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-03-13 16:00:24Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-03-13 16:00:24Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 16:00:24Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 16:00:25Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-03-13 16:00:25Z INFO JobDispatcher] Job request 39 for plan b24d1bf1-8972-4e24-99bf-a7406ff32ef3 job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8 received.
+[2025-03-13 16:00:25Z INFO JobDispatcher] Pull OrchestrationId b24d1bf1-8972-4e24-99bf-a7406ff32ef3.run-cpptest-make.__default from JWT claims
+[2025-03-13 16:00:25Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-03-13 16:00:25Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-03-13 16:00:25Z INFO JobDispatcher] Job request 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8 processed succeed.
+[2025-03-13 16:00:25Z INFO Terminal] WRITE LINE: 2025-03-13 16:00:25Z: Running job: Analyze project with C/C++test
+[2025-03-13 16:00:25Z INFO JobDispatcher] Start renew job request 39 for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8.
+[2025-03-13 16:00:25Z INFO JobDispatcher] Successfully renew job request 39, job is valid till 3/13/2025 4:10:25 PM
+[2025-03-13 16:00:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 16:00:25Z INFO ProcessInvokerWrapper] Starting process:
+[2025-03-13 16:00:25Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin\Runner.Worker.exe'
+[2025-03-13 16:00:25Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1544 2316'
+[2025-03-13 16:00:25Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 16:00:25Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-03-13 16:00:25Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-03-13 16:00:25Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-03-13 16:00:25Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-03-13 16:00:25Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-03-13 16:00:25Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-03-13 16:00:25Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-03-13 16:00:25Z INFO ProcessInvokerWrapper] Process started with process id 1172, waiting for process exit.
+[2025-03-13 16:00:25Z INFO JobDispatcher] Send job request message to worker for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8.
+[2025-03-13 16:00:25Z INFO ProcessChannel] Sending message of length 28295, with hash '946e4031c2c2e52ca7dd6d0e22f9eedcc671c429e4581f5fb45f16f608b76e74'
+[2025-03-13 16:00:25Z INFO JobNotification] Entering JobStarted Notification
+[2025-03-13 16:00:25Z INFO JobNotification] Entering StartMonitor
+[2025-03-13 16:01:25Z INFO JobDispatcher] Successfully renew job request 39, job is valid till 3/13/2025 4:11:25 PM
+[2025-03-13 16:01:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-03-13 16:01:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-03-13 16:01:58Z INFO ProcessInvokerWrapper] Finished process 1172 with exit code 100, and elapsed time 00:01:33.2571789.
+[2025-03-13 16:01:58Z INFO JobDispatcher] Worker finished for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8. Code: 100
+[2025-03-13 16:01:58Z INFO JobDispatcher] finish job request for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8 with result: Succeeded
+[2025-03-13 16:01:58Z INFO Terminal] WRITE LINE: 2025-03-13 16:01:58Z: Job Analyze project with C/C++test completed with result: Succeeded
+[2025-03-13 16:01:58Z INFO JobDispatcher] Stop renew job request for job 7e43e210-c8a0-546d-fb37-f4b1eb1d65a8.
+[2025-03-13 16:01:58Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 39.
+[2025-03-13 16:01:58Z INFO JobNotification] Entering JobCompleted Notification
+[2025-03-13 16:01:58Z INFO JobNotification] Entering EndMonitor
+[2025-03-13 16:01:58Z INFO MessageListener] Received job status event. JobState: Online

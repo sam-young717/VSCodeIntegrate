@@ -19,7 +19,7 @@ C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MIS
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-4_2.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-3_4.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-2_4_b.rule|0
-C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-2_4.rule|26
+C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-2_4.rule|25
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-20_6.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-20_1_e.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-20_1_b.rule|0
@@ -142,10 +142,10 @@ C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MIS
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-11_2_b.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-10_5.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-10_2_c.rule|0
-C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-10_2_a.rule|0
+C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-10_2_a.rule|14
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-10_1_f.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-10_1_e.rule|0
-C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-10_1_b.rule|13
+C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-10_1_b.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\CODSTA\CODSTA-13.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-9_3.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-8_5.rule|0
@@ -170,8 +170,8 @@ C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\PORT\PORT-35_
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\PORT\PORT-35_a.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\PB\PB-75_b.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\PB\PB-75.rule|0
-C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA\MISRA-071_b.rule|0
-C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA\MISRA-071_a.rule|15
+C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA\MISRA-071_b.rule|7
+C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA\MISRA-071_a.rule|22
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA\MISRA-023.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-9_2_c.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-9_2_b.rule|0
@@ -186,12 +186,12 @@ C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MIS
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-20_4.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-20_12_b.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-20_10.rule|0
-C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-19_9.rule|0
-C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-19_11_b.rule|81
+C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-19_9.rule|6
+C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-19_11_b.rule|73
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-17_5.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-16_9.rule|0
-C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-16_6.rule|0
-C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-16_2.rule|14
+C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-16_6.rule|20
+C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-16_2.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-14_4.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-14_3.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-13_7_v.rule|0
@@ -201,7 +201,7 @@ C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MIS
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-13_3.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-12_8.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-12_3_c.rule|0
-C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-12_2_f.rule|0
+C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-12_2_f.rule|8
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-12_1_a.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-12_13.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-12_10.rule|0
@@ -213,4 +213,4 @@ C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MIS
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\MISRA2004\MISRA2004-10_1_a.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\INIT\INIT-16.rule|0
 C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\CODSTA\CODSTA-198_b.rule|0
-C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\CODSTA\CODSTA-198.rule|0
+C:\Users\syoung\Documents\CppTestStandard\cpptest\rules\builtin\en\CODSTA\CODSTA-198.rule|1
