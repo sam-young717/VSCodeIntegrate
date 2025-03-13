@@ -56,6 +56,8 @@ jobs:
 
     - name: Entering build
       run: cd build
+    - name: Testing location
+      run: ls
     - name: Activating extension
       run: cmake -DCPPTEST_COVERAGE=ON -DCPPTEST_HOME=C:\Users\syoung\Documents\CppTest\cpptest ..
     - name: Running make
