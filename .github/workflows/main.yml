@@ -54,8 +54,6 @@ jobs:
         # reportFormat: xml,html,custom
         additionalParams: '-config "builtin://MISRA C 2004"'
 
-    - name: Creating build
-      run: mkdir build 
     - name: Entering build
       run: cd build
     - name: Activating extension
