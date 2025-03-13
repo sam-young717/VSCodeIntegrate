@@ -64,7 +64,7 @@ jobs:
       run: ./build/timer
       
     - name: Generating report
-      run: make cpptest_coverage_report
+      run: make cpptest_coverage_report -C build
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
     - name: Upload results (SARIF)
