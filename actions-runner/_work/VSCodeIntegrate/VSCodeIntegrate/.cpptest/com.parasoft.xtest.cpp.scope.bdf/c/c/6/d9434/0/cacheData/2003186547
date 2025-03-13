@@ -1,0 +1,6 @@
+file=C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\_work\VSCodeIntegrate\VSCodeIntegrate\stdinout.c
+compiler=gcc_9-64
+working_dir=C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\_work\VSCodeIntegrate\VSCodeIntegrate\build
+arg=C:/MinGW/bin/gcc.exe
+arg=-c
+arg=C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\_work\VSCodeIntegrate\VSCodeIntegrate\stdinout.c

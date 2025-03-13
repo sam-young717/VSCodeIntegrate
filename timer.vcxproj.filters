@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\clock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\driver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\stdinout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5BAD4F7B-438C-32B9-88AB-3FE00F60E96D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
