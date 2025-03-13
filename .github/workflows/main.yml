@@ -51,7 +51,7 @@ jobs:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
         input: build/compile_commands.json
         # Uncomment if you are using C/C++test 2020.2 to generate a SARIF report:
-        reportFormat: xml,html,custom
+        # reportFormat: xml,html,custom
         additionalParams: '-config "builtin://MISRA C 2004"'
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
