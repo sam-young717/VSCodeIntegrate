@@ -1,0 +1,10 @@
+^C:\USERS\SYOUNG\DOCUMENTS\CPPTEST\CPPTEST\EXAMPLES\TIMER\CMAKEFILES\B1464A88EEC7E1E771228FE75EA5FB6D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/syoung/Documents/CppTest/cpptest/examples/Timer -BC:/Users/syoung/Documents/CppTest/cpptest/examples/Timer --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/Timer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

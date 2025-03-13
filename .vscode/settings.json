@@ -1,5 +1,5 @@
 {
-    "cpptest.testConfiguration": "builtin://Flow Analysis Fast",
+    "cpptest.testConfiguration": "builtin://Coverage",
     "cpptest.commandLinePattern": "cpptestcli ${stopFile} ${compilerConfig} ${testConfig} ${reportDir} ${selectedFiles} -module . -input timer.bdf",
     "cpptest.compilerIdentifier": "gcc_9-64"
 }

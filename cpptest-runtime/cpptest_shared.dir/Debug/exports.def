@@ -1,0 +1,24 @@
+EXPORTS 
+	CppTest_FinalizeRuntime
+	CppTest_InitializeRuntime
+	CppTest_SendCoverage
+	CppTest_TestStart
+	CppTest_TestStop
+	__local_stdio_printf_options
+	_vfprintf_l
+	cpptestAutoFinalizeRuntime
+	cpptestAutoFinalizerConstructor
+	cpptestAutoFinalizerDestructor
+	cpptestAutoInitializeRuntime
+	cpptestCoverageBlock
+	cpptestCoverageBranch
+	cpptestCoverageCall
+	cpptestCoverageCond
+	cpptestCoverageDec
+	cpptestCoverageFunction
+	cpptestCoverageFunctionCall
+	cpptestCoverageStmt
+	cpptestInitializeCoverageInfo
+	cpptestLock
+	cpptestUnlock
+	fprintf

@@ -51,11 +51,23 @@ jobs:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
         input: build/compile_commands.json
         # Uncomment if you are using C/C++test 2020.2 to generate a SARIF report:
-        reportFormat: xml,html,custom
-        additionalParams: '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL} -config "builtin://MISRA C 2004"'
+        # reportFormat: xml,html,custom
+        additionalParams: '-config "builtin://MISRA C 2004"'
+
+    - name: Entering build
+      run: cd build
+    - name: Activating extension
+      run: cmake -DCPPTEST_COVERAGE=ON -DCPPTEST_HOME=C:\Users\syoung\Documents\CppTest\cpptest
+    - name: Running make
+      run: make
+    - name: Running timer
+      run: ./timer
+    - name: Generating report
+      run: make cpptest_coverage_report
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
     - name: Upload results (SARIF)
+      if: always()
       uses: github/codeql-action/upload-sarif@v3
       with: 
         sarif_file: reports/report.sarif
