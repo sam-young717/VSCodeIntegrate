@@ -60,10 +60,9 @@ jobs:
     - name: Build in build directory
       run: cmake --build build
         
-    - name: Running make
-      run: make
     - name: Running timer
       run: ./build/timer
+      
     - name: Generating report
       run: make cpptest_coverage_report -C build
 
