@@ -2,7 +2,7 @@
 /*
  * Clock related functions
  */
-#include <stdio.h> 
+#include <stdio.h>
 #include "clock.h"
 #include "consts.h"
 #include "inout.h"

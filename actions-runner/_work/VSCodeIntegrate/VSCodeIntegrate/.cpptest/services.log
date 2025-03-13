@@ -1,4 +1,4 @@
-Diagnostics file initialized on Thu Mar 13 15:37:16 EDT 2025
+Diagnostics file initialized on Thu Mar 13 15:43:57 EDT 2025
 ================================================================================================
 AVAILABLE BUNDLES AND SERVICES (101)
 ================================================================================================
@@ -107,8 +107,8 @@ Bundle [100]: stax2-api, state: [2], version: 4.2.1
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.common.dtp.DtpAutoconfPreferencesService@5fa05212
-CONTEXT: com.parasoft.xtest.common.services.RawConsoleServiceContext@4e628b52
+SERVICE: com.parasoft.xtest.common.dtp.DtpAutoconfPreferencesService@4d666b41
+CONTEXT: com.parasoft.xtest.common.services.RawConsoleServiceContext@4abf3f0
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -267,8 +267,8 @@ DIAGNOSTICS INFO:
 DTP autoconfiguration is not enabled.
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.techsupport.TechSupportService@15bc339
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.techsupport.TechSupportService@53e3a87a
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -294,8 +294,8 @@ Total registered items: 8
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.lic.client.internal.service.LicenseService@545e57d7
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.lic.client.internal.service.LicenseService@3051e0b2
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -357,8 +357,8 @@ License requirements statuses:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.common.telemetry.TelemetryReporter@6aee68b5
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.common.telemetry.TelemetryReporter@35cb6bbe
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -372,8 +372,8 @@ PARASOFT_TELEMETRY_DISABLED: null
 Disabled permanently: false
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.common.dtp.DtpServiceRegistry@b8e246c
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.common.dtp.DtpServiceRegistry@51d143a1
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -390,8 +390,8 @@ Available services:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.common.parallel.ParallelExecutor@65383667
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.common.parallel.ParallelExecutor@24534cb0
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -404,8 +404,8 @@ DIAGNOSTICS INFO:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.scope.internal.ScopeAnalyzer@6415f61e
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.scope.internal.ScopeAnalyzer@35f3a22c
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -451,8 +451,8 @@ Analyze zone settings:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.suppressions.internal.comment.CommentSuppressionsService@3e28fee1
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.suppressions.internal.comment.CommentSuppressionsService@5ba03c82
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -464,8 +464,8 @@ Registered computers:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.suppressions.file.FileSuppressionsService@72a2312e
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.suppressions.file.FileSuppressionsService@59c04bee
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -478,16 +478,16 @@ Registered file suppressions service:
     com.parasoft.xtest.suppressions.file.FileSuppressionsService isEnabled=true
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.internal.metrics.MetricsProcessor@4373f66f
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.results.internal.metrics.MetricsProcessor@2b148329
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.rules.RuleLimitProcessor@7b5b5bfe
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.results.rules.RuleLimitProcessor@6f3f0ae
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: 
 ================================================================================================
 DIAGNOSTICS INFO:
@@ -495,32 +495,32 @@ Enabled: true
 Limit: 1000
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.locations.ResultLocationProcessor@33188612
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.results.locations.ResultLocationProcessor@f1266c6
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.rules.RulesProcessor@3453acd2
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.results.rules.RulesProcessor@270d43a7
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.sourcecontrol.SourceControlProcessor@6d229b1c
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.results.sourcecontrol.SourceControlProcessor@3b42121d
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.coverage.CoverageProcessor@7645f03e
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.results.coverage.CoverageProcessor@6f825516
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
@@ -529,8 +529,8 @@ Registered coverage services:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.internal.metadata.UuidMetadataProcessor@1c52552f
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.results.internal.metadata.UuidMetadataProcessor@479ac2cb
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: true
 ================================================================================================
 LOCAL SETTINGS:
@@ -544,16 +544,16 @@ REST client present: false
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.internal.authorship.AuthorshipProcessor@9c93d16
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.results.internal.authorship.AuthorshipProcessor@54b2fc58
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.authorship.internal.computer.AuthorshipService@4214ae8f
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.authorship.internal.computer.AuthorshipService@554188ac
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -567,16 +567,16 @@ Authorship computers:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.internal.authorship.LocationsAuthorshipProcessor@9ab310b
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.results.internal.authorship.LocationsAuthorshipProcessor@20ead579
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.suppressions.SuppressionsProcessor@21c747a
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.results.suppressions.SuppressionsProcessor@671ea6ff
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: true
 ================================================================================================
 LOCAL SETTINGS:
@@ -592,8 +592,8 @@ Registered suppressions services:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.snapshot.GoalReferenceReportProcessor@1624775
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.results.snapshot.GoalReferenceReportProcessor@287ae90c
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: true
 ================================================================================================
 LOCAL SETTINGS:
@@ -602,39 +602,20 @@ LOCAL SETTINGS:
 
 DIAGNOSTICS INFO:
 Reference reports providers:
-    com.parasoft.xtest.reports.internal.snapshot.GoalReferenceReportProvider@17e0933c active=false
+    com.parasoft.xtest.reports.internal.snapshot.GoalReferenceReportProvider@29fe4840 active=false
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.internal.goals.GoalsProcessor@106b014e
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.results.internal.goals.GoalsProcessor@5995851e
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.scontrol.internal.api.ScmService@10a49cb9
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
-LICENSE ENABLED: true
-================================================================================================
-LOCAL SETTINGS:
-    (Empty)
-
-DIAGNOSTICS INFO:
-Source control statuses: 
-    1. demo (disabled)
-    2. git (disabled, {com.parasoft.xtest.sourcecontrol.git.exec=git.exe})
-    3. hg (disabled, {com.parasoft.xtest.sourcecontrol.hg.exec=hg.exe})
-    4. perforce (disabled, {com.parasoft.xtest.sourcecontrol.perforce.exec=p4})
-    5. svn (disabled, {com.parasoft.xtest.sourcecontrol.svn.exec=svn})
-    6. tfs (disabled)
-Repository Descriptions: 
-
-
-================================================================================================
-SERVICE: com.parasoft.xtest.configuration.rules.RulesService@5700c9db
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.configuration.rules.RulesService@5a90265a
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -5883,8 +5864,27 @@ Rules count: 50
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.authorship.internal.authors.AuthorsPreferences@379602cf
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.scontrol.internal.api.ScmService@6300358e
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
+LICENSE ENABLED: true
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Source control statuses: 
+    1. demo (disabled)
+    2. git (disabled, {com.parasoft.xtest.sourcecontrol.git.exec=git.exe})
+    3. hg (disabled, {com.parasoft.xtest.sourcecontrol.hg.exec=hg.exe})
+    4. perforce (disabled, {com.parasoft.xtest.sourcecontrol.perforce.exec=p4})
+    5. svn (disabled, {com.parasoft.xtest.sourcecontrol.svn.exec=svn})
+    6. tfs (disabled)
+Repository Descriptions: 
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.authorship.internal.authors.AuthorsPreferences@26d123e1
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -5896,8 +5896,8 @@ Authors preferences:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.reports.internal.mail.MailReportPublisher@1213ffbc
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@32b9bd12
+SERVICE: com.parasoft.xtest.reports.internal.mail.MailReportPublisher@6b63abdc
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@f339eae
 LICENSE ENABLED: true
 ================================================================================================
 LOCAL SETTINGS:
@@ -5953,8 +5953,8 @@ C++test Scope Profiler
 + ----------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ----------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| CmakeBuildDataProvider.computeScope | 1     | 0.932     | 0.932   | 0.932   | 0.932   |
-| BdfFileReader.computeScope          | 2     | 0.722     | 0.0     | 0.722   | 0.361   |
+| CmakeBuildDataProvider.computeScope | 1     | 0.907     | 0.907   | 0.907   | 0.907   |
+| BdfFileReader.computeScope          | 2     | 0.711     | 0.0     | 0.711   | 0.355   |
 | TxtFileReader.computeScope          | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LstFileReader.computeScope          | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
 | TraceBuildDataProvider.computeScope | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
@@ -5963,88 +5963,86 @@ C++test Scope Profiler
 | VCProjScopeComputer.computeScope    | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
 | VCXProjScopeComputer.computeScope   | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
 + ----------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 1.654s
+TOTAL: 1.618s
 
 Rule Profiler
 + ------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
 | NAME                                                   | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-| RulesService.init                                      | 1     | 0.276     | 0.276   | 0.276   | 0.276   |
-| RuleDescriptionParser.parseFile                        | 9     | 0.057     | 0.0     | 0.03    | 0.006   |
-| RuleDescriptionUpdateService.refreshSharedDescriptions | 1     | 0.006     | 0.006   | 0.006   | 0.006   |
+| RulesService.init                                      | 1     | 0.328     | 0.328   | 0.328   | 0.328   |
+| RuleDescriptionParser.parseFile                        | 9     | 0.095     | 0.0     | 0.047   | 0.01    |
+| RuleDescriptionUpdateService.refreshSharedDescriptions | 1     | 0.008     | 0.008   | 0.008   | 0.008   |
 + ------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.339s
+TOTAL: 0.431s
 
 Suppressions Profiler
 + --------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                                                              | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + --------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| CommentSuppressionsService.getSuppression                                         | 169   | 0.192     | 0.0     | 0.008   | 0.001   |
-| FileSuppressionsService.getSuppression                                            | 169   | 0.075     | 0.0     | 0.006   | 0.0     |
-| FileSuppressionsServiceFactory.createService                                      | 1     | 0.004     | 0.004   | 0.004   | 0.004   |
+| CommentSuppressionsService.getSuppression                                         | 169   | 0.23      | 0.0     | 0.008   | 0.001   |
+| FileSuppressionsService.getSuppression                                            | 169   | 0.117     | 0.0     | 0.009   | 0.0     |
 | com.parasoft.xtest.suppressions.file.FileSuppressionReader.readSuppressionRecords | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| FileSuppressionsServiceFactory.createService                                      | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
 + --------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.272s
+TOTAL: 0.349s
 
 C++test Analyzers Profiler
 + -------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                         | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + -------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| CppCodeAnalyzer.doJob                        | 4     | 6.365     | 1.548   | 1.65    | 1.591   |
-| CppCodeAnalyzer.attachAnalyzer               | 1     | 1.733     | 1.733   | 1.733   | 1.733   |
-| DefaultStaticAnalyzer.getGlobalConfiguration | 1     | 0.049     | 0.049   | 0.049   | 0.049   |
-| RuleWizardClient.createRulesInfo             | 2     | 0.035     | 0.014   | 0.02    | 0.017   |
-| ParseErrorsClient.createRulesInfo            | 1     | 0.008     | 0.008   | 0.008   | 0.008   |
-| RulesMappingUtil.prepareRuleMapping          | 3     | 0.006     | 0.001   | 0.003   | 0.002   |
-| CodeRulesClient.createRulesInfo              | 2     | 0.003     | 0.001   | 0.002   | 0.001   |
-| DefaultStaticAnalyzer.attachAnalyzer         | 1     | 0.003     | 0.003   | 0.003   | 0.003   |
+| CppCodeAnalyzer.doJob                        | 4     | 6.435     | 1.567   | 1.68    | 1.608   |
+| CppCodeAnalyzer.attachAnalyzer               | 1     | 1.774     | 1.774   | 1.774   | 1.774   |
+| DefaultStaticAnalyzer.getGlobalConfiguration | 1     | 0.057     | 0.057   | 0.057   | 0.057   |
+| RuleWizardClient.createRulesInfo             | 2     | 0.041     | 0.015   | 0.025   | 0.02    |
+| RulesMappingUtil.prepareRuleMapping          | 3     | 0.012     | 0.001   | 0.008   | 0.004   |
+| ParseErrorsClient.createRulesInfo            | 1     | 0.01      | 0.01    | 0.01    | 0.01    |
+| DefaultStaticAnalyzer.attachAnalyzer         | 1     | 0.006     | 0.006   | 0.006   | 0.006   |
+| CodeRulesClient.createRulesInfo              | 2     | 0.005     | 0.002   | 0.003   | 0.002   |
 | RulesMappingUtil.prepareRuleIdAliasConfig    | 1     | 0.003     | 0.003   | 0.003   | 0.003   |
 | GlobalAnalyzer.attachAnalyzer                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 + -------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 8.205s
+TOTAL: 8.343s
 
 Coverage Profiler
 + ---------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                                 | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ---------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| getGlobalStorage()                                   | 1     | 0.117     | 0.117   | 0.117   | 0.117   |
-| setupRawDataCleaner(CoverageStatisticsManager, File) | 1     | 0.078     | 0.078   | 0.078   | 0.078   |
+| getGlobalStorage()                                   | 1     | 0.077     | 0.077   | 0.077   | 0.077   |
+| setupRawDataCleaner(CoverageStatisticsManager, File) | 1     | 0.061     | 0.061   | 0.061   | 0.061   |
 | initializeMetadata                                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | initializeStatistics                                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 + ---------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.195s
+TOTAL: 0.138s
 
 Reports Profiler
 + ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
 | NAME                                 | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-| XMLReporterService.generateReports() | 1     | 1.287     | 1.287   | 1.287   | 1.287   |
-| ReportsService.generateReports()     | 3     | 1.1       | 0.015   | 1.002   | 0.366   |
-| XMLReporterService.generateReport()  | 1     | 0.248     | 0.248   | 0.248   | 0.248   |
-| XMLReporter.reportResult()           | 187   | 0.05      | 0.0     | 0.011   | 0.0     |
-| XMLReporter.openReport()             | 1     | 0.044     | 0.044   | 0.044   | 0.044   |
-| SessionData.readSessionData()        | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| XMLReporterService.generateReports() | 1     | 1.127     | 1.127   | 1.127   | 1.127   |
+| ReportsService.generateReports()     | 3     | 0.962     | 0.039   | 0.838   | 0.32    |
+| XMLReporterService.generateReport()  | 1     | 0.261     | 0.261   | 0.261   | 0.261   |
+| XMLReporter.reportResult()           | 187   | 0.072     | 0.0     | 0.021   | 0.0     |
+| XMLReporter.openReport()             | 1     | 0.05      | 0.05    | 0.05    | 0.05    |
+| SessionData.readSessionData()        | 1     | 0.002     | 0.002   | 0.002   | 0.002   |
 + ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 2.73s
+TOTAL: 2.474s
 
 License Profiler
 + ------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
 | NAME                                                         | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-| LicenseService.isEnabled[Main]                               | 44    | 0.595     | 0.0     | 0.295   | 0.013   |
-| IntLicManager.getState[C++Test]                              | 73    | 0.594     | 0.0     | 0.294   | 0.008   |
-| IntLicManager.activateLicense                                | 1     | 0.294     | 0.294   | 0.294   | 0.294   |
-| IntLicManager.WAIT[main]                                     | 1     | 0.293     | 0.293   | 0.293   | 0.293   |
-| IntLicManager.WAIT[ServiceDiagnosticCollector Thread]        | 1     | 0.292     | 0.292   | 0.292   | 0.292   |
-| IntLicManager.releaseLicenes                                 | 1     | 0.099     | 0.099   | 0.099   | 0.099   |
-| LicenseModule.initializeModule                               | 1     | 0.028     | 0.028   | 0.028   | 0.028   |
-| IntLicManager.activateFinished                               | 1     | 0.012     | 0.012   | 0.012   | 0.012   |
-| LicenseService.isEnabled[Coding-Standards]                   | 14    | 0.009     | 0.0     | 0.002   | 0.0     |
-| IntLicManager.getState[C++Test Coding Standards]             | 14    | 0.007     | 0.0     | 0.002   | 0.0     |
-| LicenseService.isEnabled[Command-Line-Execution]             | 2     | 0.005     | 0.0     | 0.005   | 0.002   |
-| IntLicManager.getState[C++Test Automation]                   | 45    | 0.005     | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Main]                               | 44    | 0.58      | 0.0     | 0.287   | 0.013   |
+| IntLicManager.getState[C++Test]                              | 73    | 0.576     | 0.0     | 0.286   | 0.007   |
+| IntLicManager.WAIT[main]                                     | 1     | 0.285     | 0.285   | 0.285   | 0.285   |
+| IntLicManager.WAIT[ServiceDiagnosticCollector Thread]        | 1     | 0.285     | 0.285   | 0.285   | 0.285   |
+| IntLicManager.activateLicense                                | 1     | 0.285     | 0.285   | 0.285   | 0.285   |
+| IntLicManager.releaseLicenes                                 | 1     | 0.098     | 0.098   | 0.098   | 0.098   |
+| LicenseModule.initializeModule                               | 1     | 0.032     | 0.032   | 0.032   | 0.032   |
+| IntLicManager.getState[C++Test Automation]                   | 45    | 0.004     | 0.0     | 0.0     | 0.0     |
+| IntLicManager.activateFinished                               | 1     | 0.003     | 0.003   | 0.003   | 0.003   |
 | IntLicManager.checkFinished                                  | 1     | 0.002     | 0.002   | 0.002   | 0.002   |
 | LicenseService.isEnabled[Security]                           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Command-Line-Execution]             | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Flow-Analysis]                      | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Team-Share-Edit]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Team-Share-Access]                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
@@ -6077,11 +6075,13 @@ License Profiler
 | LicenseService.isEnabled[XML-Report-Generation]              | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Team-Share-Results-Upload]          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Application-Monitoring]             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseServiceModules .statusChanged                         | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Coding-Standards]                   | 14    | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Change-Based-Testing]               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Sniffer]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| LicenseServiceModules .statusChanged                         | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Bug-Detective]                      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Generate-Recommendations]           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Coding Standards]             | 14    | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Source-Control]                     | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
 | IntLicManager.getState[C++Test DTP Publish]                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | IntLicManager.invokeAsyncCallsQueue                          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
@@ -6090,87 +6090,87 @@ License Profiler
 | IntLicManager.getState[C++Test Coverage]                     | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Self-Healing]                       | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 + ------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 2.235s
+TOTAL: 2.15s
 
 Scope Filters Profiler
 + ---------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                               | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ---------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| [Resources Filter].parallelProcess | 1     | 0.002     | 0.002   | 0.002   | 0.002   |
+| [Resources Filter].parallelProcess | 1     | 0.004     | 0.004   | 0.004   | 0.004   |
 + ---------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.002s
+TOTAL: 0.004s
 
 DefaultFlowExecutor
 + ----------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                    | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ----------------------- + ----- + --------- + ------- + ------- + ------- +
-| finalizeReporters       | 1     | 1.787     | 1.787   | 1.787   | 1.787   |
-| reportResults           | 4     | 0.383     | 0.0     | 0.369   | 0.095   |
-| getPostProcessedResults | 3     | 0.075     | 0.006   | 0.056   | 0.025   |
+| finalizeReporters       | 1     | 1.617     | 1.617   | 1.617   | 1.617   |
+| reportResults           | 4     | 0.464     | 0.0     | 0.451   | 0.116   |
+| getPostProcessedResults | 3     | 0.094     | 0.008   | 0.07    | 0.031   |
 + ----------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 2.245s
+TOTAL: 2.175s
 
 Async Call Profiler
 + ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                        | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| InternalLicenseManager.activateLicense:391  | 1     | 0.306     | 0.306   | 0.306   | 0.306   |
-| InternalLicenseManager.invokeAsyncCall:1244 | 144   | 0.099     | 0.0     | 0.099   | 0.0     |
+| InternalLicenseManager.activateLicense:391  | 1     | 0.289     | 0.289   | 0.289   | 0.289   |
+| InternalLicenseManager.invokeAsyncCall:1244 | 144   | 0.098     | 0.0     | 0.098   | 0.0     |
 | AsyncCallHandler.startThread                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 + ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.405s
+TOTAL: 0.387s
 
 Results Profiler
 + ----------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                                                    | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ----------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| ResultLocationProcessor.processInput: ResultLocationOwner(CWCViolation) | 169   | 0.154     | 0.0     | 0.003   | 0.0     |
-| ResultLocationProcessor.processLine: ResultLocationOwner(CWCViolation)  | 169   | 0.098     | 0.0     | 0.002   | 0.0     |
-| ResultLocationProcessor.adapt: CWCViolation                             | 1014  | 0.007     | 0.0     | 0.0     | 0.0     |
-| ResultLocationProcessor.processInput: ResultLocationOwner(ScopeResult)  | 8     | 0.003     | 0.0     | 0.0     | 0.0     |
+| ResultLocationProcessor.processInput: ResultLocationOwner(CWCViolation) | 169   | 0.184     | 0.0     | 0.004   | 0.001   |
+| ResultLocationProcessor.processLine: ResultLocationOwner(CWCViolation)  | 169   | 0.107     | 0.0     | 0.002   | 0.0     |
+| ResultLocationProcessor.adapt: CWCViolation                             | 1014  | 0.008     | 0.0     | 0.0     | 0.0     |
+| ResultLocationProcessor.processInput: ResultLocationOwner(ScopeResult)  | 8     | 0.002     | 0.0     | 0.0     | 0.0     |
 | ResultLocationProcessor.adapt: ScopeResult                              | 24    | 0.0       | 0.0     | 0.0     | 0.0     |
 + ----------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.262s
+TOTAL: 0.301s
 
 Result Processors Profiler
 + --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                    | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| SuppressionsProcessor.parallelProcess   | 2     | 0.096     | 0.042   | 0.053   | 0.048   |
-| ResultLocationProcessor.parallelProcess | 3     | 0.093     | 0.006   | 0.045   | 0.031   |
-| AuthorshipProcessor.parallelProcess     | 2     | 0.036     | 0.015   | 0.02    | 0.018   |
-| ResultLocationProcessor.adapt           | 1038  | 0.01      | 0.0     | 0.0     | 0.0     |
-| RulesProcessor.parallelProcess          | 2     | 0.004     | 0.001   | 0.002   | 0.002   |
-| GoalsProcessor.parallelProcess          | 2     | 0.003     | 0.0     | 0.002   | 0.001   |
-| GoalsProcessor.adapt                    | 338   | 0.001     | 0.0     | 0.0     | 0.0     |
+| SuppressionsProcessor.parallelProcess   | 2     | 0.123     | 0.06    | 0.063   | 0.061   |
+| ResultLocationProcessor.parallelProcess | 3     | 0.115     | 0.003   | 0.057   | 0.038   |
+| AuthorshipProcessor.parallelProcess     | 2     | 0.044     | 0.021   | 0.023   | 0.022   |
+| ResultLocationProcessor.adapt           | 1038  | 0.011     | 0.0     | 0.0     | 0.0     |
+| RulesProcessor.parallelProcess          | 2     | 0.004     | 0.001   | 0.003   | 0.002   |
+| GoalsProcessor.parallelProcess          | 2     | 0.003     | 0.001   | 0.002   | 0.001   |
+| GoalsProcessor.adapt                    | 338   | 0.002     | 0.0     | 0.0     | 0.0     |
 | RuleLimitProcessor.process              | 179   | 0.0       | 0.0     | 0.0     | 0.0     |
 | SourceControlProcessor.adapt            | 169   | 0.0       | 0.0     | 0.0     | 0.0     |
 | UuidMetadataProcessor.parallelProcess   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | ScopeResultProcessor.process            | 179   | 0.0       | 0.0     | 0.0     | 0.0     |
 + --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.243s
+TOTAL: 0.302s
 
 VM Info Profiler
 + ------ + ----- + --------- + ------- + ------- + ------- +
 | NAME   | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ------ + ----- + --------- + ------- + ------- + ------- +
-| Docker | 1     | 0.004     | 0.004   | 0.004   | 0.004   |
+| Docker | 1     | 0.002     | 0.002   | 0.002   | 0.002   |
 + ------ + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.004s
+TOTAL: 0.002s
 
 Default Profiler
 + ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
 | NAME                                 | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-| TestableInputUtil.calculateLineHash  | 169   | 0.097     | 0.0     | 0.002   | 0.0     |
-| TestableInputUtil.calculateFileHash  | 177   | 0.095     | 0.0     | 0.002   | 0.0     |
-| getModificationTime()                | 362   | 0.094     | 0.0     | 0.001   | 0.0     |
-| TestableInputUtil.countLines         | 8     | 0.008     | 0.0     | 0.001   | 0.001   |
-| FileInfoService.getLineCount.compute | 8     | 0.005     | 0.0     | 0.001   | 0.0     |
+| TestableInputUtil.calculateFileHash  | 177   | 0.122     | 0.0     | 0.004   | 0.0     |
+| getModificationTime()                | 362   | 0.115     | 0.0     | 0.004   | 0.0     |
+| TestableInputUtil.calculateLineHash  | 169   | 0.104     | 0.0     | 0.002   | 0.0     |
+| TestableInputUtil.countLines         | 8     | 0.015     | 0.001   | 0.004   | 0.001   |
+| FileInfoService.getLineCount.compute | 8     | 0.01      | 0.0     | 0.003   | 0.001   |
 | CryptUtil.decryptPassword            | 3     | 0.0       | 0.0     | 0.0     | 0.0     |
 | CryptUtil.encryptPassword            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 + ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.299s
+TOTAL: 0.366s
 ================================================================================================
 MEMORY STATISTICS
 ================================================================================================
@@ -6180,7 +6180,7 @@ MEMORY STATISTICS
 + -------------- + --------- +
 | Current memory | 33        |
 | Max memory     | 2147      |
-| Total memory   | 77        |
+| Total memory   | 73        |
 + -------------- + --------- +
 ================================================================================================
 LOG ISSUES
@@ -6192,7 +6192,7 @@ LOG ISSUES
 | TRACE         | 0     |
 | TIME          | 3     |
 | DEBUG         | 801   |
-| INFO          | 872   |
+| INFO          | 871   |
 | WARN          | 36    |
 | ERROR         | 0     |
 | FATAL         | 0     |
@@ -6207,41 +6207,41 @@ Services provider profiler (COUNT > 1):
 | getServices(IDupCodeService)                  | 8     | 0.0       |
 | getServiceRefs(IRulesService)                 | 6     | 0.0       |
 | getService(ISuppressionsService)              | 3     | 0.0       |
-| getService(IRulesService)                     | 19    | 0.0       |
-| getService(IProfilerService$Factory)          | 43    | 0.001     |
 | getService(ICoveragePreprocessor)             | 2     | 0.001     |
 | getServices(IAnalyzerRunnerService)           | 4     | 0.001     |
+| getService(IRulesService)                     | 19    | 0.001     |
+| getService(IProfilerService)                  | 15    | 0.002     |
 | getServices(IGoalReferenceReportProvider)     | 5     | 0.002     |
 | getService(ICoverageService)                  | 6     | 0.002     |
 | getService(IGoalsProvider)                    | 21    | 0.003     |
-| getService(IDtpServiceRegistry)               | 10    | 0.003     |
 | getService(IRulesService$Factory)             | 13    | 0.003     |
 | getService(ISystemService)                    | 8     | 0.004     |
-| getService(IProfilerService)                  | 15    | 0.004     |
-| getServices(IReportPublisherService)          | 3     | 0.004     |
 | getServices(IPreferenceValidationRules)       | 2     | 0.004     |
-| getService(IProfilerStatisticsService)        | 15    | 0.005     |
-| getService(IParallelRunner)                   | 25    | 0.006     |
-| getServices(IScopeFilter)                     | 2     | 0.007     |
-| getService(ILocationsManager)                 | 173   | 0.008     |
+| getService(IParallelRunner)                   | 25    | 0.005     |
+| getServices(IReportPublisherService)          | 3     | 0.005     |
+| getService(IProfilerStatisticsService)        | 15    | 0.006     |
+| getServices(IScopeFilter)                     | 2     | 0.006     |
+| getService(ILocationsManager)                 | 173   | 0.007     |
+| getService(IProfilerService$Factory)          | 43    | 0.008     |
 | getServices(IViolationXmlStorage)             | 2     | 0.009     |
-| getService(IAuthorshipService)                | 174   | 0.013     |
-| getService(ITelemetryReporter)                | 7     | 0.013     |
-| getServices(IReassignmentsService)            | 169   | 0.018     |
-| getServices(IScopeComputer)                   | 2     | 0.023     |
-| getServices(ITechSupportItemsProviderService) | 4     | 0.03      |
-| getService(IFileInfoService)                  | 17    | 0.035     |
-| getServices(IResultPostProcessorService)      | 512   | 0.036     |
-| getServices(ISuppressionsService)             | 171   | 0.045     |
-| getService(ITechSupportService)               | 2     | 0.048     |
-| getServices(IAnalyzerService)                 | 8     | 0.056     |
-| getService(ILicenseService)                   | 107   | 0.11      |
-| getServices(IPreferences)                     | 377   | 0.133     |
-| getServices(IReportTransformerService)        | 4     | 0.176     |
-| getService(IPreferencesService)               | 3     | 0.188     |
-| getService(IApplication)                      | 176   | 0.197     |
+| getService(IDtpServiceRegistry)               | 10    | 0.013     |
+| getServices(IReassignmentsService)            | 169   | 0.013     |
+| getService(ITelemetryReporter)                | 7     | 0.017     |
+| getService(IAuthorshipService)                | 174   | 0.018     |
+| getService(IFileInfoService)                  | 17    | 0.019     |
+| getServices(IScopeComputer)                   | 2     | 0.02      |
+| getServices(ITechSupportItemsProviderService) | 4     | 0.027     |
+| getServices(ISuppressionsService)             | 171   | 0.033     |
+| getServices(IAnalyzerService)                 | 8     | 0.037     |
+| getService(ITechSupportService)               | 2     | 0.043     |
+| getServices(IResultPostProcessorService)      | 512   | 0.044     |
+| getService(ILicenseService)                   | 107   | 0.101     |
+| getServices(IPreferences)                     | 377   | 0.126     |
+| getServices(IReportTransformerService)        | 4     | 0.148     |
+| getService(IPreferencesService)               | 3     | 0.172     |
+| getService(IApplication)                      | 176   | 0.209     |
 + --------------------------------------------- + ----- + --------- +
-TOTAL: 1.188
+TOTAL: 1.109
 ================================================================================================
 SERVICES INSTANCES COUNT
 ================================================================================================

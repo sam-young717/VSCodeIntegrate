@@ -1,6 +1,6 @@
-^C:\USERS\SYOUNG\DOCUMENTS\CPPTEST\CPPTEST\EXAMPLES\TIMER\CPPTEST-RUNTIME\CMAKEFILES\1FB2D7A3AFB04F76F8C043428F6141C4\GENERATE.STAMP.RULE
+^C:\USERS\SYOUNG\DOCUMENTS\CPPTEST\CPPTEST\EXAMPLES\TIMER\ACTIONS-RUNNER\_WORK\VSCODEINTEGRATE\VSCODEINTEGRATE\CPPTEST-RUNTIME\CMAKEFILES\FED896CE41BE3124B62B00A126012BF5\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/syoung/Documents/CppTest/cpptest/runtime -BC:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/cpptest-runtime --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/cpptest-runtime/cpptest.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/syoung/Documents/CppTest/cpptest/runtime -BC:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/cpptest-runtime --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/actions-runner/_work/VSCodeIntegrate/VSCodeIntegrate/cpptest-runtime/cpptest.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

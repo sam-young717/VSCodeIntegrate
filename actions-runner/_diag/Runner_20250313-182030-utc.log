@@ -401,3 +401,97 @@
 [2025-03-13 19:22:45Z INFO JobNotification] Entering JobCompleted Notification
 [2025-03-13 19:22:45Z INFO JobNotification] Entering EndMonitor
 [2025-03-13 19:22:45Z INFO MessageListener] Received job status event. JobState: Online
+[2025-03-13 19:35:31Z INFO MessageListener] Message '6862249137211723804' received from session 'cf939fc0-eca9-4c6d-8896-c9b355f6afa6'.
+[2025-03-13 19:35:31Z INFO ConfigurationStore] HasCredentials()
+[2025-03-13 19:35:31Z INFO ConfigurationStore] stored True
+[2025-03-13 19:35:31Z INFO CredentialManager] GetCredentialProvider
+[2025-03-13 19:35:31Z INFO CredentialManager] Creating type OAuth
+[2025-03-13 19:35:31Z INFO CredentialManager] Creating credential type: OAuth
+[2025-03-13 19:35:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 19:35:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 19:35:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 19:35:32Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-03-13 19:35:32Z INFO JobDispatcher] Job request 0 for plan e05dd757-8164-4b5d-af25-fca7fd1337b1 job 20683927-88ad-5a4a-a158-b5aba7d4e939 received.
+[2025-03-13 19:35:32Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-03-13 19:35:32Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-03-13 19:35:32Z INFO JobDispatcher] Job request ee9d40a7-39c8-58d7-a842-ad07a411a8b0 processed succeed.
+[2025-03-13 19:35:32Z INFO Terminal] WRITE LINE: 2025-03-13 19:35:32Z: Running job: Analyze project with C/C++test
+[2025-03-13 19:35:32Z INFO JobDispatcher] Start renew job request 0 for job 20683927-88ad-5a4a-a158-b5aba7d4e939.
+[2025-03-13 19:35:33Z INFO JobDispatcher] Successfully renew job 20683927-88ad-5a4a-a158-b5aba7d4e939, job is valid till 3/13/2025 7:45:32 PM
+[2025-03-13 19:35:33Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 19:35:33Z INFO ProcessInvokerWrapper] Starting process:
+[2025-03-13 19:35:33Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin\Runner.Worker.exe'
+[2025-03-13 19:35:33Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3044 3056'
+[2025-03-13 19:35:33Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 19:35:33Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-03-13 19:35:33Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-03-13 19:35:33Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-03-13 19:35:33Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-03-13 19:35:33Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-03-13 19:35:33Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-03-13 19:35:33Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-03-13 19:35:33Z INFO ProcessInvokerWrapper] Process started with process id 287436, waiting for process exit.
+[2025-03-13 19:35:33Z INFO JobDispatcher] Send job request message to worker for job 20683927-88ad-5a4a-a158-b5aba7d4e939.
+[2025-03-13 19:35:33Z INFO ProcessChannel] Sending message of length 23650, with hash '600cf1889e6941d9bba1cb9c6d577ceaf1e3243d58cf11d6a1f2f6ca34736f59'
+[2025-03-13 19:35:33Z INFO JobNotification] Entering JobStarted Notification
+[2025-03-13 19:35:33Z INFO JobNotification] Entering StartMonitor
+[2025-03-13 19:36:33Z INFO JobDispatcher] Successfully renew job 20683927-88ad-5a4a-a158-b5aba7d4e939, job is valid till 3/13/2025 7:46:33 PM
+[2025-03-13 19:37:33Z INFO JobDispatcher] Successfully renew job 20683927-88ad-5a4a-a158-b5aba7d4e939, job is valid till 3/13/2025 7:47:33 PM
+[2025-03-13 19:37:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-03-13 19:37:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-03-13 19:37:49Z INFO ProcessInvokerWrapper] Finished process 287436 with exit code 102, and elapsed time 00:02:16.0963225.
+[2025-03-13 19:37:49Z INFO JobDispatcher] Worker finished for job 20683927-88ad-5a4a-a158-b5aba7d4e939. Code: 102
+[2025-03-13 19:37:49Z INFO JobDispatcher] finish job request for job 20683927-88ad-5a4a-a158-b5aba7d4e939 with result: Failed
+[2025-03-13 19:37:49Z INFO Terminal] WRITE LINE: 2025-03-13 19:37:49Z: Job Analyze project with C/C++test completed with result: Failed
+[2025-03-13 19:37:49Z INFO JobDispatcher] Stop renew job request for job 20683927-88ad-5a4a-a158-b5aba7d4e939.
+[2025-03-13 19:37:49Z INFO JobDispatcher] job renew has been cancelled, stop renew job 20683927-88ad-5a4a-a158-b5aba7d4e939.
+[2025-03-13 19:37:49Z INFO JobNotification] Entering JobCompleted Notification
+[2025-03-13 19:37:49Z INFO JobNotification] Entering EndMonitor
+[2025-03-13 19:37:49Z INFO MessageListener] Received job status event. JobState: Online
+[2025-03-13 19:42:14Z INFO MessageListener] Message '158368963192623920' received from session 'cf939fc0-eca9-4c6d-8896-c9b355f6afa6'.
+[2025-03-13 19:42:14Z INFO ConfigurationStore] HasCredentials()
+[2025-03-13 19:42:14Z INFO ConfigurationStore] stored True
+[2025-03-13 19:42:14Z INFO CredentialManager] GetCredentialProvider
+[2025-03-13 19:42:14Z INFO CredentialManager] Creating type OAuth
+[2025-03-13 19:42:14Z INFO CredentialManager] Creating credential type: OAuth
+[2025-03-13 19:42:14Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 19:42:14Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 19:42:14Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\.credentials_rsaparams
+[2025-03-13 19:42:14Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-03-13 19:42:15Z INFO JobDispatcher] Job request 0 for plan 7bd04eba-3e4b-4a0c-a8eb-6cca7b6fbf0e job 66d502dc-9929-5904-9bba-db735bf263e4 received.
+[2025-03-13 19:42:15Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-03-13 19:42:15Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-03-13 19:42:15Z INFO JobDispatcher] Job request 20683927-88ad-5a4a-a158-b5aba7d4e939 processed succeed.
+[2025-03-13 19:42:15Z INFO Terminal] WRITE LINE: 2025-03-13 19:42:15Z: Running job: Analyze project with C/C++test
+[2025-03-13 19:42:15Z INFO JobDispatcher] Start renew job request 0 for job 66d502dc-9929-5904-9bba-db735bf263e4.
+[2025-03-13 19:42:15Z INFO JobDispatcher] Successfully renew job 66d502dc-9929-5904-9bba-db735bf263e4, job is valid till 3/13/2025 7:52:15 PM
+[2025-03-13 19:42:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 19:42:15Z INFO ProcessInvokerWrapper] Starting process:
+[2025-03-13 19:42:15Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin\Runner.Worker.exe'
+[2025-03-13 19:42:15Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1488 1528'
+[2025-03-13 19:42:15Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\actions-runner\bin'
+[2025-03-13 19:42:15Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-03-13 19:42:15Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-03-13 19:42:15Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-03-13 19:42:15Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-03-13 19:42:15Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-03-13 19:42:15Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-03-13 19:42:15Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-03-13 19:42:15Z INFO ProcessInvokerWrapper] Process started with process id 296636, waiting for process exit.
+[2025-03-13 19:42:15Z INFO JobDispatcher] Send job request message to worker for job 66d502dc-9929-5904-9bba-db735bf263e4.
+[2025-03-13 19:42:15Z INFO ProcessChannel] Sending message of length 22993, with hash 'c8fb32f092e7e5be9f621ddcdf991dcd8c1a4899a2a44a538d764fdd39c7c0a9'
+[2025-03-13 19:42:15Z INFO JobNotification] Entering JobStarted Notification
+[2025-03-13 19:42:15Z INFO JobNotification] Entering StartMonitor
+[2025-03-13 19:43:15Z INFO JobDispatcher] Successfully renew job 66d502dc-9929-5904-9bba-db735bf263e4, job is valid till 3/13/2025 7:53:15 PM
+[2025-03-13 19:44:15Z INFO JobDispatcher] Successfully renew job 66d502dc-9929-5904-9bba-db735bf263e4, job is valid till 3/13/2025 7:54:15 PM
+[2025-03-13 19:45:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-03-13 19:45:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-03-13 19:45:01Z INFO ProcessInvokerWrapper] Finished process 296636 with exit code 102, and elapsed time 00:02:45.8215174.
+[2025-03-13 19:45:01Z INFO JobDispatcher] Worker finished for job 66d502dc-9929-5904-9bba-db735bf263e4. Code: 102
+[2025-03-13 19:45:01Z INFO JobDispatcher] finish job request for job 66d502dc-9929-5904-9bba-db735bf263e4 with result: Failed
+[2025-03-13 19:45:01Z INFO Terminal] WRITE LINE: 2025-03-13 19:45:01Z: Job Analyze project with C/C++test completed with result: Failed
+[2025-03-13 19:45:01Z INFO JobDispatcher] Stop renew job request for job 66d502dc-9929-5904-9bba-db735bf263e4.
+[2025-03-13 19:45:01Z INFO JobDispatcher] job renew has been cancelled, stop renew job 66d502dc-9929-5904-9bba-db735bf263e4.
+[2025-03-13 19:45:01Z INFO JobNotification] Entering JobCompleted Notification
+[2025-03-13 19:45:01Z INFO JobNotification] Entering EndMonitor
+[2025-03-13 19:45:01Z INFO MessageListener] Received job status event. JobState: Online

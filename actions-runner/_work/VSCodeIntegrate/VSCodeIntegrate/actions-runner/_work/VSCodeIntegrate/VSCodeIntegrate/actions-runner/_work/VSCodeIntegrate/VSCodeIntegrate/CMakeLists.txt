@@ -1,13 +1,11 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(Timer C CXX)
+project(Timer)
 
-set(JAVA_HOME /opt/Parasoft/cpptest/bin/jre)
-
-set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 if(CPPTEST_COVERAGE)
-  include(cmake/cpptest-coverage.cmake)
+  include(cpptest-coverage.cmake)
 endif()
 
 add_executable(timer
