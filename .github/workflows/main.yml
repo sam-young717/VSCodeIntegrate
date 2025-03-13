@@ -54,25 +54,18 @@ jobs:
         # reportFormat: xml,html,custom
         additionalParams: '-config "builtin://MISRA C 2004"'
 
-    - name: Change to build directory
-      run: |
-        cd build
-        pwd
-        ls
+    - name: Configure CMake in build directory
+      run: cmake -DCPPTEST_COVERAGE=ON -DCPPTEST_HOME=C:\Users\syoung\Documents\CppTest\cpptest -B build
 
-    - name: Run CMake
-      run: |
-        cmake ..
-        make
+    - name: Build in build directory
+      run: cmake --build build
         
-    - name: Activating extension
-      run: cmake -DCPPTEST_COVERAGE=ON -DCPPTEST_HOME=C:\Users\syoung\Documents\CppTest\cpptest ..
     - name: Running make
       run: make
     - name: Running timer
-      run: ./timer
+      run: ./build/timer
     - name: Generating report
-      run: make cpptest_coverage_report
+      run: make cpptest_coverage_report -C build
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
     - name: Upload results (SARIF)
