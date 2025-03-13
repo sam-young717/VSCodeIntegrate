@@ -54,10 +54,17 @@ jobs:
         # reportFormat: xml,html,custom
         additionalParams: '-config "builtin://MISRA C 2004"'
 
-    - name: Entering build
-      run: cd build
-    - name: Testing location
-      run: ls
+    - name: Change to build directory
+      run: |
+        cd build
+        pwd
+        ls
+
+    - name: Run CMake
+      run: |
+        cmake ..
+        make
+        
     - name: Activating extension
       run: cmake -DCPPTEST_COVERAGE=ON -DCPPTEST_HOME=C:\Users\syoung\Documents\CppTest\cpptest ..
     - name: Running make
