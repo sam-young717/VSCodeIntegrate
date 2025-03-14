@@ -64,7 +64,7 @@ jobs:
       run: ./build/timer
       
     - name: Generating report
-      run: '"C:/Program Files (x86)/GnuWin32/bin/make" -s -f CMakeFiles/Makefile2 cpptest_coverage_report'
+      run: 'make -s -f CMakeFiles/Makefile2 cpptest_coverage_report'
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
     - name: Upload results (SARIF)
