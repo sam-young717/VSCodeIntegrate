@@ -64,9 +64,6 @@ jobs:
     - name: Configure CMake in build directory
       run: cmake -DCPPTEST_COVERAGE=ON -DCPPTEST_HOME=C:\Users\syoung\Documents\CppTest\cpptest -B build
       working-directory: C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer
-
-    - name: Build in build directory
-      run: cmake --build build
         
     - name: Running timer
       run: ./build/timer
