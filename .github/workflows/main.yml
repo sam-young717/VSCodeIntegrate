@@ -55,10 +55,7 @@ jobs:
       # Optional parameters for 'run-cpptest-action'.
       with:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
-        input: timer.bdf
-        module: .
-        resource: c:\Users\syoung\Documents\CppTest\cpptest\examples\Timer
-        report: c:\Users\syoung\Documents\CppTest\cpptest\examples\Timer/reports
+        input: compile_commands.json
         # Uncomment if you are using C/C++test 2020.2 to generate a SARIF report:
         # reportFormat: xml,html,custom
         additionalParams: '-config "builtin://MISRA C 2004"'
