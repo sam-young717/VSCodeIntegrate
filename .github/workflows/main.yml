@@ -43,6 +43,11 @@ jobs:
       run: ls
       working-directory: C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer
 
+    - name: Run clang-tidy
+      run: |
+        clang-tidy -p build $(find . -name '*.h' -o -name '*.c')
+      working-directory: ./CppTest
+
     # Builds your CMake project. (This step is optional, as it is not required for code analysis).
     - name: Build project (optional)
       run: cmake --build build
@@ -55,7 +60,7 @@ jobs:
       # Optional parameters for 'run-cpptest-action'.
       with:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
-        input: timer.bdf
+        input: compile_commands.json
         # Uncomment if you are using C/C++test 2020.2 to generate a SARIF report:
         # reportFormat: xml,html,custom
         additionalParams: '-config "builtin://MISRA C 2004"'
