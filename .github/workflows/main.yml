@@ -40,7 +40,7 @@ jobs:
       run: cmake -G "Unix Makefiles" -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B build
 
     - name: Up
-      run: cd ../../../../..
+      run: cd 
 
     - name: Verify Location First
       run: ls
