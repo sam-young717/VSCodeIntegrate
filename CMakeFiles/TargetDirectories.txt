@@ -1,3 +1,0 @@
-C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/CMakeFiles/timer.dir
-C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/CMakeFiles/ALL_BUILD.dir
-C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/CMakeFiles/ZERO_CHECK.dir
