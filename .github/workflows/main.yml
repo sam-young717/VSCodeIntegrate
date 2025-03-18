@@ -46,7 +46,7 @@ jobs:
     - name: Run clang-tidy
       run: |
         clang-tidy -p build $(find . -name '*.h' -o -name '*.c')
-      working-directory: ./CppTest
+      working-directory: C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer
 
     # Builds your CMake project. (This step is optional, as it is not required for code analysis).
     - name: Build project (optional)
