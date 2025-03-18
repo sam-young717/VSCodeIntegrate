@@ -58,6 +58,9 @@ jobs:
     - name: Configure CMake in build directory
       run: cmake -DCPPTEST_COVERAGE=ON -DCPPTEST_HOME=C:\Users\syoung\Documents\CppTest\cpptest -B build
 
+    - name: Verify Location
+      run: ls
+
     - name: Build in build directory
       run: cmake --build build
         
