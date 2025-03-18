@@ -42,6 +42,9 @@ jobs:
     - name: Up
       run: cd ../../../../..
 
+    - name: Verify Location First
+      run: ls
+
     - name: Down
       run: cd CppTest\cpptest\examples\Timer
 
