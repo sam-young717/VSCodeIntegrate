@@ -39,17 +39,9 @@ jobs:
       working-directory: C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer
       run: cmake -G "Unix Makefiles" -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B build
 
-    - name: Up
-      run: cd 
-
     - name: Verify Location First
       run: ls
-
-    - name: Down
-      run: cd CppTest\cpptest\examples\Timer
-
-    - name: Verify Location
-      run: ls
+      working-directory: C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer
 
     # Builds your CMake project. (This step is optional, as it is not required for code analysis).
     - name: Build project (optional)
@@ -66,15 +58,18 @@ jobs:
         # Uncomment if you are using C/C++test 2020.2 to generate a SARIF report:
         # reportFormat: xml,html,custom
         additionalParams: '-config "builtin://MISRA C 2004"'
+        
 
     - name: Configure CMake in build directory
       run: cmake -DCPPTEST_COVERAGE=ON -DCPPTEST_HOME=C:\Users\syoung\Documents\CppTest\cpptest -B build
+      working-directory: C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer
 
     - name: Build in build directory
       run: cmake --build build
         
     - name: Running timer
       run: ./build/timer
+      working-directory: C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer
       
     # - name: Generating report
     #   run: 'make cpptestcov-report'
