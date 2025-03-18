@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 23,
-  "agentName": "default-runner",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelinesghubeus14.actions.githubusercontent.com/BJPx9ZceWNzPVl6cmFlKWSAIvlcLp9xiRKqBOhdKPGJHS8dIFy/",
-  "gitHubUrl": "https://github.com/sam-young717/VSCodeIntegrate",
-  "workFolder": "_work"
-}

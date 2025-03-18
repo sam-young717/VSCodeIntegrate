@@ -11,11 +11,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vc
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpptest_coverage_report", "cpptest_coverage_report.vcxproj", "{409D91C7-E68A-39CC-865F-B6D8F1742DDD}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C459C566-B94A-337A-889D-10A937BB75D2} = {C459C566-B94A-337A-889D-10A937BB75D2}
-	EndProjectSection
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "timer", "timer.vcxproj", "{93951511-BF76-3E3D-A595-95C2D9526D5C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C459C566-B94A-337A-889D-10A937BB75D2} = {C459C566-B94A-337A-889D-10A937BB75D2}
@@ -41,10 +36,6 @@ Global
 		{C459C566-B94A-337A-889D-10A937BB75D2}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
 		{C459C566-B94A-337A-889D-10A937BB75D2}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
 		{C459C566-B94A-337A-889D-10A937BB75D2}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
-		{409D91C7-E68A-39CC-865F-B6D8F1742DDD}.Debug|x64.ActiveCfg = Debug|x64
-		{409D91C7-E68A-39CC-865F-B6D8F1742DDD}.Release|x64.ActiveCfg = Release|x64
-		{409D91C7-E68A-39CC-865F-B6D8F1742DDD}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
-		{409D91C7-E68A-39CC-865F-B6D8F1742DDD}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
 		{93951511-BF76-3E3D-A595-95C2D9526D5C}.Debug|x64.ActiveCfg = Debug|x64
 		{93951511-BF76-3E3D-A595-95C2D9526D5C}.Debug|x64.Build.0 = Debug|x64
 		{93951511-BF76-3E3D-A595-95C2D9526D5C}.Release|x64.ActiveCfg = Release|x64

@@ -1,0 +1,420 @@
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-023
+<b>Function 'print_menu_get_action' has external linkage and is not declared in the header
+<l>13
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-023
+<b>Function 'main_loop' has external linkage and is not declared in the header
+<l>32
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_a
+<b>Prototype of function 'print_menu_get_action' does not precede function definition
+<l>13
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_a
+<b>Prototype of function 'main_loop' does not precede function definition
+<l>32
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_a
+<b>Prototype of function 'print_menu_get_action' does not precede function call
+<l>35
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_a
+<b>Prototype of function 'main_loop' does not precede function call
+<l>72
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_a
+<b>Prototype of function 'print_menu_get_action' does not precede function call
+<l>35
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'get_input_digit' does not precede function call
+<l>29
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'print_menu_get_action' does not precede function call
+<l>35
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'add_timer' does not precede function call
+<l>40
+<k>19
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'display_time' does not precede function call
+<l>55
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'list_timers' does not precede function call
+<l>52
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'get_input_digit' does not precede function call
+<l>49
+<k>33
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'init_timer' does not precede function call
+<l>71
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'main_loop' does not precede function call
+<l>72
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'uninit_timer' does not precede function call
+<l>73
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA-071_b
+<b>Prototype of function 'print_menu_get_action' does not precede function call
+<l>35
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>15
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>17
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>18
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>19
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>20
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>21
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>22
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>23
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>24
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>25
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>26
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>28
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_5
+<b>Declare function 'print_menu_get_action' with parameter type void
+<l>13
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-14_7
+<b>'return' statement should be at the end of the 'main_loop' function
+<l>60
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>42
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>44
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>63
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>59
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_10
+<b>Unused function's "print_string" return value
+<l>48
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_5
+<b>Declare function 'main_loop' with parameter type void
+<l>32
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-16_5
+<b>Declare function 'main' with parameter type void
+<l>69
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-20_9
+<b><stdio.h> library shall not be used
+<l>6
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>13
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Users\syoung\Documents\CppTestStandard\cpptest\examples\Timer\driver.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>35
+<k>9
+<s>false
+<N>
+<f>
+<L>0

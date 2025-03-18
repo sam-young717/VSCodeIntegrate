@@ -1,0 +1,1 @@
+{"file":"usr/include/x86_64-linux-gnu/bits/uintn-identity.h","functions":[{"name":"__uint32_identity","lines":[{"covered":false,"line":41}]},{"name":"__uint64_identity","lines":[{"covered":false,"line":47}]},{"name":"__uint16_identity","lines":[{"covered":false,"line":35}]}]}

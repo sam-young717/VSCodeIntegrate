@@ -1,8 +1,0 @@
-file=C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\driver.c
-compiler=gcc_9-64
-working_dir=C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer
-arg=gcc
-arg=-g
-arg=-I.
-arg=-c
-arg=C:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\driver.c
