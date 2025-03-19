@@ -50,16 +50,15 @@ jobs:
 
     # Runs code analysis with C/C++test.
     - name: Run C/C++test
-      run: cpptestcli.exe -compiler "gcc_9-64" -config "builtin://MISRA C 2004" -report "c:\Users\syoung\Documents\CppTest\cpptest\examples\Timer/reports"  -resource "c:\Users\syoung\Documents\CppTest\cpptest\examples\Timer" -module . -input timer.bdf
       # Use the 'run-cpptest-action' GitHub action.
-      # uses: parasoft/run-cpptest-action@2.0.2
-      # # Optional parameters for 'run-cpptest-action'.
-      # with:
-      #   # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
-      #   input: build/compile_commands.json
-      #   # Uncomment if you are using C/C++test 2020.2 to generate a SARIF report:
-      #   # reportFormat: xml,html,custom
-      #   additionalParams: '-config "builtin://MISRA C 2004"'
+      uses: parasoft/run-cpptest-action@2.0.2
+      # Optional parameters for 'run-cpptest-action'.
+      with:
+        # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
+        input: build/compile_commands.json
+        # Uncomment if you are using C/C++test 2020.2 to generate a SARIF report:
+        # reportFormat: xml,html,custom
+        additionalParams: '-config "builtin://MISRA C 2004"'
         
 
     - name: Configure CMake in build directory
