@@ -56,7 +56,7 @@ jobs:
       with:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
         input: build/compile_commands.json
-        additionalParams: "-config 'builtin://MISRA C 2004' -module Timer=. " 
+        additionalParams: '-config "builtin://MISRA C 2004" -module Timer=.' 
         
 
     - name: Configure CMake in build directory
