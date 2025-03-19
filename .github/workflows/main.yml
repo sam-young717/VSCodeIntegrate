@@ -58,7 +58,7 @@ jobs:
         input: build/compile_commands.json
         # Uncomment if you are using C/C++test 2020.2 to generate a SARIF report:
         # reportFormat: xml,html,custom
-        additionalParams: '-config "builtin://MISRA C 2004"'
+        additionalParams: '-config "builtin://MISRA C 2004" -module .' 
         
 
     - name: Configure CMake in build directory
