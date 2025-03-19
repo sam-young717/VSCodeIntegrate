@@ -50,7 +50,7 @@ jobs:
 
     # Runs code analysis with C/C++test.
     - name: Run C/C++test
-      run: cpptestcli -J-Dcpptest.stop.file="c:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\.cpptest\cpptest.stop" -compiler "gcc_9-64" -config "builtin://MISRA C 2004" -report "c:\Users\syoung\Documents\CppTest\cpptest\examples\Timer/reports"  -resource "c:\Users\syoung\Documents\CppTest\cpptest\examples\Timer" -module . -input timer.bdf
+      run: cpptestcli.exe -J-Dcpptest.stop.file="c:\Users\syoung\Documents\CppTest\cpptest\examples\Timer\.cpptest\cpptest.stop" -compiler "gcc_9-64" -config "builtin://MISRA C 2004" -report "c:\Users\syoung\Documents\CppTest\cpptest\examples\Timer/reports"  -resource "c:\Users\syoung\Documents\CppTest\cpptest\examples\Timer" -module . -input timer.bdf
       # Use the 'run-cpptest-action' GitHub action.
       # uses: parasoft/run-cpptest-action@2.0.2
       # # Optional parameters for 'run-cpptest-action'.
