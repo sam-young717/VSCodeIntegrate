@@ -34,10 +34,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Set up properties file
-      run: |
-        cpptest.license.local.password=PARASOFT_E23BDD9BEC0F74071D67A6073EEE2BA6C35227C864162AD6BBB300F77CA0A7AE64E3940331685E3C12E88C2B5884A753F1DA38CA8E0D57194CAD643B495304EB_D68ECE7B088CFC8D9579BC19EE3692E92876EAF46B60B1F606E72004A5D40FCFBF5356B4273ECD40C0990AD0D4A4BF9E7BBD1F4F1619BAAEC5F3C932232893C3
-
     # Configures your CMake project. Be sure the compile_commands.json file is created.
     - name: Configure CMake
       
