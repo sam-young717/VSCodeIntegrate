@@ -1,0 +1,170 @@
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'c' should be explicitly initialized
+<l>18
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'i' should be explicitly initialized
+<l>19
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'buf' should be explicitly initialized
+<l>20
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>MISRACPP2023-7_0_3-a
+<b>There shall be no conversion from type 'int' to type 'char'
+<l>40
+<k>14
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>CODSTA-110
+<b>The 'printf' library function should not be used
+<l>54
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>CODSTA-237
+<b>The 'isdigit' function should not be used
+<l>28
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>MISRA2004-20_10
+<b>Do not use the 'atoi' function
+<l>46
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>PB-41_b
+<b>Do not pass an object of array type as an argument to the 'atoi' function
+<l>46
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>CODSTA-04
+<b>Do not declare the 'index' local variable with static storage duration
+<l>35
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>OPT-02
+<b>Local variable 'c' declared but not used
+<l>18
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>MISRA2004-16_7
+<b>Pass parameter "str" with const specifier
+<l>52
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>OPT-02
+<b>Local variable 'c' declared but not used
+<l>18
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>MISRA2004-20_9
+<b><stdio.h> library shall not be used
+<l>10
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>16
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>19
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>35
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>52
+<k>1
+<s>false
+<N>
+<f>
+<L>0

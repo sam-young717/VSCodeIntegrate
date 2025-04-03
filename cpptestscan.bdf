@@ -1,0 +1,62 @@
+------- cpptestscan v.10.7.1.20241112B4223 (cpptesttrace) -------
+working_dir=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate
+project_name=VSCodeIntegrate
+arg=/usr/bin/cc
+arg=-MD
+arg=-MT
+arg=CMakeFiles/timer.dir/clock.c.o
+arg=-MF
+arg=CMakeFiles/timer.dir/clock.c.o.d
+arg=-o
+arg=CMakeFiles/timer.dir/clock.c.o
+arg=-c
+arg=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c
+------- cpptestscan v.10.7.1.20241112B4223 (cpptesttrace) -------
+working_dir=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate
+project_name=VSCodeIntegrate
+arg=/usr/bin/cc
+arg=-MD
+arg=-MT
+arg=CMakeFiles/timer.dir/driver.c.o
+arg=-MF
+arg=CMakeFiles/timer.dir/driver.c.o.d
+arg=-o
+arg=CMakeFiles/timer.dir/driver.c.o
+arg=-c
+arg=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/driver.c
+------- cpptestscan v.10.7.1.20241112B4223 (cpptesttrace) -------
+working_dir=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate
+project_name=VSCodeIntegrate
+arg=/usr/bin/cc
+arg=-MD
+arg=-MT
+arg=CMakeFiles/timer.dir/timer.c.o
+arg=-MF
+arg=CMakeFiles/timer.dir/timer.c.o.d
+arg=-o
+arg=CMakeFiles/timer.dir/timer.c.o
+arg=-c
+arg=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+------- cpptestscan v.10.7.1.20241112B4223 (cpptesttrace) -------
+working_dir=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate
+project_name=VSCodeIntegrate
+arg=/usr/bin/cc
+arg=-MD
+arg=-MT
+arg=CMakeFiles/timer.dir/stdinout.c.o
+arg=-MF
+arg=CMakeFiles/timer.dir/stdinout.c.o.d
+arg=-o
+arg=CMakeFiles/timer.dir/stdinout.c.o
+arg=-c
+arg=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+------- cpptestscan v.10.7.1.20241112B4223 (cpptesttrace) -------
+working_dir=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate
+project_name=VSCodeIntegrate
+arg=/usr/bin/cc
+arg=CMakeFiles/timer.dir/clock.c.o
+arg=CMakeFiles/timer.dir/driver.c.o
+arg=CMakeFiles/timer.dir/timer.c.o
+arg=CMakeFiles/timer.dir/stdinout.c.o
+arg=-o
+arg=timer

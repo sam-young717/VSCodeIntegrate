@@ -1,0 +1,130 @@
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'buf' should be explicitly initialized
+<l>15
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c
+<c>CODSTA-110
+<b>The 'sprintf' library function should not be used
+<l>19
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c
+<c>CODSTA-65
+<b>Do not convert an object with integer type 'int' to an object with pointer type 'void *'
+<l>16
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c
+<c>OPT-03
+<b>Parameter 'new_time' is not used
+<l>27
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c
+<c>PB-41_b
+<b>Do not pass an object of array type as an argument to the 'sprintf' function
+<l>19
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c
+<c>PB-41_b
+<b>Do not pass an object of array type as an argument to the 'print_string' function
+<l>20
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c
+<c>MISRA2004-20_9
+<b><stdio.h> library shall not be used
+<l>5
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.h
+<c>NAMING-55
+<b>Do not use characters other than uppercase letters, numbers, and underscores in a macro name: _clock_h_
+<l>3
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/consts.h
+<c>NAMING-55
+<b>Do not use characters other than uppercase letters, numbers, and underscores in a macro name: _consts_h_
+<l>3
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/inout.h
+<c>NAMING-55
+<b>Do not use characters other than uppercase letters, numbers, and underscores in a macro name: _input_h_
+<l>3
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/inout.h
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>6
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/inout.h
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>9
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/inout.h
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>12
+<k>1
+<s>false
+<N>
+<f>
+<L>0

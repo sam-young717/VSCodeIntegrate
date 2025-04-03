@@ -1,0 +1,4 @@
+/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/.build/CMakeFiles/cpptest_coverage_report.dir
+/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/.build/CMakeFiles/timer.dir
+/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/.build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/.build/CMakeFiles/rebuild_cache.dir

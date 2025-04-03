@@ -1,0 +1,490 @@
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-9_5_1-a
+<b>The 'for' init-statement should only declare and initialize a loop-counter of integer type
+<l>30
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-9_5_1-a
+<b>The 'for' init-statement should only declare and initialize a loop-counter of integer type
+<l>114
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-9_5_1-a
+<b>The 'for' init-statement should only declare and initialize a loop-counter of integer type
+<l>148
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'i' should be explicitly initialized
+<l>28
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'start_h' should be explicitly initialized
+<l>40
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'start_m' should be explicitly initialized
+<l>40
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'end_h' should be explicitly initialized
+<l>40
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'end_m' should be explicitly initialized
+<l>40
+<k>34
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'the_record' should be explicitly initialized
+<l>41
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'timer' should be explicitly initialized
+<l>42
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'tm_tmp' should be explicitly initialized
+<l>43
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-7_0_6-a
+<b>Do not assign a value of type 'int' to type 'unsigned int'
+<l>69
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'record' should be explicitly initialized
+<l>76
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'i' should be explicitly initialized
+<l>111
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'start' should be explicitly initialized
+<l>128
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'end' should be explicitly initialized
+<l>129
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'buf' should be explicitly initialized
+<l>144
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'i' should be explicitly initialized
+<l>145
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>CODSTA-110
+<b>The 'sprintf' library function should not be used
+<l>137
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>CODSTA-65
+<b>Do not convert an object with integer type 'int' to an object with pointer type 'void *'
+<l>45
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>CODSTA-65
+<b>Do not convert pointer to void type to an object with pointer type 'struct timer_record *'
+<l>48
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>FORMAT-33
+<b>Declare variable 'start_m' in a separate declaration statement
+<l>40
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>FORMAT-33
+<b>Declare variable 'end_h' in a separate declaration statement
+<l>40
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>FORMAT-33
+<b>Declare variable 'end_m' in a separate declaration statement
+<l>40
+<k>34
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRA-023
+<b>Global variable 'max_records' has external linkage and is not declared in the header
+<l>17
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRA-023
+<b>Function 'query_user' has external linkage and is not declared in the header
+<l>38
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRA2004-20_4
+<b>'malloc' function should not be used
+<l>48
+<k>40
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRA2004-20_4
+<b>'free' function should not be used
+<l>123
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>PB-41_b
+<b>Do not pass an object of array type as an argument to the 'memset' function
+<l>22
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>PB-41_b
+<b>Do not pass an object of array type as an argument to the 'strftime' function
+<l>133
+<k>14
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>PB-41_b
+<b>Do not pass an object of array type as an argument to the 'strftime' function
+<l>134
+<k>14
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>PB-41_b
+<b>Do not pass an object of array type as an argument to the 'format_timer_record' function
+<l>150
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>PB-41_b
+<b>Do not pass an object of array type as an argument to the 'print_string' function
+<l>151
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>PB-41_c
+<b>Do not pass an object of array type as a variadic argument to the 'sprintf' function
+<l>137
+<k>49
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>PB-41_c
+<b>Do not pass an object of array type as a variadic argument to the 'sprintf' function
+<l>137
+<k>56
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>OPT-02
+<b>Local variable 'start_h' declared but not used
+<l>40
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>OPT-02
+<b>Local variable 'start_m' declared but not used
+<l>40
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>OPT-02
+<b>Local variable 'end_h' declared but not used
+<l>40
+<k>27
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>OPT-02
+<b>Local variable 'end_m' declared but not used
+<l>40
+<k>34
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>MISRA2004-20_9
+<b><stdio.h> library shall not be used
+<l>6
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>17
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>18
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>28
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>40
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>74
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>108
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>111
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>126
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>145
+<k>5
+<s>false
+<N>
+<f>
+<L>0

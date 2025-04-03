@@ -1,6 +1,6 @@
 {
-    "cpptest.testConfiguration": "builtin://MISRA C 2004",
-    "cpptest.commandLinePattern": "cpptestcli ${stopFile} ${compilerConfig} ${testConfig} ${reportDir} ${selectedFiles} -module . -input timer.bdf",
+    "cpptest.testConfiguration": "builtin://MISRA C++ 2023",
+    "cpptest.commandLinePattern": "cpptestcli ${stopFile} ${compilerConfig} ${testConfig} ${reportDir} ${selectedFiles} -module . -input cpptestscan.bdf",
     "cpptest.compilerIdentifier": "gcc_9-64",
     "files.associations": {
         "inout.h": "c"

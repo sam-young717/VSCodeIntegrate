@@ -1,0 +1,120 @@
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/driver.c
+<c>MISRACPP2023-11_6_1-a
+<b>Variable 'res' should be explicitly initialized
+<l>35
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/driver.c
+<c>FORMAT-33
+<b>Declare variable 'i' in a separate declaration statement
+<l>35
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/driver.c
+<c>MISRA-023
+<b>Function 'print_menu_get_action' has external linkage and is not declared in the header
+<l>13
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/driver.c
+<c>MISRA-023
+<b>Function 'main_loop' has external linkage and is not declared in the header
+<l>32
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/driver.c
+<c>MISRA2004-20_9
+<b><stdio.h> library shall not be used
+<l>6
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/driver.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>13
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/driver.c
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>35
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>NAMING-55
+<b>Do not use characters other than uppercase letters, numbers, and underscores in a macro name: _timer_h_
+<l>3
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>CODSTA-223_c
+<b>Do not use the 'unsigned' standard integer type
+<l>13
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>21
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>27
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>CODSTA-223_c
+<b>Do not use the 'int' standard integer type
+<l>30
+<k>26
+<s>false
+<N>
+<f>
+<L>0

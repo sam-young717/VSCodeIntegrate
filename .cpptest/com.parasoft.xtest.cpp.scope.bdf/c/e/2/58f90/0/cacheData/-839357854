@@ -1,0 +1,6 @@
+file=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+compiler=gcc_9-64
+working_dir=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate
+arg=/usr/bin/cc
+arg=-c
+arg=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c

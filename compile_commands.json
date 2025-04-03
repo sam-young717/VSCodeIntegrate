@@ -1,26 +1,26 @@
 [
 {
-  "directory": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer",
-  "command": "C:/MinGW/bin/gcc.exe    -o CMakeFiles/timer.dir/clock.c.obj -c C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/clock.c",
-  "file": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/clock.c",
-  "output": "CMakeFiles/timer.dir/clock.c.obj"
+  "directory": "/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate",
+  "command": "/usr/bin/cc    -o CMakeFiles/timer.dir/clock.c.o -c /mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c",
+  "file": "/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c",
+  "output": "CMakeFiles/timer.dir/clock.c.o"
 },
 {
-  "directory": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer",
-  "command": "C:/MinGW/bin/gcc.exe    -o CMakeFiles/timer.dir/driver.c.obj -c C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/driver.c",
-  "file": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/driver.c",
-  "output": "CMakeFiles/timer.dir/driver.c.obj"
+  "directory": "/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate",
+  "command": "/usr/bin/cc    -o CMakeFiles/timer.dir/driver.c.o -c /mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/driver.c",
+  "file": "/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/driver.c",
+  "output": "CMakeFiles/timer.dir/driver.c.o"
 },
 {
-  "directory": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer",
-  "command": "C:/MinGW/bin/gcc.exe    -o CMakeFiles/timer.dir/timer.c.obj -c C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/timer.c",
-  "file": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/timer.c",
-  "output": "CMakeFiles/timer.dir/timer.c.obj"
+  "directory": "/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate",
+  "command": "/usr/bin/cc    -o CMakeFiles/timer.dir/timer.c.o -c /mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c",
+  "file": "/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c",
+  "output": "CMakeFiles/timer.dir/timer.c.o"
 },
 {
-  "directory": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer",
-  "command": "C:/MinGW/bin/gcc.exe    -o CMakeFiles/timer.dir/stdinout.c.obj -c C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/stdinout.c",
-  "file": "C:/Users/syoung/Documents/CppTest/cpptest/examples/Timer/stdinout.c",
-  "output": "CMakeFiles/timer.dir/stdinout.c.obj"
+  "directory": "/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate",
+  "command": "/usr/bin/cc    -o CMakeFiles/timer.dir/stdinout.c.o -c /mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c",
+  "file": "/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c",
+  "output": "CMakeFiles/timer.dir/stdinout.c.o"
 }
 ]

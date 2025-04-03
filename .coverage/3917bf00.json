@@ -1,1 +1,0 @@
-{"file":"usr/include/x86_64-linux-gnu/bits/byteswap.h","functions":[{"name":"__bswap_32","lines":[{"covered":false,"line":52}]},{"name":"__bswap_64","lines":[{"covered":false,"line":73}]},{"name":"__bswap_16","lines":[{"covered":false,"line":37}]}]}
