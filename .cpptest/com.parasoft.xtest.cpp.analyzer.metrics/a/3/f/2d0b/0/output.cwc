@@ -1,0 +1,280 @@
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-HALSTEAD
+<b>FUNC=get_input_digit; OPERATORS=38; OPERANDS=45; UNIQUE_OPERATORS=17; UNIQUE_OPERANDS=19
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-HALSTEAD
+<b>FUNC=print_string; OPERATORS=5; OPERANDS=6; UNIQUE_OPERATORS=3; UNIQUE_OPERANDS=5
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-NOMCIM
+<b>FUNC=get_input_digit; NOMCIM=1; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-NOMCIM
+<b>FUNC=print_string; NOMCIM=1; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=get_input_digit; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=get_input_digit; NIF=0; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-ECC
+<b>FUNC=get_input_digit; ECC=1; TEMPLATE_FUNC=[empty]
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=get_input_digit; SIGNATURE=get_input_digit; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=16; END_LINE=47; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=get_input_digit; LLIMF=10; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=get_input_digit; NBD=0; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-NORET
+<b>FUNC=get_input_digit; NORET=1; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=print_string; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=print_string; NIF=0; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-ECC
+<b>FUNC=print_string; ECC=1; TEMPLATE_FUNC=[empty]
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=print_string; SIGNATURE=print_string; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=52; END_LINE=55; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=print_string; LLIMF=1; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=print_string; NBD=0; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-NORET
+<b>FUNC=print_string; NORET=1; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=get_input_digit; NIF=0; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/inout.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=get_input_digit; SIGNATURE=get_input_digit; NAMESPACE=; PARAMNO=0; DEF=false; START_LINE=6; END_LINE=6; TEMPLATE_FUNC=
+<l>6
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=get_input_digit; LLIMF=10; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=get_input_digit; NBD=0; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=print_string; NIF=0; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/inout.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=print_string; SIGNATURE=print_string; NAMESPACE=; PARAMNO=1; DEF=false; START_LINE=9; END_LINE=9; TEMPLATE_FUNC=
+<l>9
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=print_string; LLIMF=1; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=print_string; NBD=0; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/inout.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=print_string_array; SIGNATURE=print_string_array; NAMESPACE=; PARAMNO=0; DEF=false; START_LINE=12; END_LINE=12; TEMPLATE_FUNC=
+<l>12
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c
+<c>INTERNAL-METRICS-LINES_TYPES
+<b>DATA=BCCCBSSBSSSBCCCSSSSSBSCSSSSSSSSMBCSBCSSSSBMBSSSBCCCSSSS
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

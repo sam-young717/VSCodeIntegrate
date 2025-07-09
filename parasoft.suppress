@@ -13,3 +13,19 @@
 # author: devel                (optional)
 # date: 2020-09-21             (optional)
 # suppression-end
+
+suppression-begin
+file: clock.c
+rule-id: MISRAC2012-RULE_1_5-c
+message: Function 'display_time' is not in prototype form
+reason: Demo
+author: syoung
+suppression-end
+
+suppression-begin
+file: clock.h
+rule-id: MISRAC2012-RULE_1_5-c
+message: Function 'display_time' is not in prototype form
+reason: Demo
+author: syoung
+suppression-end

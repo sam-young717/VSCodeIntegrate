@@ -1,0 +1,1080 @@
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-HALSTEAD
+<b>FUNC=init_timer; OPERATORS=9; OPERANDS=7; UNIQUE_OPERATORS=5; UNIQUE_OPERANDS=7
+<l>20
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-HALSTEAD
+<b>FUNC=uninit_timer; OPERATORS=7; OPERANDS=11; UNIQUE_OPERATORS=5; UNIQUE_OPERANDS=7
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-HALSTEAD
+<b>FUNC=query_user; OPERATORS=57; OPERANDS=61; UNIQUE_OPERATORS=9; UNIQUE_OPERANDS=31
+<l>38
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-HALSTEAD
+<b>FUNC=add_timer; OPERATORS=11; OPERANDS=11; UNIQUE_OPERATORS=7; UNIQUE_OPERANDS=8
+<l>74
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-HALSTEAD
+<b>FUNC=add_timer_record; OPERATORS=17; OPERANDS=22; UNIQUE_OPERATORS=11; UNIQUE_OPERANDS=16
+<l>88
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-HALSTEAD
+<b>FUNC=delete_timer_record; OPERATORS=23; OPERANDS=27; UNIQUE_OPERATORS=15; UNIQUE_OPERANDS=12
+<l>108
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-HALSTEAD
+<b>FUNC=format_timer_record; OPERATORS=33; OPERANDS=40; UNIQUE_OPERATORS=10; UNIQUE_OPERANDS=21
+<l>126
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-HALSTEAD
+<b>FUNC=list_timers; OPERATORS=13; OPERANDS=23; UNIQUE_OPERATORS=7; UNIQUE_OPERANDS=14
+<l>142
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NOMCIM
+<b>FUNC=init_timer; NOMCIM=1; TEMPLATE_FUNC=
+<l>20
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NOMCIM
+<b>FUNC=uninit_timer; NOMCIM=1; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NOMCIM
+<b>FUNC=query_user; NOMCIM=16; TEMPLATE_FUNC=
+<l>38
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NOMCIM
+<b>FUNC=add_timer; NOMCIM=2; TEMPLATE_FUNC=
+<l>74
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NOMCIM
+<b>FUNC=add_timer_record; NOMCIM=1; TEMPLATE_FUNC=
+<l>88
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NOMCIM
+<b>FUNC=delete_timer_record; NOMCIM=1; TEMPLATE_FUNC=
+<l>108
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NOMCIM
+<b>FUNC=format_timer_record; NOMCIM=5; TEMPLATE_FUNC=
+<l>126
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NOMCIM
+<b>FUNC=list_timers; NOMCIM=5; TEMPLATE_FUNC=
+<l>142
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=init_timer; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>20
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=init_timer; NIF=0; TEMPLATE_FUNC=
+<l>20
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-ECC
+<b>FUNC=init_timer; ECC=1; TEMPLATE_FUNC=[empty]
+<l>20
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=init_timer; SIGNATURE=init_timer; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=20; END_LINE=23; TEMPLATE_FUNC=
+<l>20
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=init_timer; LLIMF=1; TEMPLATE_FUNC=
+<l>20
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=init_timer; NBD=0; TEMPLATE_FUNC=
+<l>20
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NORET
+<b>FUNC=init_timer; NORET=0; TEMPLATE_FUNC=
+<l>20
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=uninit_timer; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=uninit_timer; NIF=0; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-ECC
+<b>FUNC=uninit_timer; ECC=1; TEMPLATE_FUNC=[empty]
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=uninit_timer; SIGNATURE=uninit_timer; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=25; END_LINE=33; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=uninit_timer; LLIMF=4; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=uninit_timer; NBD=1; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NORET
+<b>FUNC=uninit_timer; NORET=0; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=query_user; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>38
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=query_user; NIF=0; TEMPLATE_FUNC=
+<l>38
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-ECC
+<b>FUNC=query_user; ECC=1; TEMPLATE_FUNC=[empty]
+<l>38
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=query_user; SIGNATURE=query_user; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=38; END_LINE=72; TEMPLATE_FUNC=
+<l>38
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=query_user; LLIMF=24; TEMPLATE_FUNC=
+<l>38
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=query_user; NBD=0; TEMPLATE_FUNC=
+<l>38
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NORET
+<b>FUNC=query_user; NORET=1; TEMPLATE_FUNC=
+<l>38
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=add_timer; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>74
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=add_timer; NIF=1; TEMPLATE_FUNC=
+<l>74
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-ECC
+<b>FUNC=add_timer; ECC=1; TEMPLATE_FUNC=[empty]
+<l>74
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=add_timer; SIGNATURE=add_timer; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=74; END_LINE=86; TEMPLATE_FUNC=
+<l>74
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=add_timer; LLIMF=6; TEMPLATE_FUNC=
+<l>74
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=add_timer; NBD=1; TEMPLATE_FUNC=
+<l>74
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NORET
+<b>FUNC=add_timer; NORET=2; TEMPLATE_FUNC=
+<l>74
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=add_timer_record; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>88
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=add_timer_record; NIF=1; TEMPLATE_FUNC=
+<l>88
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-ECC
+<b>FUNC=add_timer_record; ECC=1; TEMPLATE_FUNC=[empty]
+<l>88
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=add_timer_record; SIGNATURE=add_timer_record; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=88; END_LINE=102; TEMPLATE_FUNC=
+<l>88
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=add_timer_record; LLIMF=3; TEMPLATE_FUNC=
+<l>88
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=add_timer_record; NBD=1; TEMPLATE_FUNC=
+<l>88
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NORET
+<b>FUNC=add_timer_record; NORET=0; TEMPLATE_FUNC=
+<l>88
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=delete_timer_record; CC=3; SCC=3; MCC=3; TEMPLATE_FUNC=
+<l>108
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=delete_timer_record; NIF=1; TEMPLATE_FUNC=
+<l>108
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-ECC
+<b>FUNC=delete_timer_record; ECC=3; TEMPLATE_FUNC=[empty]
+<l>108
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=delete_timer_record; SIGNATURE=delete_timer_record; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=108; END_LINE=124; TEMPLATE_FUNC=
+<l>108
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=delete_timer_record; LLIMF=9; TEMPLATE_FUNC=
+<l>108
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=delete_timer_record; NBD=2; TEMPLATE_FUNC=
+<l>108
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NORET
+<b>FUNC=delete_timer_record; NORET=0; TEMPLATE_FUNC=
+<l>108
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=format_timer_record; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>126
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=format_timer_record; NIF=1; TEMPLATE_FUNC=
+<l>126
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-ECC
+<b>FUNC=format_timer_record; ECC=1; TEMPLATE_FUNC=[empty]
+<l>126
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=format_timer_record; SIGNATURE=format_timer_record; NAMESPACE=; PARAMNO=2; DEF=true; START_LINE=126; END_LINE=140; TEMPLATE_FUNC=
+<l>126
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=format_timer_record; LLIMF=7; TEMPLATE_FUNC=
+<l>126
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=format_timer_record; NBD=1; TEMPLATE_FUNC=
+<l>126
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NORET
+<b>FUNC=format_timer_record; NORET=0; TEMPLATE_FUNC=
+<l>126
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=list_timers; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>142
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=list_timers; NIF=0; TEMPLATE_FUNC=
+<l>142
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-ECC
+<b>FUNC=list_timers; ECC=1; TEMPLATE_FUNC=[empty]
+<l>142
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=list_timers; SIGNATURE=list_timers; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=142; END_LINE=154; TEMPLATE_FUNC=
+<l>142
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=list_timers; LLIMF=9; TEMPLATE_FUNC=
+<l>142
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=list_timers; NBD=1; TEMPLATE_FUNC=
+<l>142
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NORET
+<b>FUNC=list_timers; NORET=0; TEMPLATE_FUNC=
+<l>142
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=display_time; SIGNATURE=display_time; NAMESPACE=; PARAMNO=0; DEF=false; START_LINE=8; END_LINE=8; TEMPLATE_FUNC=
+<l>8
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=set_time; SIGNATURE=set_time; NAMESPACE=; PARAMNO=1; DEF=false; START_LINE=11; END_LINE=11; TEMPLATE_FUNC=
+<l>11
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/inout.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=get_input_digit; SIGNATURE=get_input_digit; NAMESPACE=; PARAMNO=0; DEF=false; START_LINE=6; END_LINE=6; TEMPLATE_FUNC=
+<l>6
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/inout.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=print_string; SIGNATURE=print_string; NAMESPACE=; PARAMNO=1; DEF=false; START_LINE=9; END_LINE=9; TEMPLATE_FUNC=
+<l>9
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/inout.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=print_string_array; SIGNATURE=print_string_array; NAMESPACE=; PARAMNO=0; DEF=false; START_LINE=12; END_LINE=12; TEMPLATE_FUNC=
+<l>12
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>INTERNAL-METRICS-TYPES
+<b>CLASS=timer_record; NAMESPACE=; TEMPLATE_TYPE=; TAG=struct
+<l>9
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>INTERNAL-METRICS-TYPE_START_END_C
+<b>CLASS=timer_record; START_LINE=9; END_LINE=14
+<l>9
+<k>8
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=init_timer; NIF=0; TEMPLATE_FUNC=
+<l>20
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=init_timer; SIGNATURE=init_timer; NAMESPACE=; PARAMNO=0; DEF=false; START_LINE=17; END_LINE=17; TEMPLATE_FUNC=
+<l>17
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=init_timer; LLIMF=1; TEMPLATE_FUNC=
+<l>20
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=init_timer; NBD=0; TEMPLATE_FUNC=
+<l>20
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=uninit_timer; NIF=0; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=uninit_timer; SIGNATURE=uninit_timer; NAMESPACE=; PARAMNO=0; DEF=false; START_LINE=18; END_LINE=18; TEMPLATE_FUNC=
+<l>18
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=uninit_timer; LLIMF=4; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=uninit_timer; NBD=1; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=add_timer; NIF=1; TEMPLATE_FUNC=
+<l>74
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=add_timer; SIGNATURE=add_timer; NAMESPACE=; PARAMNO=0; DEF=false; START_LINE=21; END_LINE=21; TEMPLATE_FUNC=
+<l>21
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=add_timer; LLIMF=6; TEMPLATE_FUNC=
+<l>74
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=add_timer; NBD=1; TEMPLATE_FUNC=
+<l>74
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=add_timer_record; NIF=1; TEMPLATE_FUNC=
+<l>88
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=add_timer_record; SIGNATURE=add_timer_record; NAMESPACE=; PARAMNO=1; DEF=false; START_LINE=24; END_LINE=24; TEMPLATE_FUNC=
+<l>24
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=add_timer_record; LLIMF=3; TEMPLATE_FUNC=
+<l>88
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=add_timer_record; NBD=1; TEMPLATE_FUNC=
+<l>88
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=delete_timer_record; NIF=1; TEMPLATE_FUNC=
+<l>108
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=delete_timer_record; SIGNATURE=delete_timer_record; NAMESPACE=; PARAMNO=1; DEF=false; START_LINE=27; END_LINE=27; TEMPLATE_FUNC=
+<l>27
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=delete_timer_record; LLIMF=9; TEMPLATE_FUNC=
+<l>108
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=delete_timer_record; NBD=2; TEMPLATE_FUNC=
+<l>108
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=format_timer_record; NIF=1; TEMPLATE_FUNC=
+<l>126
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=format_timer_record; SIGNATURE=format_timer_record; NAMESPACE=; PARAMNO=2; DEF=false; START_LINE=30; END_LINE=30; TEMPLATE_FUNC=
+<l>30
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=format_timer_record; LLIMF=7; TEMPLATE_FUNC=
+<l>126
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=format_timer_record; NBD=1; TEMPLATE_FUNC=
+<l>126
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-DIF
+<b>FUNC=list_timers; NIF=0; TEMPLATE_FUNC=
+<l>142
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=list_timers; SIGNATURE=list_timers; NAMESPACE=; PARAMNO=0; DEF=false; START_LINE=33; END_LINE=33; TEMPLATE_FUNC=
+<l>33
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LLIMF
+<b>FUNC=list_timers; LLIMF=9; TEMPLATE_FUNC=
+<l>142
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=list_timers; NBD=1; TEMPLATE_FUNC=
+<l>142
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c
+<c>INTERNAL-METRICS-LINES_TYPES
+<b>DATA=BCCCBSSSBSSSSBBSSSBSSSSBSSCSBSSSSBCCCSSSSSSBSSBSSBCSSSSBSBCSSSSBSBCSSBSSBSSSBSBSSSSSSSBSSSSSSSSSSSSSSSBCCCCSSSSBCSSSSSSSSSSSBSSSSBSBSSBSSSBSBSSSSSSSSSSSSSB
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

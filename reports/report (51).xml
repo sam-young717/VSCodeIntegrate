@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?><ResultsSession buildId="MISRA C 2023-2025-06-20" climode="true" endTime="2025-06-20T12:37:23-04:00" execEnv="linux_x86_64" hasViols="false" id="1749068846666" lang="en" machine="syoung-pc" prjModule="VSCodeIntegrate" project="MISRA C 2023" tag="${scontrol_branch}-linux_x86_64" time="2025-06-20T12:37:13-04:00" toolDispName="C/C++test" toolId="c++test" toolName="DTP Engine for C/C++" toolVer="2024.2.0" user="syoung">
+   <TestConfig machine="syoung-pc" name="Metrics" pseudoUrl="builtin://Metrics" user="syoung"/>
+   <Authors>
+      <Author id="dev1" name="syoung"/>
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.xtest.scope.analyzer" name="Scope Analyzer" ver="10.7.1.20241108"/>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.code" name="Parasoft C/C++ Code Analyzer" ver="10.7.1.20241114B2528"/>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.pattern" name="Parasoft C/C++ Static Analyzer" ver="10.7.1.20241114B2528"/>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.flow" name="Parasoft C/C++ Flow Analyzer" ver="10.7.1.20241023B5124"/>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.metrics" name="Parasoft C/C++ Metrics Analyzer" ver="10.7.1.20241114B2528"/>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.global" name="Parasoft C/C++ Global Static Analyzer" ver="10.7.1.20241114B2528"/>
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IChangeImpactViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1"/>
+   </VersionInfos>
+   <Goals tsks="0">
+      
+      <History>
+         <Graph id="gls">
+            <Categories>
+               <Category color="red" name="Total" pos="0"/>
+            </Categories>
+            <Total secSer="1" title="" xTitle="Date" yTitle="Tasks" yTitle2="Total Tasks">
+               <X>03-20-25,03-24-25,03-31-25,04-03-25,04-10-25,05-15-25,05-19-25,05-21-25,06-04-25,06-09-25,06-10-25,06-11-25,06-12-25,06-16-25,06-20-25,</X>
+               <Y>50,50,50,50,50,50,50,50,50,50,50,50,50,50,0,</Y>
+               <Delta>-50,</Delta>
+            </Total>
+         </Graph>
+      </History>
+   
+   </Goals>
+   <Metrics>
+      <Metric avg="0" disp="true" id="METRIC.CBO" max="0" min="0" name="Coupling Between Objects" noi="1" stddev="0">
+         <Info avg="0" disp="true" elem="VSCodeIntegrate" max="0" min="0" noi="1" stddev="0"/>
+      </Metric>
+      <Metric avg="1.933" disp="true" id="METRIC.CC" max="8" min="1" name="McCabe Cyclomatic Complexity" noi="15" stddev="1.731">
+         <Info avg="1.933" disp="true" elem="VSCodeIntegrate" max="8" min="1" noi="15" stddev="1.731"/>
+      </Metric>
+      <Metric avg="0.88" disp="true" id="METRIC.CLLOCRIF" max="1.8" min="0.211" name="Comment/Logical Lines in Files" noi="4" stddev="0.682">
+         <Info avg="0.88" disp="true" elem="VSCodeIntegrate" max="1.8" min="0.211" noi="4" stddev="0.682"/>
+      </Metric>
+      <Metric avg="0.676" disp="true" id="METRIC.CLLOCRIM" max="4" min="0" name="Comment/Logical Lines in Methods" noi="14" stddev="0.977">
+         <Info avg="0.676" disp="true" elem="VSCodeIntegrate" max="4" min="0" noi="14" stddev="0.977"/>
+      </Metric>
+      <Metric avg="0.333" disp="true" id="METRIC.DIF" max="1" min="0" name="Depth of Nested 'if' Statements" noi="15" stddev="0.471">
+         <Info avg="0.333" disp="true" elem="VSCodeIntegrate" max="1" min="0" noi="15" stddev="0.471"/>
+      </Metric>
+      <Metric avg="1.533" disp="true" id="METRIC.ECC" max="7" min="1" name="Essential Cyclomatic Complexity" noi="15" stddev="1.543">
+         <Info avg="1.533" disp="true" elem="VSCodeIntegrate" max="7" min="1" noi="15" stddev="1.543"/>
+      </Metric>
+      <Metric avg="0" disp="true" id="METRIC.FO" max="0" min="0" name="Fan Out" noi="1" stddev="0">
+         <Info avg="0" disp="true" elem="VSCodeIntegrate" max="0" min="0" noi="1" stddev="0"/>
+      </Metric>
+      <Metric avg="6.534" disp="true" id="METRIC.HDIFM" max="20.132" min="0.5" name="Halstead Difficulty" noi="15" stddev="5.511">
+         <Info avg="6.534" disp="true" elem="VSCodeIntegrate" max="20.132" min="0.5" noi="15" stddev="5.511"/>
+      </Metric>
+      <Metric avg="1936.4" disp="true" id="METRIC.HEFM" max="8638.537" min="5.805" name="Halstead Effort" noi="15" stddev="2468.183">
+         <Info avg="1936.4" disp="true" elem="VSCodeIntegrate" max="8638.537" min="5.805" noi="15" stddev="2468.183"/>
+      </Metric>
+      <Metric avg="33.383" disp="true" id="METRIC.HICM" max="97.253" min="14.089" name="Halstead Intelligent Content" noi="15" stddev="21.895">
+         <Info avg="33.383" disp="true" elem="VSCodeIntegrate" max="97.253" min="14.089" noi="15" stddev="21.895"/>
+      </Metric>
+      <Metric avg="42.067" disp="true" id="METRIC.HLENM" max="118" min="5" name="Halstead Program Length" noi="15" stddev="31.099">
+         <Info avg="42.067" disp="true" elem="VSCodeIntegrate" max="118" min="5" noi="15" stddev="31.099"/>
+      </Metric>
+      <Metric avg="0.395" disp="true" id="METRIC.HLEVM" max="2" min="0.05" name="Halstead Program Level" noi="15" stddev="0.493">
+         <Info avg="0.395" disp="true" elem="VSCodeIntegrate" max="2" min="0.05" noi="15" stddev="0.493"/>
+      </Metric>
+      <Metric avg="0.043" disp="true" id="METRIC.HNOBM" max="0.14" min="0.001" name="Halstead Number of Bugs" noi="15" stddev="0.041">
+         <Info avg="0.043" disp="true" elem="VSCodeIntegrate" max="0.14" min="0.001" noi="15" stddev="0.041"/>
+      </Metric>
+      <Metric avg="107.578" disp="true" id="METRIC.HTTPM" max="479.919" min="0.322" name="Halstead Time to Program" noi="15" stddev="137.121">
+         <Info avg="107.578" disp="true" elem="VSCodeIntegrate" max="479.919" min="0.322" noi="15" stddev="137.121"/>
+      </Metric>
+      <Metric avg="21" disp="true" id="METRIC.HVOCM" max="40" min="5" name="Halstead Program Vocabulary" noi="15" stddev="10.93">
+         <Info avg="21" disp="true" elem="VSCodeIntegrate" max="40" min="5" noi="15" stddev="10.93"/>
+      </Metric>
+      <Metric avg="198.65" disp="true" id="METRIC.HVOLM" max="627.988" min="11.61" name="Halstead Program Volume" noi="15" stddev="171.717">
+         <Info avg="198.65" disp="true" elem="VSCodeIntegrate" max="627.988" min="11.61" noi="15" stddev="171.717"/>
+      </Metric>
+      <Metric avg="0" disp="true" id="METRIC.LCOM" max="0" min="0" name="Lack of Cohesion" noi="1" stddev="0">
+         <Info avg="0" disp="true" elem="VSCodeIntegrate" max="0" min="0" noi="1" stddev="0"/>
+      </Metric>
+      <Metric avg="1.667" disp="true" id="METRIC.MCC" max="4" min="1" name="Modified Cyclomatic Complexity" noi="15" stddev="0.869">
+         <Info avg="1.667" disp="true" elem="VSCodeIntegrate" max="4" min="1" noi="15" stddev="0.869"/>
+      </Metric>
+      <Metric avg="171" disp="true" id="METRIC.MI" max="171" min="171" name="Maintainability Index" noi="1" stddev="0">
+         <Info avg="171" disp="true" elem="VSCodeIntegrate" max="171" min="171" noi="1" stddev="0"/>
+      </Metric>
+      <Metric avg="0.667" disp="true" id="METRIC.NBD" max="3" min="0" name="Nested Blocks Depth" noi="15" stddev="0.869">
+         <Info avg="0.667" disp="true" elem="VSCodeIntegrate" max="3" min="0" noi="15" stddev="0.869"/>
+      </Metric>
+      <Metric avg="10.25" disp="true" id="METRIC.NOBLIF" max="30" min="4" name="Blank Lines in Files" noi="8" stddev="7.886">
+         <Info avg="10.25" disp="true" elem="VSCodeIntegrate" max="30" min="4" noi="8" stddev="7.886"/>
+      </Metric>
+      <Metric avg="1.6" disp="true" id="METRIC.NOBLIM" max="8" min="0" name="Blank Lines in Methods" noi="15" stddev="2.245">
+         <Info avg="1.6" disp="true" elem="VSCodeIntegrate" max="8" min="0" noi="15" stddev="2.245"/>
+      </Metric>
+      <Metric avg="0" disp="true" id="METRIC.NOBLIT" max="0" min="0" name="Blank Lines in Types" noi="1" stddev="0">
+         <Info avg="0" disp="true" elem="VSCodeIntegrate" max="0" min="0" noi="1" stddev="0"/>
+      </Metric>
+      <Metric avg="7.75" disp="true" id="METRIC.NOCLIF" max="15" min="1" name="Comment Lines in Files" noi="8" stddev="4.684">
+         <Info avg="7.75" disp="true" elem="VSCodeIntegrate" max="15" min="1" noi="8" stddev="4.684"/>
+      </Metric>
+      <Metric avg="2.933" disp="true" id="METRIC.NOCLIM" max="9" min="0" name="Comment Lines in Methods" noi="15" stddev="2.462">
+         <Info avg="2.933" disp="true" elem="VSCodeIntegrate" max="9" min="0" noi="15" stddev="2.462"/>
+      </Metric>
+      <Metric avg="1" disp="true" id="METRIC.NOCLIT" max="1" min="1" name="Comment Lines in Types" noi="1" stddev="0">
+         <Info avg="1" disp="true" elem="VSCodeIntegrate" max="1" min="1" noi="1" stddev="0"/>
+      </Metric>
+      <Metric avg="1" disp="true" id="METRIC.NOF" max="1" min="1" name="Number of Files" noi="8" stddev="0">
+         <Info avg="1" disp="true" elem="VSCodeIntegrate" max="1" min="1" noi="8" stddev="0"/>
+      </Metric>
+      <Metric avg="29.25" disp="true" id="METRIC.NOLLOCIF" max="63" min="5" name="Logical Lines in Files" noi="4" stddev="23.112">
+         <Info avg="29.25" disp="true" elem="VSCodeIntegrate" max="63" min="5" noi="4" stddev="23.112"/>
+      </Metric>
+      <Metric avg="7.8" disp="true" id="METRIC.NOLLOCIM" max="24" min="0" name="Logical Lines in Methods" noi="15" stddev="6.705">
+         <Info avg="7.8" disp="true" elem="VSCodeIntegrate" max="24" min="0" noi="15" stddev="6.705"/>
+      </Metric>
+      <Metric avg="4.4" disp="true" id="METRIC.NOMCIM" max="16" min="0" name="Method Calls In Methods" noi="15" stddev="4.95">
+         <Info avg="4.4" disp="true" elem="VSCodeIntegrate" max="16" min="0" noi="15" stddev="4.95"/>
+      </Metric>
+      <Metric avg="0" disp="true" id="METRIC.NOMIT" max="0" min="0" name="Number of Methods in Types" noi="1" stddev="0">
+         <Info avg="0" disp="true" elem="VSCodeIntegrate" max="0" min="0" noi="1" stddev="0"/>
+      </Metric>
+      <Metric avg="0.444" disp="true" id="METRIC.NOPAR" max="2" min="0" name="Parameters of Methods" noi="27" stddev="0.629">
+         <Info avg="0.444" disp="true" elem="VSCodeIntegrate" max="2" min="0" noi="27" stddev="0.629"/>
+      </Metric>
+      <Metric avg="48.625" disp="true" id="METRIC.NOPLIF" max="155" min="9" name="Physical Lines in Files" noi="8" stddev="45.483">
+         <Info avg="48.625" disp="true" elem="VSCodeIntegrate" max="155" min="9" noi="8" stddev="45.483"/>
+      </Metric>
+      <Metric avg="18" disp="true" id="METRIC.NOPLIM" max="38" min="6" name="Physical Lines in Methods" noi="15" stddev="10.507">
+         <Info avg="18" disp="true" elem="VSCodeIntegrate" max="38" min="6" noi="15" stddev="10.507"/>
+      </Metric>
+      <Metric avg="7" disp="true" id="METRIC.NOPLIT" max="7" min="7" name="Physical Lines in Types" noi="1" stddev="0">
+         <Info avg="7" disp="true" elem="VSCodeIntegrate" max="7" min="7" noi="1" stddev="0"/>
+      </Metric>
+      <Metric avg="0.533" disp="true" id="METRIC.NORET" max="2" min="0" name="Number of Returns in Methods" noi="15" stddev="0.618">
+         <Info avg="0.533" disp="true" elem="VSCodeIntegrate" max="2" min="0" noi="15" stddev="0.618"/>
+      </Metric>
+      <Metric avg="31.75" disp="true" id="METRIC.NOSLIF" max="110" min="5" name="Source Lines in Files" noi="8" stddev="34.604">
+         <Info avg="31.75" disp="true" elem="VSCodeIntegrate" max="110" min="5" noi="8" stddev="34.604"/>
+      </Metric>
+      <Metric avg="13.8" disp="true" id="METRIC.NOSLIM" max="33" min="4" name="Source Lines in Methods" noi="15" stddev="8.076">
+         <Info avg="13.8" disp="true" elem="VSCodeIntegrate" max="33" min="4" noi="15" stddev="8.076"/>
+      </Metric>
+      <Metric avg="6" disp="true" id="METRIC.NOSLIT" max="6" min="6" name="Source Lines in Types" noi="1" stddev="0">
+         <Info avg="6" disp="true" elem="VSCodeIntegrate" max="6" min="6" noi="1" stddev="0"/>
+      </Metric>
+      <Metric avg="1" disp="true" id="METRIC.NOT" max="1" min="1" name="Number of Types" noi="1" stddev="0">
+         <Info avg="1" disp="true" elem="VSCodeIntegrate" max="1" min="1" noi="1" stddev="0"/>
+      </Metric>
+      <Metric avg="0" disp="true" id="METRIC.RFC" max="0" min="0" name="Response for Class" noi="1" stddev="0">
+         <Info avg="0" disp="true" elem="VSCodeIntegrate" max="0" min="0" noi="1" stddev="0"/>
+      </Metric>
+      <Metric avg="1.933" disp="true" id="METRIC.SCC" max="8" min="1" name="Strict Cyclomatic Complexity" noi="15" stddev="1.731">
+         <Info avg="1.933" disp="true" elem="VSCodeIntegrate" max="8" min="1" noi="15" stddev="1.731"/>
+      </Metric>
+      <Metric avg="0" disp="true" id="METRIC.WMC" max="0" min="0" name="Weighted Methods of Class" noi="1" stddev="0">
+         <Info avg="0" disp="true" elem="VSCodeIntegrate" max="0" min="0" noi="1" stddev="0"/>
+      </Metric>
+   </Metrics>
+   <Scope>
+      <Repositories/>
+      <Locations>
+         <Loc auth="syoung" hash="1931614703" locRef="1" projId="VSCodeIntegrate" projPath="/VSCodeIntegrate" project="VSCodeIntegrate" resProjPath="clock.c" totLns="29" uri="file:/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c"/>
+         <Loc auth="syoung" hash="65740504" locRef="2" projId="VSCodeIntegrate" projPath="/VSCodeIntegrate" project="VSCodeIntegrate" resProjPath="driver.c" totLns="76" uri="file:/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/driver.c"/>
+         <Loc auth="syoung" hash="-275311578" locRef="3" projId="VSCodeIntegrate" projPath="/VSCodeIntegrate" project="VSCodeIntegrate" resProjPath="timer.c" totLns="155" uri="file:/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c"/>
+         <Loc auth="syoung" hash="844867668" locRef="4" projId="VSCodeIntegrate" projPath="/VSCodeIntegrate" project="VSCodeIntegrate" resProjPath="stdinout.c" totLns="55" uri="file:/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c"/>
+         <Loc auth="syoung" hash="1651539479" locRef="5" projId="VSCodeIntegrate" projPath="/VSCodeIntegrate" project="VSCodeIntegrate" resProjPath="consts.h" totLns="9" uri="file:/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/consts.h"/>
+         <Loc auth="syoung" hash="-311681184" locRef="6" projId="VSCodeIntegrate" projPath="/VSCodeIntegrate" project="VSCodeIntegrate" resProjPath="inout.h" totLns="15" uri="file:/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/inout.h"/>
+         <Loc auth="syoung" hash="-1204881763" locRef="7" projId="VSCodeIntegrate" projPath="/VSCodeIntegrate" project="VSCodeIntegrate" resProjPath="clock.h" totLns="14" uri="file:/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.h"/>
+         <Loc auth="syoung" hash="-311568100" locRef="8" projId="VSCodeIntegrate" projPath="/VSCodeIntegrate" project="VSCodeIntegrate" resProjPath="timer.h" totLns="36" uri="file:/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.h"/>
+      </Locations>
+   </Scope>
+   
+  <SetupProblems/>
+
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:06">
+      <Projects>
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="8" checkedLns="389" id="VSCodeIntegrate" name="VSCodeIntegrate" qfixErrs="0" suppErrs="0" totErrs="0" totFiles="8" totLns="389"/>
+      </Projects>
+      
+      <History>
+         <Graph id="lns">
+            <Categories>
+               <Category color="blue" name="Total Lines" pos="0"/>
+               <Category color="green" name="Checked Lines" pos="1"/>
+               <Category authPos="0" color="red" name="Tasks" pos="2"/>
+            </Categories>
+            <Total secSer="1" title="" xTitle="Date" yTitle="Lines" yTitle2="Tasks">
+               <X>03-20-25,03-24-25,03-31-25,04-03-25,04-10-25,05-15-25,05-19-25,05-21-25,06-04-25,06-09-25,06-10-25,06-11-25,06-12-25,06-16-25,06-20-25,</X>
+               <Y>390,390,390,390,390,390,390,390,390,390,390,389,389,389,389,390,390,390,390,390,390,390,390,390,390,390,389,389,389,389,167,167,167,167,167,203,203,203,203,203,207,207,207,203,0,</Y>
+               <Delta>0,0,-203,</Delta>
+            </Total>
+            <Authors title="" xTitle="Date" yTitle="Total Tasks">
+               <Author name="syoung">
+                  <X>03-20-25,03-24-25,03-31-25,04-03-25,04-10-25,05-15-25,05-19-25,05-21-25,06-04-25,06-09-25,06-10-25,06-11-25,06-12-25,06-16-25,06-20-25,</X>
+                  <Y>167,167,167,167,167,203,203,203,203,203,207,207,207,203,0,</Y>
+                  <Delta>-203,</Delta>
+               </Author>
+            </Authors>
+         </Graph>
+      </History>
+   
+      
+      <Rules>
+         <CategoriesList/>
+         <RulesList/>
+         <SeverityList/>
+      </Rules>
+      
+  <Supps/>
+
+      
+  <StdViols/>
+
+      <TestedFilesDetails>
+         <Total name="Total (Suppressed)" supp="0" total="0">
+            <Project id="VSCodeIntegrate" name="VSCodeIntegrate" supp="0" total="0">
+               <Res loc="/VSCodeIntegrate/clock.c" locRef="1" locType="sr" name="clock.c" supp="0" total="0"/>
+               <Res loc="/VSCodeIntegrate/driver.c" locRef="2" locType="sr" name="driver.c" supp="0" total="0"/>
+               <Res loc="/VSCodeIntegrate/timer.c" locRef="3" locType="sr" name="timer.c" supp="0" total="0"/>
+               <Res loc="/VSCodeIntegrate/stdinout.c" locRef="4" locType="sr" name="stdinout.c" supp="0" total="0"/>
+               <Res loc="/VSCodeIntegrate/consts.h" locRef="5" locType="sr" name="consts.h" supp="0" total="0"/>
+               <Res loc="/VSCodeIntegrate/inout.h" locRef="6" locType="sr" name="inout.h" supp="0" total="0"/>
+               <Res loc="/VSCodeIntegrate/clock.h" locRef="7" locType="sr" name="clock.h" supp="0" total="0"/>
+               <Res loc="/VSCodeIntegrate/timer.h" locRef="8" locType="sr" name="timer.h" supp="0" total="0"/>
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>

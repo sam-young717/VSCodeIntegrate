@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named cpptest_coverage_report
+
+# Build rule for target.
+cpptest_coverage_report: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpptest_coverage_report
+.PHONY : cpptest_coverage_report
+
+# fast build rule for target.
+cpptest_coverage_report/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpptest_coverage_report.dir/build.make CMakeFiles/cpptest_coverage_report.dir/build
+.PHONY : cpptest_coverage_report/fast
+
+#=============================================================================
 # Target rules for targets named timer
 
 # Build rule for target.
@@ -233,6 +246,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... cpptest_coverage_report"
 	@echo "... timer"
 	@echo "... clock.o"
 	@echo "... clock.i"

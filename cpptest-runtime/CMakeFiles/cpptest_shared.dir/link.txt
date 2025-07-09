@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libcpptest_shared.so -o libcpptest_shared.so CMakeFiles/cpptest_shared.dir/src/cpptest.c.o 

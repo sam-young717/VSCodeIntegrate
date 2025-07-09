@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><ResultsSession buildId="2025-04-03" climode="true" endTime="2025-04-03T11:37:23-04:00" execEnv="linux_x86_64" hasViols="false" id="1742326047033" lang="en" machine="syoung-pc" prjModule="VSCodeIntegrate" project="" tag="${scontrol_branch}-linux_x86_64" time="2025-04-03T11:37:22-04:00" toolDispName="C/C++test" toolId="c++test" toolName="DTP Engine for C/C++" toolVer="2024.2.0" user="syoung">
+<?xml version='1.0' encoding='UTF-8'?><ResultsSession buildId="2025-06-10" climode="true" endTime="2025-06-10T13:28:36-04:00" execEnv="linux_x86_64" hasViols="false" id="1748207919946" lang="en" machine="syoung-pc" prjModule="VSCodeIntegrate" project="" tag="${scontrol_branch}-linux_x86_64" time="2025-06-10T13:28:35-04:00" toolDispName="C/C++test" toolId="c++test" toolName="DTP Engine for C/C++" toolVer="2024.2.0" user="syoung">
    <TestConfig machine="syoung-pc" name="Coverage" pseudoUrl="builtin://Coverage" user="syoung"/>
    <Authors/>
    <Analyzers>
@@ -24,8 +24,8 @@
                <Category color="red" name="Total" pos="0"/>
             </Categories>
             <Total secSer="1" title="" xTitle="Date" yTitle="Tasks" yTitle2="Total Tasks">
-               <X>04-03-25,</X>
-               <Y>0,</Y>
+               <X>04-03-25,04-10-25,06-10-25,</X>
+               <Y>0,0,0,</Y>
                <Delta>0,</Delta>
             </Total>
          </Graph>
@@ -66,8 +66,8 @@
                <Category authPos="2" color="red" name="Assertion Failures" pos="2"/>
             </Categories>
             <Total secSer="1" title="" xTitle="Date" yTitle="Tasks" yTitle2="Assertion Failures">
-               <X>04-03-25,</X>
-               <Y>0,0,0,</Y>
+               <X>04-03-25,04-10-25,06-10-25,</X>
+               <Y>0,0,0,0,0,0,0,0,0,</Y>
                <Delta>0,0,0,</Delta>
             </Total>
          </Graph>
@@ -79,8 +79,8 @@
                <Category color="yellow" name="Incomplete" pos="3"/>
             </Categories>
             <Total secSer="2" title="" xTitle="Date" yTitle="Total / Passed" yTitle2="Failed / Incomplete">
-               <X>04-03-25,</X>
-               <Y>0,0,0,0,</Y>
+               <X>04-03-25,04-10-25,06-10-25,</X>
+               <Y>0,0,0,0,0,0,0,0,0,0,0,0,</Y>
                <Delta>0,0,0,0,</Delta>
             </Total>
          </Graph>

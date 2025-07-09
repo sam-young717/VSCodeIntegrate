@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?><ResultsSession buildId="MISRA C 2023-2025-06-16" climode="true" endTime="2025-06-16T12:13:20-04:00" execEnv="linux_x86_64" hasViols="false" id="1748721803904" lang="en" machine="syoung-pc" project="MISRA C 2023" tag="${scontrol_branch}-linux_x86_64" time="2025-06-16T12:13:20-04:00" toolDispName="C/C++test" toolId="c++test" toolName="DTP Engine for C/C++" toolVer="2024.2.0" user="syoung">
+   <TestConfig machine="syoung-pc" name="MISRA C 2023 (MISRA C 2012)" pseudoUrl="builtin://MISRA C 2023 (MISRA C 2012)" user="syoung"/>
+   <Authors/>
+   <Analyzers/>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IChangeImpactViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1"/>
+   </VersionInfos>
+   <Scope>
+      <Repositories/>
+      <Locations/>
+   </Scope>
+   
+  <SetupProblems>
+    <Problem msg="Cannot execute rules that are specified in your test configuration. The following features are not licensed:" sev="2" totErrs="1" type="License">
+      <ErrorList>
+        <Error val="MISRA C 2012 Rules"/>
+      </ErrorList>
+    </Problem>
+  </SetupProblems>
+
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>

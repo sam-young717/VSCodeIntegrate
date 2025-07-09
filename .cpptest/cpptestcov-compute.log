@@ -1,0 +1,554 @@
+2025-06-10 13:00:45,584 [INFO] Starting cpptestcov-compute 2024.2.0 (10.7.1.20241114B889)... at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:31)
+2025-06-10 13:00:45,587 [INFO] Arguments: [-clog=.build/cpptest-coverage/Timer/Timer.clog, -map=.cpptest/cpptestcc, -out=cov-data-dir] at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:32)
+2025-06-10 13:00:45,588 [INFO] Max memory available: 4120903680 at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:33)
+2025-06-10 13:00:45,588 [INFO] Available CPUs: 22 at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:34)
+2025-06-10 13:00:45,592 [INFO] Java home: /usr/lib/jvm/java-17-openjdk-amd64 at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:35)
+2025-06-10 13:00:45,592 [INFO] Java version: 17.0.15 at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:36)
+2025-06-10 13:00:45,593 [INFO] Java vendor: Ubuntu at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:37)
+2025-06-10 13:00:45,593 [INFO] OS arch: amd64 at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:38)
+2025-06-10 13:00:45,593 [INFO] OS name: Linux at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:39)
+2025-06-10 13:00:45,594 [INFO] OS version: 5.15.146.1-microsoft-standard-WSL2 at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:40)
+2025-06-10 13:00:45,594 [INFO] Working dir (user.dir): /mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:41)
+2025-06-10 13:00:45,595 [INFO] Home dir (user.home): /home/syoung at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:42)
+2025-06-10 13:00:45,896 [INFO] Started ProfilerDumper listening thread on command file: /mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/xtest_dump_stats.cmd at com.parasoft.xtest.common.profiler.ProfilerStatisticsService.<init>(ProfilerStatisticsService.java:54)
+2025-06-10 13:00:46,012 [INFO] Diagnostics mode is ON. File=/tmp/parasoft-syoung/storages/storage_2025-06-10_13-00-44/logs/run_2025-06-10_13-00-44/xtest.diagnostics.txt at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.initialize(ServiceDiagnosticCollector.java:294)
+2025-06-10 13:00:46,025 [INFO] [CONSOLE]  at com.parasoft.cpptest.coverage.common.Console.writeln(Console.java:55)
+2025-06-10 13:00:46,025 [INFO] [CONSOLE] Checking license ... at com.parasoft.cpptest.coverage.common.Console.writeln(Console.java:55)
+2025-06-10 13:00:46,031 [DEBUG] Configured native libraries path by property "xtest.os.libs.dir": /mnt/c/Users/syoung/Documents/CppTestLinux/cpptest-ct/lib/os/linux/x86_64 at com.parasoft.xtest.common.nativecode.NativeDLL.loadLibrary(NativeDLL.java:62)
+2025-06-10 13:00:46,032 [DEBUG] Loading Xtest native library from: /mnt/c/Users/syoung/Documents/CppTestLinux/cpptest-ct/lib/os/linux/x86_64/... at com.parasoft.xtest.common.nativecode.NativeDLL.loadLibrary(NativeDLL.java:70)
+2025-06-10 13:00:46,071 [DEBUG] Scheduling collecting of diagnostics information for com.parasoft.xtest.lic.client.internal.service.LicenseService@ec2cc4 at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.collect(ServiceDiagnosticCollector.java:108)
+2025-06-10 13:00:46,101 [INFO] Using license source store from null at com.parasoft.xtest.lic.client.LicenseDefinitionStorage.setupPreferenceStore(LicenseDefinitionStorage.java:211)
+2025-06-10 13:00:46,108 [DEBUG] Setting: cpptestct.license.network.edition mapped to storage key: cpptestct.license.network.edition at com.parasoft.xtest.common.preferences.PreferenceStoreUtil.patchWithLocalSettings(PreferenceStoreUtil.java:213)
+2025-06-10 13:00:46,110 [DEBUG] Setting: dtp.url mapped to storage key: dtp.url at com.parasoft.xtest.common.preferences.PreferenceStoreUtil.patchWithLocalSettings(PreferenceStoreUtil.java:213)
+2025-06-10 13:00:46,111 [DEBUG] Setting: dtp.password mapped to storage key: dtp.password at com.parasoft.xtest.common.preferences.PreferenceStoreUtil.patchWithLocalSettings(PreferenceStoreUtil.java:213)
+2025-06-10 13:00:46,111 [DEBUG] Setting: dtp.project mapped to storage key: dtp.project at com.parasoft.xtest.common.preferences.PreferenceStoreUtil.patchWithLocalSettings(PreferenceStoreUtil.java:213)
+2025-06-10 13:00:46,115 [INFO] Number of telemetry configurations: 1 at com.parasoft.xtest.common.telemetry.UTelemetry.getTelemetryConfiguration(UTelemetry.java:65)
+2025-06-10 13:00:46,118 [DEBUG] Telemetry connection string: qVx9N1NMROjrd/s5HgmLbh4kIv6dTNYdzEy4zAL6u0SUx7CLOwrBWyMGXcDILMBNTVAryX2ODUXg2PfuDcw6HNwMMYWqbGNm3sEiI+S6e9uXK5Drf/rIq7sl7+L9GQlWWXWWpD+TqJVq8yrwlAD1uS6Ltgs6fqZhCfD41sVTBXKodhCyhPb+OqYP45dEWdglGqC3a+n30GvHqRfROoHGbDuOk0JAHLpMcPa/1V+jxVC3RquIaZIc+9/XM4cVYgAzTSsb/wuUd+FHntPOe9oOmjZy+x0MFGeSJ7FDLFTG8KANa/rG7k4JPXx2AbD54SV1Rl6VfELg1rT61V38yglfNw== at com.parasoft.cpptest.coverage.common.telemetry.TelemetryConfiguration.getConnectionString(TelemetryConfiguration.java:27)
+2025-06-10 13:00:46,152 [INFO] Setting connection string by configuration service at com.parasoft.xtest.common.telemetry.TelemetryReporter.findConnectionString(TelemetryReporter.java:134)
+2025-06-10 13:00:46,242 [DEBUG] Cannot find company name. Probably will be provided by license event. at com.parasoft.xtest.common.telemetry.TelemetryReporter.findCompanyName(TelemetryReporter.java:215)
+2025-06-10 13:00:46,244 [DEBUG] Scheduling collecting of diagnostics information for com.parasoft.xtest.common.telemetry.TelemetryReporter@3532c53a at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.collect(ServiceDiagnosticCollector.java:108)
+2025-06-10 13:00:46,261 [DEBUG] Available Cloud VMs: [Docker, AWS, Azure] at com.parasoft.xtest.common.vm.VMInfoFactory.provideVMInfo(VMInfoFactory.java:45)
+2025-06-10 13:00:46,261 [DEBUG] Docker: Detection... at com.parasoft.xtest.common.vm.VMInfoFactory.provideVMInfo(VMInfoFactory.java:52)
+2025-06-10 13:00:46,265 [DEBUG] Docker: Processing file: cgroup at com.parasoft.xtest.common.vm.DockerDetector.extractDockerId(DockerDetector.java:152)
+2025-06-10 13:00:46,267 [DEBUG] Docker: Processing file: cgroup at com.parasoft.xtest.common.vm.DockerDetector.extractDockerId(DockerDetector.java:152)
+2025-06-10 13:00:46,268 [DEBUG] Docker: Processing file: mountinfo at com.parasoft.xtest.common.vm.DockerDetector.extractDockerId(DockerDetector.java:152)
+2025-06-10 13:00:46,270 [DEBUG] AWS: Detection... at com.parasoft.xtest.common.vm.VMInfoFactory.provideVMInfo(VMInfoFactory.java:52)
+2025-06-10 13:00:46,278 [DEBUG] AWS: No hypervisor file found. at com.parasoft.xtest.common.vm.AWSDetector.getAWSSystemUUID(AWSDetector.java:90)
+2025-06-10 13:00:46,278 [DEBUG] Azure: Detection... at com.parasoft.xtest.common.vm.VMInfoFactory.provideVMInfo(VMInfoFactory.java:52)
+2025-06-10 13:00:46,279 [DEBUG] Azure: /sys/devices/virtual/dmi/id/chassis_asset_tag file is not found... at com.parasoft.xtest.common.vm.AzureDetector.isAzureDetected(AzureDetector.java:124)
+2025-06-10 13:00:46,280 [DEBUG] Azure: /var/lib/dhclient/dhclient-eth0.lease file is not found... at com.parasoft.xtest.common.vm.AzureDetector.isAzureDetected(AzureDetector.java:124)
+2025-06-10 13:00:46,280 [DEBUG] Azure: /var/lib/dhcp/dhclient.eth0.leases file is not found... at com.parasoft.xtest.common.vm.AzureDetector.isAzureDetected(AzureDetector.java:124)
+2025-06-10 13:00:46,280 [DEBUG] Cannot detect Azure environment. None of used Azure id is valid at com.parasoft.xtest.common.vm.AzureDetector.usingAzureVM(AzureDetector.java:113)
+2025-06-10 13:00:46,280 [DEBUG] No Cloud VMInfo found at com.parasoft.xtest.common.vm.VMInfoFactory.provideVMInfo(VMInfoFactory.java:84)
+2025-06-10 13:00:46,320 [DEBUG] File [/home/syoung/.parasoft/cpptestct/10.7/license/current.bor] not exists. at com.parasoft.xtest.lic.client.internal.BorrowedLicenseManager.load(BorrowedLicenseManager.java:324)
+2025-06-10 13:00:46,326 [INFO] Create LicServDescriptior for type: Network_LicServ at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.createLicServDescriptor(InternalLicenseManager.java:884)
+2025-06-10 13:00:46,329 [DEBUG] Not an instance of stateful oidc service, ignoring: null at com.parasoft.xtest.common.dtp.DtpPreferences.getStatefulOidcService(DtpPreferences.java:100)
+2025-06-10 13:00:46,330 [INFO] Connect to main DTP: https://localhost:8443 at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.createLicServDescriptor(InternalLicenseManager.java:904)
+2025-06-10 13:00:46,338 [DEBUG] Not an instance of stateful oidc service, ignoring: null at com.parasoft.xtest.common.dtp.DtpPreferences.getStatefulOidcService(DtpPreferences.java:100)
+2025-06-10 13:00:46,366 [DEBUG] Created a new persistently cached instance of service via factory: null::null::null::/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate::0::DeviceCode::-156875657 at com.parasoft.xtest.common.oidc.OidcServiceFactory.getService(OidcServiceFactory.java:42)
+2025-06-10 13:00:46,366 [DEBUG] Scheduling collecting of diagnostics information for com.parasoft.xtest.common.oidc.OidcService@532f306f at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.collect(ServiceDiagnosticCollector.java:108)
+2025-06-10 13:00:46,368 [DEBUG] Oidc service is disabled at com.parasoft.xtest.common.httpclient.XRestClient.createExecutor(XRestClient.java:182)
+2025-06-10 13:00:46,800 [INFO] [CONSOLE] DTP Services: Loading available services from https://localhost:8443/grs/api/v1.9/dtpServices at com.parasoft.cpptest.coverage.common.Console.writeln(Console.java:55)
+2025-06-10 13:00:46,801 [INFO] DTP Services: Loading available services from https://localhost:8443/grs/api/v1.9/dtpServices at com.parasoft.xtest.common.dtp.DtpServiceRegistry.writeOnConsole(DtpServiceRegistry.java:388)
+2025-06-10 13:00:46,806 [DEBUG] Executing request:  URI: https://localhost:8443/grs/api/v1.9/dtpServices, RestClient: com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient@4c51ab10 at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:246)
+2025-06-10 13:00:46,857 [INFO] [CONSOLE] DTP Services: Cannot load available services v1.9 from https://localhost:8443 at com.parasoft.cpptest.coverage.common.Console.writeln(Console.java:55)
+2025-06-10 13:00:46,858 [INFO] DTP Services: Cannot load available services v1.9 from https://localhost:8443 at com.parasoft.xtest.common.dtp.DtpServiceRegistry.writeOnConsole(DtpServiceRegistry.java:388)
+2025-06-10 13:00:46,858 [INFO] [CONSOLE] DTP Services: Unable to connect to DTP. Review the settings and the server connection. at com.parasoft.cpptest.coverage.common.Console.writeln(Console.java:55)
+2025-06-10 13:00:46,859 [INFO] DTP Services: Unable to connect to DTP. Review the settings and the server connection. at com.parasoft.xtest.common.dtp.DtpServiceRegistry.writeOnConsole(DtpServiceRegistry.java:388)
+2025-06-10 13:00:46,861 [WARN] Unable to read services from file after failed to read from remote v1.9_https://localhost:8443
+  file: /tmp/parasoft-syoung/storages/storage_2025-06-10_13-00-44/.dtp_services_cache
+  content read failure: /tmp/parasoft-syoung/storages/storage_2025-06-10_13-00-44/.dtp_services_cache at com.parasoft.xtest.common.dtp.DtpServiceRegistry.readServices(DtpServiceRegistry.java:366)
+2025-06-10 13:00:46,878 [INFO] Could not retrieve available services: Connect to localhost:8443 [localhost/127.0.0.1] failed: Connection refused at com.parasoft.xtest.common.dtp.DtpServiceRegistry.checkForDeprecatedDtp(DtpServiceRegistry.java:259)
+com.parasoft.xtest.common.dtp.DtpException: Could not retrieve available services: Connect to localhost:8443 [localhost/127.0.0.1] failed: Connection refused
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient.getServices(DtpServiceRegistry.java:659) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.readServices(DtpServiceRegistry.java:344) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.initialize(DtpServiceRegistry.java:281) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.isVersionSupported(DtpServiceRegistry.java:172) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.checkForDeprecatedDtp(DtpServiceRegistry.java:236) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.<init>(DtpServiceRegistry.java:96) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.<init>(DtpServiceRegistry.java:85) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistryFactory.createService(DtpServiceRegistryFactory.java:23) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistryFactory.createService(DtpServiceRegistryFactory.java:1) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.services.AbstractCachedServiceFactory.getFromContainer(AbstractCachedServiceFactory.java:63) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.services.AbstractCachedServiceFactory.getService(AbstractCachedServiceFactory.java:40) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.internal.InternalServicesProvider$InternalFactoryServiceRef.getService(InternalServicesProvider.java:241) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.api.AbstractServicesProvider.getService(AbstractServicesProvider.java:41) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.internal.InternalServicesProvider.getService(InternalServicesProvider.java:57) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.api.AbstractServicesProvider.getService(AbstractServicesProvider.java:31) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.api.ServiceUtil.getService(ServiceUtil.java:66) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.LicenseServerDescriptor.createForLicServOnDTP(LicenseServerDescriptor.java:170) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.createLicServDescriptor(InternalLicenseManager.java:905) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.getCurrentLicenseInfo(InternalLicenseManager.java:847) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.doInitialize(InternalLicenseManager.java:611) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.LicenseModule.initializeModule(LicenseModule.java:397) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.service.LicenseServiceModules.getModules(LicenseServiceModules.java:74) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.service.LicenseService.getModules(LicenseService.java:404) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.service.LicenseServiceDiagnostics.getServiceSettings(LicenseServiceDiagnostics.java:56) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.service.LicenseService.getServiceSettings(LicenseService.java:336) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.getDiagnosticText(ServiceDiagnosticCollector.java:217) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.access$0(ServiceDiagnosticCollector.java:208) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector$2.run(ServiceDiagnosticCollector.java:116) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8443 [localhost/127.0.0.1] failed: Connection refused
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpClientWithAuthCacheFactory$ClientImpl.execute(HttpClientWithAuthCacheFactory.java:144) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpsExecutorFactory$ProxyExecutor.execute(HttpsExecutorFactory.java:241) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:285) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:248) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:205) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:195) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient.getServices(DtpServiceRegistry.java:635) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	... 30 more
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpClientWithAuthCacheFactory$ClientImpl.execute(HttpClientWithAuthCacheFactory.java:144) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpsExecutorFactory$ProxyExecutor.execute(HttpsExecutorFactory.java:241) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:285) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:248) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:205) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:195) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient.getServices(DtpServiceRegistry.java:635) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	... 30 more
+2025-06-10 13:00:46,893 [DEBUG] Scheduling collecting of diagnostics information for com.parasoft.xtest.common.dtp.DtpServiceRegistry@2070fbbc at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.collect(ServiceDiagnosticCollector.java:108)
+2025-06-10 13:00:46,894 [DEBUG] Not an instance of stateful oidc service, ignoring: null at com.parasoft.xtest.common.dtp.DtpPreferences.getStatefulOidcService(DtpPreferences.java:100)
+2025-06-10 13:00:46,894 [DEBUG] Oidc service is disabled at com.parasoft.xtest.common.httpclient.XRestClient.createExecutor(XRestClient.java:182)
+2025-06-10 13:00:46,895 [DEBUG] Executing request:  URI: https://localhost:8443/grs/api/v1/dtpServices, RestClient: com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient@2cc8d1cd at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:246)
+2025-06-10 13:00:46,899 [WARN] Unable to read services from file after failed to read from remote https://localhost:8443
+  file: /tmp/parasoft-syoung/storages/storage_2025-06-10_13-00-44/.dtp_services_cache
+  content read failure: /tmp/parasoft-syoung/storages/storage_2025-06-10_13-00-44/.dtp_services_cache at com.parasoft.xtest.common.dtp.DtpServiceRegistry.readServices(DtpServiceRegistry.java:366)
+2025-06-10 13:00:46,899 [WARN] Could not retrieve available services: Connect to localhost:8443 [localhost/127.0.0.1] failed: Connection refused at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.getCurrentLicenseInfo(InternalLicenseManager.java:852)
+com.parasoft.xtest.common.dtp.DtpException: Could not retrieve available services: Connect to localhost:8443 [localhost/127.0.0.1] failed: Connection refused
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient.getServices(DtpServiceRegistry.java:659) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.readServices(DtpServiceRegistry.java:344) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.initialize(DtpServiceRegistry.java:281) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.getServiceURI(DtpServiceRegistry.java:146) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.getServiceURI(DtpServiceRegistry.java:135) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.LicenseServerDescriptor.createForLicServOnDTP(LicenseServerDescriptor.java:178) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.createLicServDescriptor(InternalLicenseManager.java:905) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.getCurrentLicenseInfo(InternalLicenseManager.java:847) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.doInitialize(InternalLicenseManager.java:611) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.LicenseModule.initializeModule(LicenseModule.java:397) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.service.LicenseServiceModules.getModules(LicenseServiceModules.java:74) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.service.LicenseService.getModules(LicenseService.java:404) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.service.LicenseServiceDiagnostics.getServiceSettings(LicenseServiceDiagnostics.java:56) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.service.LicenseService.getServiceSettings(LicenseService.java:336) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.getDiagnosticText(ServiceDiagnosticCollector.java:217) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.access$0(ServiceDiagnosticCollector.java:208) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector$2.run(ServiceDiagnosticCollector.java:116) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8443 [localhost/127.0.0.1] failed: Connection refused
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpClientWithAuthCacheFactory$ClientImpl.execute(HttpClientWithAuthCacheFactory.java:144) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpsExecutorFactory$ProxyExecutor.execute(HttpsExecutorFactory.java:241) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:285) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:248) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:205) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:195) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient.getServices(DtpServiceRegistry.java:635) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	... 19 more
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpClientWithAuthCacheFactory$ClientImpl.execute(HttpClientWithAuthCacheFactory.java:144) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpsExecutorFactory$ProxyExecutor.execute(HttpsExecutorFactory.java:241) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:285) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:248) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:205) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:195) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient.getServices(DtpServiceRegistry.java:635) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	... 19 more
+2025-06-10 13:00:46,915 [INFO] security.provider.1=SUN at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:42)
+2025-06-10 13:00:46,915 [INFO] security.provider.2=SunRsaSign at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:42)
+2025-06-10 13:00:46,915 [INFO] security.provider.3=SunEC at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:42)
+2025-06-10 13:00:46,916 [INFO] security.provider.4=SunJSSE at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:42)
+2025-06-10 13:00:46,916 [INFO] security.provider.5=SunJCE at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:42)
+2025-06-10 13:00:46,916 [INFO] security.provider.6=SunJGSS at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:42)
+2025-06-10 13:00:46,924 [INFO] security.provider.7=SunSASL at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:42)
+2025-06-10 13:00:46,924 [INFO] security.provider.8=XMLDSig at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:42)
+2025-06-10 13:00:46,925 [INFO] security.provider.9=SunPCSC at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:42)
+2025-06-10 13:00:46,927 [INFO] security.provider.10=JdkLDAP at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:42)
+2025-06-10 13:00:46,928 [INFO] security.provider.11=JdkSASL at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:42)
+2025-06-10 13:00:46,929 [INFO] security.provider.12=SunPKCS11 at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:42)
+2025-06-10 13:00:46,929 [INFO] [FIPS] - Expected exactly 3 providers but was: 12 at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:47)
+2025-06-10 13:00:46,930 [INFO] [FIPS] - security.provider.1=org.bouncycastle.jcajce.provider.BouncyCastleFipsProvider at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:51)
+2025-06-10 13:00:46,930 [INFO] [FIPS] - security.provider.2=org.bouncycastle.jsse.provider.BouncyCastleJsseProvider fips:BCFIPS at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:55)
+2025-06-10 13:00:46,932 [INFO] [FIPS] - ssl.KeyManagerFactory.algorithm=PKIX at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:69)
+2025-06-10 13:00:46,932 [INFO] [FIPS] - keystore.type.compat=false at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:69)
+2025-06-10 13:00:46,935 [INFO] [FIPS] - keystore.type=fips at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:69)
+2025-06-10 13:00:46,937 [INFO] [FIPS] - org.bouncycastle.fips.approved_only=true at com.parasoft.xtest.common.FIPSUtil.privilegedValidateFipsJavaConfiguration(FIPSUtil.java:75)
+2025-06-10 13:00:46,942 [INFO] [CONSOLE] License: Initializing network license for C/C++test CT 10.7 at com.parasoft.cpptest.coverage.common.Console.writeln(Console.java:55)
+2025-06-10 13:00:46,944 [INFO] initialization: begin at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.doInitialize(InternalLicenseManager.java:645)
+2025-06-10 13:00:46,951 [DEBUG] CLI mode - not checking whether the license is starting as deactivated. at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.isStartingDeactivated(InternalLicenseManager.java:255)
+2025-06-10 13:00:46,953 [DEBUG] Asynchronous activation of the license during initialization at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.doInitialize(InternalLicenseManager.java:653)
+2025-06-10 13:00:46,957 [DEBUG] activateLicense: entered activation mode in THREAD: ServiceDiagnosticCollector Thread@1fbd48c0 THIS@6069932c at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.activateLicense(InternalLicenseManager.java:387)
+2025-06-10 13:00:46,963 [INFO] Create LicServDescriptior for type: Network_LicServ at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.createLicServDescriptor(InternalLicenseManager.java:884)
+2025-06-10 13:00:46,964 [DEBUG] Not an instance of stateful oidc service, ignoring: null at com.parasoft.xtest.common.dtp.DtpPreferences.getStatefulOidcService(DtpPreferences.java:100)
+2025-06-10 13:00:46,964 [INFO] Connect to main DTP: https://localhost:8443 at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.createLicServDescriptor(InternalLicenseManager.java:904)
+2025-06-10 13:00:46,965 [DEBUG] Not an instance of stateful oidc service, ignoring: null at com.parasoft.xtest.common.dtp.DtpPreferences.getStatefulOidcService(DtpPreferences.java:100)
+2025-06-10 13:00:46,967 [DEBUG] Oidc service is disabled at com.parasoft.xtest.common.httpclient.XRestClient.createExecutor(XRestClient.java:182)
+2025-06-10 13:00:46,968 [DEBUG] Executing request:  URI: https://localhost:8443/grs/api/v1/dtpServices, RestClient: com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient@565e763f at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:246)
+2025-06-10 13:00:46,971 [DEBUG] Waiting for license activation for: THREAD: main@6b98a075 THIS@6069932c at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.waitForActivation(InternalLicenseManager.java:1289)
+2025-06-10 13:00:46,973 [WARN] Unable to read services from file after failed to read from remote https://localhost:8443
+  file: /tmp/parasoft-syoung/storages/storage_2025-06-10_13-00-44/.dtp_services_cache
+  content read failure: /tmp/parasoft-syoung/storages/storage_2025-06-10_13-00-44/.dtp_services_cache at com.parasoft.xtest.common.dtp.DtpServiceRegistry.readServices(DtpServiceRegistry.java:366)
+2025-06-10 13:00:46,972 [DEBUG] Waiting for license activation for: THREAD: ServiceDiagnosticCollector Thread@1fbd48c0 THIS@6069932c at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.waitForActivation(InternalLicenseManager.java:1289)
+2025-06-10 13:00:46,973 [WARN] Could not retrieve available services: Connect to localhost:8443 [localhost/127.0.0.1] failed: Connection refused at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.getCurrentLicenseInfo(InternalLicenseManager.java:852)
+com.parasoft.xtest.common.dtp.DtpException: Could not retrieve available services: Connect to localhost:8443 [localhost/127.0.0.1] failed: Connection refused
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient.getServices(DtpServiceRegistry.java:659) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.readServices(DtpServiceRegistry.java:344) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.initialize(DtpServiceRegistry.java:281) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.getServiceURI(DtpServiceRegistry.java:146) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.getServiceURI(DtpServiceRegistry.java:135) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.LicenseServerDescriptor.createForLicServOnDTP(LicenseServerDescriptor.java:178) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.createLicServDescriptor(InternalLicenseManager.java:905) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.getCurrentLicenseInfo(InternalLicenseManager.java:847) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.LicenseCheckThread.<init>(LicenseCheckThread.java:93) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.internalActivateLicense(InternalLicenseManager.java:419) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.lambda$2(InternalLicenseManager.java:389) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.async.AsyncCallHandler.doCall(AsyncCallHandler.java:120) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.async.AsyncCallHandler$1.run(AsyncCallHandler.java:92) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8443 [localhost/127.0.0.1] failed: Connection refused
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpClientWithAuthCacheFactory$ClientImpl.execute(HttpClientWithAuthCacheFactory.java:144) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpsExecutorFactory$ProxyExecutor.execute(HttpsExecutorFactory.java:241) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:285) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:248) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:205) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:195) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient.getServices(DtpServiceRegistry.java:635) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	... 12 more
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpClientWithAuthCacheFactory$ClientImpl.execute(HttpClientWithAuthCacheFactory.java:144) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpsExecutorFactory$ProxyExecutor.execute(HttpsExecutorFactory.java:241) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:285) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:248) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:205) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:195) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient.getServices(DtpServiceRegistry.java:635) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	... 12 more
+2025-06-10 13:00:46,974 [INFO] [CONSOLE] License: Activating Code Compliance Edition at com.parasoft.cpptest.coverage.common.Console.writeln(Console.java:55)
+2025-06-10 13:00:46,975 [INFO] activateLicense: begin in THREAD: License Check Thread (IntLicMan@6069932c)@36718970 THIS@6069932c at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.internalActivateLicense(InternalLicenseManager.java:422)
+2025-06-10 13:00:46,986 [DEBUG] No pending released found, skip releasing.. at com.parasoft.xtest.lic.client.internal.BorrowedLicenseManager.processReleassing(BorrowedLicenseManager.java:131)
+2025-06-10 13:00:46,987 [INFO] Borrowed license file [/home/syoung/.parasoft/cpptestct/10.7/license/current.bor] does not exist, moving to released skipped. at com.parasoft.xtest.lic.client.internal.BorrowedLicenseManager.moveToReleased(BorrowedLicenseManager.java:370)
+2025-06-10 13:00:46,987 [DEBUG] No pending released found, skip releasing.. at com.parasoft.xtest.lic.client.internal.BorrowedLicenseManager.processReleassing(BorrowedLicenseManager.java:131)
+2025-06-10 13:00:46,988 [INFO] [CONSOLE] License: Checking features at com.parasoft.cpptest.coverage.common.Console.writeln(Console.java:55)
+2025-06-10 13:00:46,988 [INFO] Checking license features... at com.parasoft.xtest.lic.client.internal.LicenseCheckThread.checkMainFeature(LicenseCheckThread.java:699)
+2025-06-10 13:00:46,988 [INFO] Feature: C/C++test CT, version: 10.7 at com.parasoft.xtest.lic.client.internal.LicenseCheckThread.checkMainFeature(LicenseCheckThread.java:709)
+2025-06-10 13:00:46,990 [WARN] Server descriptor value is not set. at com.parasoft.xtest.lic.client.internal.LicenseValidator.createClient(LicenseValidator.java:268)
+2025-06-10 13:00:46,991 [INFO] Unrecoverable error at com.parasoft.xtest.lic.client.internal.LicenseCheckThread.checkMainFeature(LicenseCheckThread.java:713)
+2025-06-10 13:00:46,991 [INFO] [CONSOLE] License: Main C/C++test CT feature: Unable to connect to License Server at com.parasoft.cpptest.coverage.common.Console.writeln(Console.java:55)
+2025-06-10 13:00:46,991 [INFO] Final main feature status: NO_LICSERV at com.parasoft.xtest.lic.client.internal.LicenseCheckThread.checkMainFeature(LicenseCheckThread.java:732)
+2025-06-10 13:00:46,993 [WARN] Server descriptor value is not set. at com.parasoft.xtest.lic.client.internal.LicenseValidator.createClient(LicenseValidator.java:268)
+2025-06-10 13:00:46,993 [WARN] Company name cannot be obtained, client not available for descriptor null at com.parasoft.xtest.lic.client.internal.LicenseValidator.getCompanyName(LicenseValidator.java:258)
+2025-06-10 13:00:46,994 [DEBUG] Telemetry event: xtest.license.check.data at com.parasoft.xtest.common.telemetry.UTelemetry.reportEvent(UTelemetry.java:82)
+2025-06-10 13:00:46,994 [DEBUG] Ignoring telemetry event: xtest.license.check.data at com.parasoft.xtest.common.telemetry.TelemetryReporter.reportEvent(TelemetryReporter.java:229)
+2025-06-10 13:00:46,994 [DEBUG] C/C++test CT STATUS: Unable to connect to License Server at com.parasoft.xtest.lic.client.internal.FeaturesStates.getMainFeatureStatus(FeaturesStates.java:203)
+2025-06-10 13:00:46,995 [INFO] activateLicense: end, overall status: NO_LICSERV in THREAD: License Check Thread (IntLicMan@6069932c)@36718970 THIS@6069932c at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.internalActivateLicense(InternalLicenseManager.java:430)
+2025-06-10 13:00:46,995 [INFO] [CONSOLE] License: Activation failed: Unable to connect to License Server at com.parasoft.cpptest.coverage.common.Console.writeln(Console.java:55)
+2025-06-10 13:00:46,995 [INFO] [CONSOLE] License: Machine id LINUX2-793d518f (Default) at com.parasoft.cpptest.coverage.common.Console.writeln(Console.java:55)
+2025-06-10 13:00:46,996 [INFO] cancelOtherThreads: begin at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.cancelOtherThreads(InternalLicenseManager.java:950)
+2025-06-10 13:00:46,996 [DEBUG] C/C++test CT STATUS: Unable to connect to License Server at com.parasoft.xtest.lic.client.internal.FeaturesStates.getMainFeatureStatus(FeaturesStates.java:203)
+2025-06-10 13:00:46,997 [DEBUG] activateLicense: leaving activation mode in THREAD: License Check Thread (IntLicMan@6069932c)@36718970 THIS@6069932c at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.activateLicenseFinished(InternalLicenseManager.java:1067)
+2025-06-10 13:00:46,998 [DEBUG] Finished waiting for license activation for: THREAD: main@6b98a075 THIS@6069932c at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.waitForActivation(InternalLicenseManager.java:1301)
+2025-06-10 13:00:46,998 [INFO] [CONSOLE] ERROR: Invalid license at com.parasoft.cpptest.coverage.common.Console.writeln(Console.java:55)
+2025-06-10 13:00:46,998 [DEBUG] Finished waiting for license activation for: THREAD: ServiceDiagnosticCollector Thread@1fbd48c0 THIS@6069932c at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.waitForActivation(InternalLicenseManager.java:1301)
+2025-06-10 13:00:47,000 [WARN] Break execution at com.parasoft.cpptest.coverage.CoverageCompute.call(CoverageCompute.java:160)
+com.parasoft.cpptest.coverage.common.BreakExecutionException: null
+	at com.parasoft.cpptest.coverage.CoverageCompute.callImpl(CoverageCompute.java:260) ~[com.parasoft.cpptest.coverage.compute-2024.2.0.20241114B889.jar:?]
+	at com.parasoft.cpptest.coverage.CoverageCompute.call(CoverageCompute.java:157) ~[com.parasoft.cpptest.coverage.compute-2024.2.0.20241114B889.jar:?]
+	at com.parasoft.cpptest.coverage.CoverageCompute.call(CoverageCompute.java:70) ~[com.parasoft.cpptest.coverage.compute-2024.2.0.20241114B889.jar:?]
+	at picocli.CommandLine.executeUserObject(CommandLine.java:1953) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine.access$1300(CommandLine.java:145) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2358) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2352) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2314) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2179) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2316) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine.execute(CommandLine.java:2078) ~[picocli-4.6.3.jar:4.6.3]
+	at com.parasoft.cpptest.coverage.CoverageCompute.executeCC(CoverageCompute.java:147) ~[com.parasoft.cpptest.coverage.compute-2024.2.0.20241114B889.jar:?]
+	at com.parasoft.cpptest.coverage.CoverageCompute.main(CoverageCompute.java:129) ~[com.parasoft.cpptest.coverage.compute-2024.2.0.20241114B889.jar:?]
+2025-06-10 13:00:47,003 [DEBUG] Ignoring telemetry event: cpptest.command.run.data at com.parasoft.xtest.common.telemetry.TelemetryReporter.reportEvent(TelemetryReporter.java:229)
+2025-06-10 13:00:47,008 [DEBUG] Finished collecting of diagnostics information for com.parasoft.xtest.lic.client.internal.service.LicenseService@ec2cc4 at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector$2.run(ServiceDiagnosticCollector.java:118)
+2025-06-10 13:00:47,010 [DEBUG] Finished collecting of diagnostics information for com.parasoft.xtest.common.telemetry.TelemetryReporter@3532c53a at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector$2.run(ServiceDiagnosticCollector.java:118)
+2025-06-10 13:00:47,013 [DEBUG] Finished collecting of diagnostics information for com.parasoft.xtest.common.oidc.OidcService@532f306f at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector$2.run(ServiceDiagnosticCollector.java:118)
+2025-06-10 13:00:47,017 [DEBUG] Not an instance of stateful oidc service, ignoring: null at com.parasoft.xtest.common.dtp.DtpPreferences.getStatefulOidcService(DtpPreferences.java:100)
+2025-06-10 13:00:47,018 [DEBUG] Oidc service is disabled at com.parasoft.xtest.common.httpclient.XRestClient.createExecutor(XRestClient.java:182)
+2025-06-10 13:00:47,019 [DEBUG] Executing request:  URI: https://localhost:8443/grs/api/v1/dtpServices, RestClient: com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient@29db9d7 at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:246)
+2025-06-10 13:00:47,023 [DEBUG] 
+License Profiler
++ ------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| NAME                                                         | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| LicenseModule.initializeModule                               | 1     | 0.636     | 0.636   | 0.636   | 0.636   |
+| LicenseService.isEnabled[Main]                               | 2     | 0.064     | 0.03    | 0.034   | 0.032   |
+| IntLicManager.getState[C++Test]                              | 38    | 0.062     | 0.0     | 0.032   | 0.001   |
+| IntLicManager.activateLicense                                | 1     | 0.033     | 0.033   | 0.033   | 0.033   |
+| IntLicManager.WAIT[main]                                     | 1     | 0.025     | 0.025   | 0.025   | 0.025   |
+| IntLicManager.WAIT[ServiceDiagnosticCollector Thread]        | 1     | 0.024     | 0.024   | 0.024   | 0.024   |
+| LicenseService.isEnabled[Max-Unit-Test-Bulk-Testables-Value] | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Security]                           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Command-Line-Execution]             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Flow-Analysis]                      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Team-Share-Edit]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[LLM-Integration]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[DTP-Access]                         | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Team-Share-Access]                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Flow-Analysis-Data]                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[XML-Report-Generation]              | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Mass-Creation]                      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Automation]                         | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Performance-Benchmarking]           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Team-Share-Results-Upload]          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Application-Monitoring]             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Native-Tests-Import]                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Embedded-Testing]                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[API-Test-Creation]                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Coding-Standards]                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Change-Based-Testing]               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Runtime-Error-Detection]            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Sniffer]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Bug-Detective]                      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Generate-Recommendations]           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Code-Review]                        | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Coverage]                           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Spring-Framework]                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Source-Control]                     | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Concerto-Access]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.invokeAsyncCallsQueue                          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Enforce-Max-Errors]                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Rule-Wizard]                        | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Parameterization]                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Email-Reports]                      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Quick-Fix]                          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Unit-Testing]                       | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Self-Healing]                       | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.844s
+
+Async Call Profiler
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                        | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| AsyncCallHandler.startThread                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| InternalLicenseManager.invokeAsyncCall:1244 | 38    | 0.0       | 0.0     | 0.0     | 0.0     |
++ ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.0s
+
+XRest Profiler
++ ------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                      | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------- + ----- + --------- + ------- + ------- + ------- +
+| /grs/api/v1.9/dtpServices | 1     | 0.047     | 0.047   | 0.047   | 0.047   |
+| /grs/api/v1/dtpServices   | 2     | 0.005     | 0.002   | 0.003   | 0.002   |
++ ------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.052s
+
+VM Info Profiler
++ ------ + ----- + --------- + ------- + ------- + ------- +
+| NAME   | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------ + ----- + --------- + ------- + ------- + ------- +
+| Docker | 1     | 0.007     | 0.007   | 0.007   | 0.007   |
+| Azure  | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| AWS    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ------ + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.008s
+
+Default Profiler
++ ------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                      | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------- + ----- + --------- + ------- + ------- + ------- +
+| CryptUtil.decryptPassword | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 0.0s
+ at com.parasoft.xtest.common.profiler.ProfilerStatisticsService.doLog(ProfilerStatisticsService.java:133)
+2025-06-10 13:00:47,025 [WARN] Unable to read services from file after failed to read from remote https://localhost:8443
+  file: /tmp/parasoft-syoung/storages/storage_2025-06-10_13-00-44/.dtp_services_cache
+  content read failure: /tmp/parasoft-syoung/storages/storage_2025-06-10_13-00-44/.dtp_services_cache at com.parasoft.xtest.common.dtp.DtpServiceRegistry.readServices(DtpServiceRegistry.java:366)
+2025-06-10 13:00:47,025 [DEBUG] C/C++test CT STATUS: Unable to connect to License Server at com.parasoft.xtest.lic.client.internal.FeaturesStates.getMainFeatureStatus(FeaturesStates.java:203)
+2025-06-10 13:00:47,026 [WARN] Could not retrieve available services: Connect to localhost:8443 [localhost/127.0.0.1] failed: Connection refused at com.parasoft.xtest.common.dtp.DtpServiceRegistryDiagnostics.getDiagnosticInfo(DtpServiceRegistryDiagnostics.java:69)
+com.parasoft.xtest.common.dtp.DtpException: Could not retrieve available services: Connect to localhost:8443 [localhost/127.0.0.1] failed: Connection refused
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient.getServices(DtpServiceRegistry.java:659) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.readServices(DtpServiceRegistry.java:344) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.initialize(DtpServiceRegistry.java:281) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.getServicesIds(DtpServiceRegistry.java:122) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.getServicesIds(DtpServiceRegistry.java:112) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistryDiagnostics.getDiagnosticInfo(DtpServiceRegistryDiagnostics.java:63) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry.getDiagnosticInfo(DtpServiceRegistry.java:218) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.getDiagnosticText(ServiceDiagnosticCollector.java:238) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.access$0(ServiceDiagnosticCollector.java:208) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector$2.run(ServiceDiagnosticCollector.java:116) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8443 [localhost/127.0.0.1] failed: Connection refused
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpClientWithAuthCacheFactory$ClientImpl.execute(HttpClientWithAuthCacheFactory.java:144) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpsExecutorFactory$ProxyExecutor.execute(HttpsExecutorFactory.java:241) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:285) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:248) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:205) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:195) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient.getServices(DtpServiceRegistry.java:635) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	... 12 more
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:554) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.13.jar:4.5.13]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpClientWithAuthCacheFactory$ClientImpl.execute(HttpClientWithAuthCacheFactory.java:144) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262) ~[fluent-hc-4.5.13.jar:4.5.13]
+	at com.parasoft.xtest.common.httpclient.HttpsExecutorFactory$ProxyExecutor.execute(HttpsExecutorFactory.java:241) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:285) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.executeRequest(XRestClient.java:248) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:205) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.httpclient.XRestClient.getString(XRestClient.java:195) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	at com.parasoft.xtest.common.dtp.DtpServiceRegistry$DtpServicesClient.getServices(DtpServiceRegistry.java:635) ~[com.parasoft.xtest.coverage.all-10.7.1.20241108.jar:?]
+	... 12 more
+2025-06-10 13:00:47,028 [DEBUG] Finished collecting of diagnostics information for com.parasoft.xtest.common.dtp.DtpServiceRegistry@2070fbbc at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector$2.run(ServiceDiagnosticCollector.java:118)
+2025-06-10 13:00:47,033 [DEBUG] Total: 0 seconds (total - 0 seconds) at com.parasoft.xtest.common.profiler.ProfilerStatisticsService.doLog(ProfilerStatisticsService.java:136)
+2025-06-10 13:00:47,070 [DEBUG] Memory Statistics Profiler
++ -------------- + --------- +
+| Memory Metric  | Size [MB] |
++ -------------- + --------- +
+| Current memory | 22        |
+| Max memory     | 4121      |
+| Total memory   | 22        |
++ -------------- + --------- +
+ at com.parasoft.xtest.common.profiler.ProfilerStatisticsService.doLog(ProfilerStatisticsService.java:140)
+2025-06-10 13:00:47,071 [DEBUG] Log Issues Profiler
++ ------------- + ----- +
+| Logging Level | Count |
++ ------------- + ----- +
+| TRACE         | 0     |
+| TIME          | 0     |
+| DEBUG         | 64    |
+| INFO          | 65    |
+| WARN          | 11    |
+| ERROR         | 0     |
+| FATAL         | 0     |
++ ------------- + ----- +
+ at com.parasoft.xtest.common.profiler.ProfilerStatisticsService.doLog(ProfilerStatisticsService.java:144)
+2025-06-10 13:00:47,073 [INFO] Disposing module and releasing license for cpptestct at com.parasoft.xtest.lic.client.internal.service.LicenseServiceModules.dispose(LicenseServiceModules.java:188)
+2025-06-10 13:00:47,074 [WARN] Blocking method called from main thread! at com.parasoft.xtest.common.async.AsyncCallHandler.invoke(AsyncCallHandler.java:73)
+2025-06-10 13:00:47,075 [INFO] cancelTask: Timer at com.parasoft.xtest.lic.client.internal.LicenseCheckTimer.cancelTask(LicenseCheckTimer.java:40)
+2025-06-10 13:00:47,076 [INFO] Releasing license feature: C++Test at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.internalStopLicenseCheck(InternalLicenseManager.java:524)
+2025-06-10 13:00:47,076 [INFO] Releasing license feature: C++Test CT Core at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.internalStopLicenseCheck(InternalLicenseManager.java:524)
+2025-06-10 13:00:47,077 [INFO] Releasing license feature: C++Test CT Extended Coverage at com.parasoft.xtest.lic.client.internal.InternalLicenseManager.internalStopLicenseCheck(InternalLicenseManager.java:524)
+2025-06-10 13:00:47,079 [DEBUG]  at com.parasoft.xtest.common.io.FileInfoServiceFactory.shutdown(FileInfoServiceFactory.java:76)
+2025-06-10 13:00:47,083 [INFO] Exiting (code 5)... at com.parasoft.cpptest.coverage.CoverageCompute.main(CoverageCompute.java:130)

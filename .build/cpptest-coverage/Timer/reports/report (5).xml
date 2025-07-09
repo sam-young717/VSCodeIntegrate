@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?><ResultsSession buildId="2025-04-10" climode="true" endTime="2025-04-10T10:39:41-04:00" execEnv="linux_x86_64" hasViols="false" id="1742927384714" lang="en" machine="syoung-pc" prjModule="VSCodeIntegrate" project="" tag="${scontrol_branch}-linux_x86_64" time="2025-04-10T10:39:40-04:00" toolDispName="C/C++test" toolId="c++test" toolName="DTP Engine for C/C++" toolVer="2024.2.0" user="syoung">
+   <TestConfig machine="syoung-pc" name="Coverage" pseudoUrl="builtin://Coverage" user="syoung"/>
+   <Authors/>
+   <Analyzers>
+      <Analyzer id="com.parasoft.xtest.scope.analyzer" name="Scope Analyzer" ver="10.7.1.20241108"/>
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.coverage" name="Parasoft C/C++ Coverage Analyzer" ver="10.7.1.20241114B2528"/>
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IChangeImpactViolation" ver="1" ver10x="1"/>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1"/>
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1"/>
+   </VersionInfos>
+   <Goals tsks="0">
+      
+      <History>
+         <Graph id="gls">
+            <Categories>
+               <Category color="red" name="Total" pos="0"/>
+            </Categories>
+            <Total secSer="1" title="" xTitle="Date" yTitle="Tasks" yTitle2="Total Tasks">
+               <X>04-03-25,04-10-25,</X>
+               <Y>0,0,</Y>
+               <Delta>0,</Delta>
+            </Total>
+         </Graph>
+      </History>
+   
+   </Goals>
+   <Scope>
+      <Repositories/>
+      <Locations>
+         <Loc auth="syoung" hash="65740504" locRef="1" projId="VSCodeIntegrate" projPath="/VSCodeIntegrate" project="VSCodeIntegrate" resProjPath="driver.c" totLns="76" uri="file:/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/driver.c"/>
+         <Loc auth="syoung" hash="0" locRef="2" rejBy="com.parasoft.xtest.cpp.filter.fileexists.FileExistsPreFilter" totLns="-1" uri="file:/tmp/ParaSoft323195yxVGsYZ/ParaSoft323195ya9IJKe.c"/>
+         <Loc auth="syoung" hash="-249486341" locRef="3" projId="VSCodeIntegrate" projPath="/VSCodeIntegrate" project="VSCodeIntegrate" resProjPath="clock.c" totLns="30" uri="file:/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c"/>
+         <Loc auth="syoung" hash="844867668" locRef="4" projId="VSCodeIntegrate" projPath="/VSCodeIntegrate" project="VSCodeIntegrate" resProjPath="stdinout.c" totLns="55" uri="file:/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/stdinout.c"/>
+         <Loc auth="syoung" hash="-275311578" locRef="5" projId="VSCodeIntegrate" projPath="/VSCodeIntegrate" project="VSCodeIntegrate" resProjPath="timer.c" totLns="155" uri="file:/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/timer.c"/>
+         <Loc auth="syoung" hash="0" locRef="6" rejBy="com.parasoft.xtest.cpp.filter.fileexists.FileExistsPreFilter" totLns="-1" uri="file:/tmp/ParaSoft323228yIyvBhC/ParaSoft323228yzMeAEq.c"/>
+      </Locations>
+   </Scope>
+   
+  <SetupProblems/>
+
+   <Exec ownerId="com.parasoft.xtest.checkers.api.execution" time="0:00:00">
+      
+      <AssocUrls>
+         <Tag disp="Requirement" name="req"/>
+         <Tag disp="Feature request" name="fr"/>
+         <Tag disp="Problem report" name="pr"/>
+         <Tag disp="Task" name="task"/>
+         <Tag disp="Asset" name="asset"/>
+         <Tag disp="Test" name="test"/>
+      </AssocUrls>
+   
+      
+      <History>
+         <Graph id="tsks">
+            <Categories>
+               <Category authPos="0" color="gray" name="Unit Test Problems" pos="0"/>
+               <Category authPos="1" color="green" name="Exceptions" pos="1"/>
+               <Category authPos="2" color="red" name="Assertion Failures" pos="2"/>
+            </Categories>
+            <Total secSer="1" title="" xTitle="Date" yTitle="Tasks" yTitle2="Assertion Failures">
+               <X>04-03-25,04-10-25,</X>
+               <Y>0,0,0,0,0,0,</Y>
+               <Delta>0,0,0,</Delta>
+            </Total>
+         </Graph>
+         <Graph id="tc">
+            <Categories>
+               <Category color="gray" name="Total" pos="0"/>
+               <Category color="green" name="Passed" pos="1"/>
+               <Category color="red" name="Failed" pos="2"/>
+               <Category color="yellow" name="Incomplete" pos="3"/>
+            </Categories>
+            <Total secSer="2" title="" xTitle="Date" yTitle="Total / Passed" yTitle2="Failed / Incomplete">
+               <X>04-03-25,04-10-25,</X>
+               <Y>0,0,0,0,0,0,0,0,</Y>
+               <Delta>0,0,0,0,</Delta>
+            </Total>
+         </Graph>
+      </History>
+   
+      <Categories>
+         <CategoryGroup authTot="" authUrg="" desc="This represents the findings arising from tests that have already been reviewed. This includes exceptions that have been marked as expected, assertion failures from previously reviewed tests, and any other kind of unexpected behavior that needs to be looked at (such as timeouts)." id="GROUP.UTEST.PROBL" label="Fix Unit Test Problems" name="Unit Test Problems" total="0">
+            <Category authTot="" authUrg="" id="EXC" name="Runtime Exceptions" short="exception" total="0"/>
+            <Category authTot="" authUrg="" id="FAIL" name="Assertion Failures" short="failure" total="0"/>
+            <Category authTot="" authUrg="" id="CON.VIOL" name="Contract Violations" short="contract violation" total="0"/>
+            <Category authTot="" authUrg="" id="PROF.PROBL" name="Profiling Problems" short="profiling problem" total="0"/>
+            <Category authTot="" authUrg="" id="EXEC.PROBL" name="Execution Problems" short="execution problem" total="0"/>
+            <Category authTot="" authUrg="" id="TEST.PROBL" name="Test Problems" short="test problem" total="0"/>
+         </CategoryGroup>
+         <CategoryGroup authTot="" authUrg="" desc="These are the exceptions thrown by automatically generated test cases that need to be reviewed. After review they will be marked as &quot;expected&quot; or code fixed so that the exception does not occur any more." id="GROUP.UNVER.EXC" label="Review Exceptions" name="Exceptions" total="0">
+            <Category authTot="" authUrg="" id="UNVER.EXC" name="Unverified Runtime Exceptions" short="unverified exception" total="0"/>
+         </CategoryGroup>
+         <CategoryGroup authTot="" authUrg="" desc="These are assertion failures from automatically generated tests that have not been reviewed. This is expected to be zero when the tests are executed as soon as they are generated, but can be non-zero in cases where tests that have not been reviewed, but the execution is repeated." id="GROUP.UNVER.FAIL" label="Review Assertion Failures" name="Assertion Failures" total="0">
+            <Category authTot="" authUrg="" id="UNVER.FAIL" name="Unverified Assertion Failures" short="unverified failure" total="0"/>
+         </CategoryGroup>
+      </Categories>
+      <Projects/>
+      
+  <APICoverage/>
+
+      
+  <TrafficData/>
+      
+  <EnvData/>
+      <FuncAPISecurity pentest="false">
+         
+  <Categories/>
+         
+  <Attacks/>
+      </FuncAPISecurity>
+      <Axe scan="false">
+         
+  <AxeRules/>
+      </Axe>
+      
+  <ExecViols/>
+
+      
+   <ExecutedTestsDetails type="UT">
+      <Total total="0" name="Passed / Total"/>
+   </ExecutedTestsDetails>
+
+      
+  <FuncTestDetails/>
+   </Exec>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>

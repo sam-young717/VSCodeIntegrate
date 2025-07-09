@@ -1,5 +1,5 @@
 {
-    "cpptest.testConfiguration": "builtin://MISRA C 2023 (MISRA C 2012)",
+    "cpptest.testConfiguration": "builtin://MISRA C++ 2023",
     "cpptest.commandLinePattern": "cpptestcli ${stopFile} ${compilerConfig} ${testConfig} ${reportDir} ${selectedFiles} -module . -input cpptestscan.bdf",
     "cpptest.compilerIdentifier": "gcc_9-64",
     "files.associations": {

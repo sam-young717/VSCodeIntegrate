@@ -218,6 +218,9 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Enable C/C++test code coverage integration
 CPPTEST_COVERAGE:BOOL=ON
 
+//No help, variable specified on the command line.
+CPPTEST_HOME:UNINITIALIZED=/opt/parasoft/cpptest
+
 //Value Computed by CMake
 Timer_BINARY_DIR:STATIC=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/.build
 

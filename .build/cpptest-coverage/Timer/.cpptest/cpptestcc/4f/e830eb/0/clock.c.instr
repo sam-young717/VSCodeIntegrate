@@ -22,16 +22,16 @@ struct __CPTR_Dummy_Type {
     
 
 
-#define _coverage_code_size (1 + (3) / (sizeof(unsigned char) * 8))
-#define _coverage_func_data_offset 1
+#define _coverage_code_size (1 + (9) / (sizeof(unsigned char) * 8))
+#define _coverage_func_data_offset 7
 
 static unsigned char _coverage_code[_coverage_code_size];
 
 EXTERN_C_LINKAGE_START
-CppTestCoverageInfo __CPTR_cui_1340616939_323163_73668535 = 
+CppTestCoverageInfo __CPTR_cui_1340616939_81096_22888396 = 
 {
     /*id=*/0U,
-    /*externalId=*/{235, 48, 91, 238, 4, 0, 0, 0}, 
+    /*externalId=*/{235, 48, 200, 60, 1, 0, 0, 0}, 
     /*idAssociationWasSent=*/0,
     /*prev=*/0, 
     /*covDataUnitSize=*/_coverage_data_unit_size,
@@ -43,7 +43,7 @@ CppTestCoverageInfo __CPTR_cui_1340616939_323163_73668535 =
 };
 EXTERN_C_LINKAGE_END
 
-#define __CPTR_cui &__CPTR_cui_1340616939_323163_73668535
+#define __CPTR_cui &__CPTR_cui_1340616939_81096_22888396
 
 
 #define _cpptest_strdata_var(id, bogus) _cpptest_strdata[id]
@@ -705,18 +705,18 @@ int print_string(char *);
 int print_string_array(); 
 # 13 "/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c"
 void display_time() 
-{ unsigned int _CppTest_funcId = cpptestCoverageFunction(__CPTR_cui, 1);
-char buf[100]; 
-time_t the_time = time(0); 
+{ unsigned int _CppTest_funcId = cpptestCoverageFunction(__CPTR_cui, 1);int _coverage_decl_var_1 = cpptestCoverageStmt(1U, 1 + 0, __CPTR_cui, 1);
+char buf[100]; int _coverage_decl_var_2 = cpptestCoverageStmt(2U, 1 + 0, __CPTR_cui, 1);
+time_t the_time = time(0); int _coverage_decl_var_3 = cpptestCoverageStmt(3U, 1 + 0, __CPTR_cui, 1);
 # 17 "/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/clock.c"
-char *t = ctime(&the_time); 
+char *t = ctime(&the_time); cpptestCoverageStmt(4U, 1 + 0, __CPTR_cui, 1);
 
-sprintf(buf, "\n\nCurrent Time and Date is %s\n\n", t); 
+sprintf(buf, "\n\nCurrent Time and Date is %s\n\n", t); cpptestCoverageStmt(5U, 1 + 0, __CPTR_cui, 1);
 print_string(buf); 
 } 
 # 27
 void set_time(time_t new_time) 
-{ unsigned int _CppTest_funcId = cpptestCoverageFunction(__CPTR_cui, 2);
+{ unsigned int _CppTest_funcId = cpptestCoverageFunction(__CPTR_cui, 2);cpptestCoverageStmt(1U, 6 + 0, __CPTR_cui, 2);
 } 
 #line 1 "__TEST_HARNESS__"
 ;

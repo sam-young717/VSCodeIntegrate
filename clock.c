@@ -27,4 +27,3 @@ void display_time()
 void set_time(time_t new_time)
 {
 }
-

@@ -1,4 +1,4 @@
-Diagnostics file initialized on Thu Apr 03 11:27:17 EDT 2025
+Diagnostics file initialized on Tue Jul 08 14:12:56 EDT 2025
 ================================================================================================
 AVAILABLE BUNDLES AND SERVICES (101)
 ================================================================================================
@@ -107,8 +107,8 @@ Bundle [100]: stax2-api, state: [2], version: 4.2.1
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.common.dtp.DtpAutoconfPreferencesService@53d1b9b3
-CONTEXT: com.parasoft.xtest.common.services.RawConsoleServiceContext@1734f68
+SERVICE: com.parasoft.xtest.common.dtp.DtpAutoconfPreferencesService@1698ee84
+CONTEXT: com.parasoft.xtest.common.services.RawConsoleServiceContext@345e5a17
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -141,13 +141,15 @@ LOCAL SETTINGS:
     cpptest.compiler.dir.user=${cpptest:root_dir}/compilers
     cpptest.config.properties.file=${cpptest:launcher_dir}/cpptestcli.properties;${cpptest:user_home}/cpptestcli.properties;cpptestcli.properties
     cpptest.config.psrc.file=${cpptest:etc_dir}/default.psrc;
-    cpptest.configuration=builtin://MISRA C 2004
+    cpptest.configuration=builtin://Recommended Rules
     cpptest.input.bdf.cache.enabled=true
     cpptest.input.bdf.file=${cpptest:workspace_dir}/cpptest.bdf
     cpptest.input.bdf.legacy.project.enabled=false
     cpptest.input.msvc.add.compiler.options=-I.
+    cpptest.license.custom_edition_features=C++test,Static Analysis,Flow Analysis,Unit Test,Coverage,Automation,DTP Publish,Desktop Command Line,AUTOSAR Rules,CWE Rules,DISA STIG Rules,HIC++ Rules,JSF Rules,MISRA Rules,MISRA C 2012 Rules,MISRA C++ 2023 Rules,OWASP Rules,Security Rules,SEI CERT C Rules,SEI CERT C++ Rules,Code Dependency Export,LLM Integration
     cpptest.license.local.password=>>hidden<<
-    cpptest.license.use_network=false
+    cpptest.license.network.edition=custom_edition
+    cpptest.license.use_network=true
     cpptest.output.error.max.lines=10
     cpptest.report.csv.enabled=false
     cpptest.report.desktop.enabled=false
@@ -175,6 +177,7 @@ LOCAL SETTINGS:
     cpptest.testable.header.file.ext=h|hpp|hxx|hh
     cpptest.testable.source.file.ext=c|cpp|cxx|cc
     dtp.password=>>hidden<<
+    dtp.project=MISRA C 2023
     dtp.url=https://localhost:8443
     dtp.user=admin
     local.storage.dir=./.cpptest
@@ -259,7 +262,7 @@ LOCAL SETTINGS:
     rules.provider_cpptest_pe_builtin.mapping=${property:cpptest.rule.dir}/builtin_pe/rulemap.xml
     rules.provider_cpptest_pe_builtin.separator=-
     rules.provider_cpptest_pe_builtin.type=codingstandards
-    runtime.command_line=cpptestcli -compiler gcc_9-64 -config builtin://MISRA C++ 2023 -report /mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/reports -resource /mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate -module . -input cpptestscan.bdf
+    runtime.command_line=cpptestcli -compiler gcc_9-64 -config builtin://MISRA C 2023 (MISRA C 2012) -report /mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/reports -resource /mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate -module . -input cpptestscan.bdf
     suppression1.comment=//
     suppression1.file.ext=${property:cpptest.testable.source.file.ext}|${property:cpptest.testable.header.file.ext}
     suppression2.comment=/*
@@ -273,8 +276,8 @@ DIAGNOSTICS INFO:
 DTP autoconfiguration is not enabled.
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.techsupport.TechSupportService@17ae98d7
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.techsupport.TechSupportService@1c65121
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -300,16 +303,17 @@ Total registered items: 8
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.lic.client.internal.service.LicenseService@38d5b107
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.lic.client.internal.service.LicenseService@315ba14a
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
+    c++test.license.custom_edition_features=C++test,Static Analysis,Flow Analysis,Unit Test,Coverage,Automation,DTP Publish,Desktop Command Line,AUTOSAR Rules,CWE Rules,DISA STIG Rules,HIC++ Rules,JSF Rules,MISRA Rules,MISRA C 2012 Rules,MISRA C++ 2023 Rules,OWASP Rules,Security Rules,SEI CERT C Rules,SEI CERT C++ Rules,Code Dependency Export,LLM Integration
     c++test.license.enabled=true
     c++test.license.local.password=>>hidden<<
     c++test.license.network.edition=custom_edition
     c++test.license.network.type=ls
-    c++test.license.use_network=false
+    c++test.license.use_network=true
     license.start_deactivated=false
 
 DIAGNOSTICS INFO:
@@ -322,6 +326,7 @@ License requirements statuses:
 + ---------------------------------- + ------------- +
 | Max-Parallel-Jobs-Value            | -1            |
 | Max-Testables-Value                | -1            |
+| Flow-Analysis-Data                 | false         |
 | Source-Control                     | true          |
 | LLM-Integration                    | true          |
 | Bug-Detective                      | true          |
@@ -355,7 +360,6 @@ License requirements statuses:
 | Self-Healing                       | true          |
 | Team-Share-Results-Upload          | true          |
 | Native-Tests-Import                | true          |
-| Flow-Analysis-Data                 | true          |
 | Coding-Standards                   | true          |
 | Main                               | true          |
 | Flow-Analysis                      | true          |
@@ -363,8 +367,8 @@ License requirements statuses:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.common.telemetry.TelemetryReporter@23501da1
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.common.telemetry.TelemetryReporter@1cd7e31b
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -378,8 +382,8 @@ PARASOFT_TELEMETRY_DISABLED: null
 Disabled permanently: false
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.common.oidc.OidcService@43d455c9
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.common.oidc.OidcService@1e55bdd0
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -390,8 +394,8 @@ DIAGNOSTICS INFO:
 OpenID Connect Service is not enabled.
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.common.dtp.DtpServiceRegistry@7c9bdee9
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.common.dtp.DtpServiceRegistry@36bfadfa
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -401,7 +405,7 @@ DIAGNOSTICS INFO:
 Connection settings: 
     User: admin
     Password: >>hidden<<
-    Project: 
+    Project: MISRA C 2023
     Server: https://localhost:8443
 
 Available services: 
@@ -435,8 +439,8 @@ Available services:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.common.parallel.ParallelExecutor@2b34e38c
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.common.parallel.ParallelExecutor@3a095ec0
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -449,8 +453,8 @@ DIAGNOSTICS INFO:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.scope.internal.ScopeAnalyzer@1894e40d
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.scope.internal.ScopeAnalyzer@1bcb79c2
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -479,7 +483,7 @@ State settings:
     changedFilesPrefse=CHECK_ALL_FILES
     changedLinesPrefse=CHECK_ALL_LINES
     modifiedSinceTime=0
-    modifiedBeforeTime=1743638400000
+    modifiedBeforeTime=1751932800000
     modifiedBeforeEnabled=false
     rollingCutoffDays=7
     checkOnlyUserFiles=false
@@ -496,8 +500,8 @@ Analyze zone settings:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.suppressions.internal.comment.CommentSuppressionsService@6504a875
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.suppressions.internal.comment.CommentSuppressionsService@4315e9af
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -509,8 +513,8 @@ Registered computers:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.suppressions.file.FileSuppressionsService@120d3fd
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.suppressions.file.FileSuppressionsService@736048ed
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -523,16 +527,16 @@ Registered file suppressions service:
     com.parasoft.xtest.suppressions.file.FileSuppressionsService isEnabled=true
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.internal.metrics.MetricsProcessor@1d247525
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.results.internal.metrics.MetricsProcessor@6009bea
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.rules.RuleLimitProcessor@6232ffdb
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.results.rules.RuleLimitProcessor@62891fc8
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 DIAGNOSTICS INFO:
@@ -540,32 +544,32 @@ Enabled: true
 Limit: 1000
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.locations.ResultLocationProcessor@2ab26378
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.results.locations.ResultLocationProcessor@732c9b5c
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.rules.RulesProcessor@61a91c9b
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.results.rules.RulesProcessor@213c3543
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.sourcecontrol.SourceControlProcessor@5b275811
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.results.sourcecontrol.SourceControlProcessor@390877d2
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.coverage.CoverageProcessor@43acd79e
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.results.coverage.CoverageProcessor@3659d7b1
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
@@ -574,8 +578,8 @@ Registered coverage services:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.internal.metadata.UuidMetadataProcessor@2f4ba1ae
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.results.internal.metadata.UuidMetadataProcessor@3ffb3598
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 LOCAL SETTINGS:
@@ -590,16 +594,16 @@ REST client present: true
 Processor should be working.
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.internal.authorship.AuthorshipProcessor@6ed043d3
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.results.internal.authorship.AuthorshipProcessor@7bebcd65
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.authorship.internal.computer.AuthorshipService@6b63e6ad
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.authorship.internal.computer.AuthorshipService@173797f0
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -613,16 +617,16 @@ Authorship computers:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.internal.authorship.LocationsAuthorshipProcessor@44af588b
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.results.internal.authorship.LocationsAuthorshipProcessor@31edeac
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.suppressions.SuppressionsProcessor@575e572f
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.results.suppressions.SuppressionsProcessor@74db12c2
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 LOCAL SETTINGS:
@@ -638,8 +642,8 @@ Registered suppressions services:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.snapshot.GoalReferenceReportProcessor@1e3e1014
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.results.snapshot.GoalReferenceReportProcessor@327ed9f5
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 LOCAL SETTINGS:
@@ -648,20 +652,20 @@ LOCAL SETTINGS:
 
 DIAGNOSTICS INFO:
 Reference reports providers:
-    com.parasoft.xtest.reports.internal.snapshot.GoalReferenceReportProvider@794366a5 active=false
+    com.parasoft.xtest.reports.internal.snapshot.GoalReferenceReportProvider@2650f79 active=false
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.results.internal.goals.GoalsProcessor@403c3a01
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.results.internal.goals.GoalsProcessor@7c129ef6
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 DIAGNOSTICS INFO:
     (Not available)
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.scontrol.internal.api.ScmService@6d6bd6c3
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.scontrol.internal.api.ScmService@48820490
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 LOCAL SETTINGS:
@@ -678,8 +682,8 @@ Repository Descriptions:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.configuration.rules.RulesService@2e86807a
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.configuration.rules.RulesService@161f6623
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -5928,8 +5932,8 @@ Rules count: 50
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.authorship.internal.authors.AuthorsPreferences@1690e24e
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.authorship.internal.authors.AuthorsPreferences@5b6a1f3a
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -5941,8 +5945,8 @@ Authors preferences:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.share.internal.local.LocalSharingRepository@1640f20f
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.share.internal.local.LocalSharingRepository@77ad2767
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: 
 ================================================================================================
 LOCAL SETTINGS:
@@ -5954,8 +5958,8 @@ DIAGNOSTICS INFO:
 
 
 ================================================================================================
-SERVICE: com.parasoft.xtest.reports.internal.mail.MailReportPublisher@17f8db6
-CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@159e366
+SERVICE: com.parasoft.xtest.reports.internal.mail.MailReportPublisher@37d3e740
+CONTEXT: com.parasoft.xtest.cpp.flowexecutor.DefaultFlowExecutor$ResultsServiceContext@d71adc2
 LICENSE ENABLED: true
 ================================================================================================
 LOCAL SETTINGS:
@@ -5996,13 +6000,13 @@ FileInfoService - Global statistics:
    Entry removes: 0 [GC: 0, Replaced: 0, Trimmed: 0]
 
 FileInfoService - Context statistics:
-   Peak memory usage: 2.531 KB [Hard: 2.434 KB, Soft: 0.098 KB]
-   Current memory usage: 2.531 KB [Hard: 2.434 KB, Soft: 0.098 KB]
+   Peak memory usage: 2.527 KB [Hard: 2.430 KB, Soft: 0.098 KB]
+   Current memory usage: 2.527 KB [Hard: 2.430 KB, Soft: 0.098 KB]
    Entry removes: 0 [GC: 0, Replaced: 0, Trimmed: 0]
-   Entry: average size: 299.000 B, average lines: 48.750, max lines: 155
-      Method: FileInfoService.getFileHash, hitRatio: 100.00% hits: 260, misses: 0
+   Entry: average size: 298.500 B, average lines: 48.625, max lines: 155
+      Method: FileInfoService.getFileHash, hitRatio: 100.00% hits: 506, misses: 0
       Method: FileInfoService.getLineCount, hitRatio: 0.00% hits: 0, misses: 8
-      Method: FileInfoService.getLineHash, hitRatio: 100.00% hits: 122, misses: 0
+      Method: FileInfoService.getLineHash, hitRatio: 100.00% hits: 241, misses: 0
 ================================================================================================
 PROFILER RESULTS
 ================================================================================================
@@ -6011,8 +6015,8 @@ C++test Scope Profiler
 + ----------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ----------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| BdfFileReader.computeScope          | 1     | 0.38      | 0.38    | 0.38    | 0.38    |
-| VCXProjScopeComputer.computeScope   | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| BdfFileReader.computeScope          | 1     | 0.639     | 0.639   | 0.639   | 0.639   |
+| VCXProjScopeComputer.computeScope   | 1     | 0.008     | 0.008   | 0.008   | 0.008   |
 | TxtFileReader.computeScope          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LstFileReader.computeScope          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | TraceBuildDataProvider.computeScope | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
@@ -6021,188 +6025,217 @@ C++test Scope Profiler
 | DirectCommandHandler.computeScope   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | VCProjScopeComputer.computeScope    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 + ----------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.381s
+TOTAL: 0.647s
 
 Rule Profiler
 + ------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
 | NAME                                                   | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-| RulesService.init                                      | 1     | 0.657     | 0.657   | 0.657   | 0.657   |
-| RuleDescriptionParser.parseFile                        | 9     | 0.399     | 0.008   | 0.127   | 0.044   |
-| RuleDescriptionUpdateService.refreshSharedDescriptions | 1     | 0.043     | 0.043   | 0.043   | 0.043   |
+| RulesService.init                                      | 1     | 1.1       | 1.1     | 1.1     | 1.1     |
+| RuleDescriptionParser.parseFile                        | 9     | 0.602     | 0.014   | 0.166   | 0.066   |
+| RuleDescriptionUpdateService.refreshSharedDescriptions | 1     | 0.06      | 0.06    | 0.06    | 0.06    |
 + ------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 1.099s
+TOTAL: 1.762s
 
 XRest Profiler
 + ----------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                                  | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ----------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| /grs/api/v1.9/dtpServices                             | 1     | 0.493     | 0.493   | 0.493   | 0.493   |
-| /api/v2/dataCollector                                 | 1     | 0.283     | 0.283   | 0.283   | 0.283   |
-| /grs/api/v1.9/unbranchedViolations/metadataSearch     | 2     | 0.044     | 0.011   | 0.033   | 0.022   |
-| /grs/api/v1.9/staticAnalysisViolations/metadataSearch | 2     | 0.036     | 0.015   | 0.021   | 0.018   |
-| /grs/api/v1/dtpServices                               | 1     | 0.028     | 0.028   | 0.028   | 0.028   |
-| /api/v1/existingLocalSourceCopy                       | 1     | 0.027     | 0.027   | 0.027   | 0.027   |
+| /licenseserver/api/v1.1                               | 25    | 0.988     | 0.033   | 0.06    | 0.039   |
+| /api/v2/dataCollector                                 | 1     | 0.883     | 0.883   | 0.883   | 0.883   |
+| /grs/api/v1.9/dtpServices                             | 1     | 0.828     | 0.828   | 0.828   | 0.828   |
+| /grs/api/v1.9/staticAnalysisViolations/metadataSearch | 3     | 0.265     | 0.054   | 0.127   | 0.088   |
+| /api/v1/existingLocalSourceCopy                       | 1     | 0.104     | 0.104   | 0.104   | 0.104   |
+| /grs/api/v1/dtpServices                               | 1     | 0.044     | 0.044   | 0.044   | 0.044   |
 + ----------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.911s
+TOTAL: 3.112s
 
 Suppressions Profiler
 + --------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                                                              | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + --------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| CommentSuppressionsService.getSuppression                                         | 95    | 0.648     | 0.003   | 0.03    | 0.006   |
-| FileSuppressionsService.getSuppression                                            | 95    | 0.415     | 0.0     | 0.035   | 0.004   |
-| com.parasoft.xtest.suppressions.file.FileSuppressionReader.readSuppressionRecords | 1     | 0.007     | 0.007   | 0.007   | 0.007   |
-| FileSuppressionsServiceFactory.createService                                      | 1     | 0.006     | 0.006   | 0.006   | 0.006   |
+| CommentSuppressionsService.getSuppression                                         | 203   | 2.012     | 0.004   | 0.034   | 0.009   |
+| FileSuppressionsService.getSuppression                                            | 203   | 1.726     | 0.001   | 0.058   | 0.008   |
+| com.parasoft.xtest.suppressions.file.FileSuppressionReader.readSuppressionRecords | 1     | 0.024     | 0.024   | 0.024   | 0.024   |
+| FileSuppressionsServiceFactory.createService                                      | 1     | 0.023     | 0.023   | 0.023   | 0.023   |
 + --------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 1.076s
+TOTAL: 3.785s
 
 C++test Analyzers Profiler
 + -------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                         | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + -------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| CppCodeAnalyzer.doJob                        | 4     | 21.156    | 5.123   | 5.646   | 5.289   |
-| CppCodeAnalyzer.attachAnalyzer               | 1     | 6.761     | 6.761   | 6.761   | 6.761   |
-| RuleWizardClient.createRulesInfo             | 2     | 1.629     | 0.761   | 0.868   | 0.814   |
-| DefaultStaticAnalyzer.getGlobalConfiguration | 1     | 0.796     | 0.796   | 0.796   | 0.796   |
-| GlobalAnalyzer.attachAnalyzer                | 1     | 0.309     | 0.309   | 0.309   | 0.309   |
-| CodeRulesClient.createRulesInfo              | 2     | 0.013     | 0.005   | 0.007   | 0.006   |
-| RulesMappingUtil.prepareRuleMapping          | 3     | 0.005     | 0.001   | 0.002   | 0.001   |
-| ParseErrorsClient.createRulesInfo            | 1     | 0.004     | 0.004   | 0.004   | 0.004   |
-| DefaultStaticAnalyzer.attachAnalyzer         | 1     | 0.004     | 0.004   | 0.004   | 0.004   |
-| RulesMappingUtil.prepareRuleIdAliasConfig    | 1     | 0.003     | 0.003   | 0.003   | 0.003   |
-| GLOBAL-EXCSPECDECL.getResults                | 1     | 0.003     | 0.003   | 0.003   | 0.003   |
-| GLOBAL-ONEDEFRULE.getResults                 | 1     | 0.002     | 0.002   | 0.002   | 0.002   |
-| GLOBAL-ONEDEFTYPE.getResults                 | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
-| GLOBAL-PREDICATENOSE.getResults              | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| CppCodeAnalyzer.doJob                        | 4     | 3.637     | 0.849   | 0.943   | 0.909   |
+| CppCodeAnalyzer.attachAnalyzer               | 1     | 3.134     | 3.134   | 3.134   | 3.134   |
+| RuleWizardClient.createRulesInfo             | 2     | 2.697     | 1.217   | 1.48    | 1.348   |
+| DefaultStaticAnalyzer.getGlobalConfiguration | 1     | 1.292     | 1.292   | 1.292   | 1.292   |
+| GlobalAnalyzer.attachAnalyzer                | 1     | 0.574     | 0.574   | 0.574   | 0.574   |
+| CodeRulesClient.createRulesInfo              | 2     | 0.015     | 0.006   | 0.008   | 0.007   |
+| RulesMappingUtil.prepareRuleMapping          | 3     | 0.015     | 0.003   | 0.008   | 0.005   |
+| DefaultStaticAnalyzer.attachAnalyzer         | 1     | 0.013     | 0.013   | 0.013   | 0.013   |
+| GLOBAL-AVOIDEXTERN.getResults                | 1     | 0.012     | 0.012   | 0.012   | 0.012   |
+| ParseErrorsClient.createRulesInfo            | 1     | 0.01      | 0.01    | 0.01    | 0.01    |
+| GLOBAL-NOEXTERNDEF.getResults                | 1     | 0.01      | 0.01    | 0.01    | 0.01    |
+| RulesMappingUtil.prepareRuleIdAliasConfig    | 1     | 0.007     | 0.007   | 0.007   | 0.007   |
+| GLOBAL-ALIGNDECL.getResults                  | 1     | 0.003     | 0.003   | 0.003   | 0.003   |
+| GLOBAL-UNUSEDEXTVAR.getResults               | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| GLOBAL-REUSEDSTATVAR.getResults              | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| GLOBAL-REUSEDEXTVAR.getResults               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| GLOBAL-UNIQUETYPEC.getResults                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| GLOBAL-REUSEDSTATFUN.getResults              | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| GLOBAL-REUSEDEXTFUN.getResults               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | GLOBAL-ONEEXTERNDEF.getResults               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| GLOBAL-ONEDEFINLINE.getResults               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| GLOBAL-CONDMUTEXVAR.getResults               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | GLOBAL-COMPATDECLS.getResults                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| GLOBAL-UNIQUETYPEDEFC.getResults             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 + -------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 30.686s
+TOTAL: 11.42s
 
 Coverage Profiler
 + ---------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                                 | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ---------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| getGlobalStorage()                                   | 1     | 0.106     | 0.106   | 0.106   | 0.106   |
-| setupRawDataCleaner(CoverageStatisticsManager, File) | 1     | 0.077     | 0.077   | 0.077   | 0.077   |
-| initializeMetadata                                   | 1     | 0.002     | 0.002   | 0.002   | 0.002   |
+| getGlobalStorage()                                   | 1     | 0.24      | 0.24    | 0.24    | 0.24    |
+| setupRawDataCleaner(CoverageStatisticsManager, File) | 1     | 0.178     | 0.178   | 0.178   | 0.178   |
+| initializeMetadata                                   | 1     | 0.003     | 0.003   | 0.003   | 0.003   |
 | initializeStatistics                                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 + ---------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.185s
+TOTAL: 0.421s
 
 Reports Profiler
 + ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
 | NAME                                 | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-| XMLReporterService.generateReports() | 1     | 2.249     | 2.249   | 2.249   | 2.249   |
-| ReportsService.generateReports()     | 2     | 2.081     | 0.39    | 1.69    | 1.04    |
-| XMLReporterService.generateReport()  | 1     | 1.087     | 1.087   | 1.087   | 1.087   |
-| XMLReporter.reportResult()           | 117   | 0.114     | 0.0     | 0.047   | 0.0     |
-| XMLReporter.openReport()             | 1     | 0.102     | 0.102   | 0.102   | 0.102   |
-| SourcesReporterThread.run()          | 1     | 0.067     | 0.067   | 0.067   | 0.067   |
-| SessionData.readSessionData()        | 1     | 0.01      | 0.01    | 0.01    | 0.01    |
+| XMLReporterService.generateReports() | 1     | 4.299     | 4.299   | 4.299   | 4.299   |
+| ReportsService.generateReports()     | 2     | 4.088     | 1.108   | 2.979   | 2.044   |
+| XMLReporterService.generateReport()  | 1     | 3.311     | 3.311   | 3.311   | 3.311   |
+| XMLReporter.openReport()             | 1     | 0.268     | 0.268   | 0.268   | 0.268   |
+| XMLReporter.reportResult()           | 225   | 0.26      | 0.0     | 0.088   | 0.001   |
+| SourcesReporterThread.run()          | 1     | 0.149     | 0.149   | 0.149   | 0.149   |
+| SessionData.readSessionData()        | 1     | 0.012     | 0.012   | 0.012   | 0.012   |
 + ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 5.71s
+TOTAL: 12.387s
 
 flowanalysis.rules.profiler.id
-+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| NAME                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
-+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| FA rule: MISRACPP2023-0_0_2-a+MISRACPP2023-0_3_1-d+MISRACPP2023-0_3_1-d+MISRACPP2023-0_3_1-d+MISRACPP2023-0_3_2-a+MISRACPP2023-11_6_2-a+MISRACPP2023-25_5_3-a+MISRACPP2023-28_6_3-b+MISRACPP2023-30_0_2-a+MISRACPP2023-4_1_3-a+MISRACPP2023-4_1_3-b+MISRACPP2023-4_1_3-c+MISRACPP2023-4_1_3-d+MISRACPP2023-6_8_1-b+MISRACPP2023-6_8_1-c+MISRACPP2023-8_18_1-a+MISRACPP2023-8_2_10-a+MISRACPP2023-8_7_1-a+MISRACPP2023-8_7_1-b+MISRACPP2023-8_7_1-c+MISRACPP2023-8_7_1-d+MISRACPP2023-8_7_1-e+MISRACPP2023-8_7_2-a+MISRACPP2023-8_9_1-a | 17    | 1.042     | 0.0     | 0.265   | 0.061   |
-| FA rule: MISRACPP2023-28_6_3-a                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 17    | 0.625     | 0.0     | 0.213   | 0.036   |
-| FA rule: MISRACPP2023-0_1_1-a                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 15    | 0.135     | 0.0     | 0.059   | 0.009   |
-| FA rule: MISRACPP2023-6_8_1-a                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 171   | 0.124     | 0.0     | 0.082   | 0.0     |
-| FA rule: MISRACPP2023-0_0_2-a(1)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | 56    | 0.041     | 0.0     | 0.006   | 0.0     |
-| FA rule: MISRACPP2023-0_2_4-a                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 2     | 0.003     | 0.0     | 0.003   | 0.001   |
-+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 1.97s
++ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| FA rule: MISRAC2012-DIR_4_14-i                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 8     | 0.381     | 0.0     | 0.379   | 0.047   |
+| FA rule: MISRAC2012-DIR_4_7-b                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | 8     | 0.204     | 0.0     | 0.2     | 0.025   |
+| FA rule: MISRAC2012-RULE_2_2-b                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 1     | 0.193     | 0.193   | 0.193   | 0.193   |
+| FA rule: MISRAC2012-DIR_4_1-a+MISRAC2012-DIR_4_1-b+MISRAC2012-DIR_4_1-c+MISRAC2012-DIR_4_1-e+MISRAC2012-DIR_4_1-g+MISRAC2012-DIR_4_1-h+MISRAC2012-DIR_4_1-i+MISRAC2012-DIR_4_1-j+MISRAC2012-DIR_4_1-k+MISRAC2012-DIR_4_1-l+MISRAC2012-DIR_4_1-m+MISRAC2012-DIR_4_11-a+MISRAC2012-DIR_4_13-c+MISRAC2012-DIR_4_13-d+MISRAC2012-DIR_4_13-f+MISRAC2012-DIR_4_15-a+MISRAC2012-DIR_4_15-a+MISRAC2012-DIR_4_15-a+MISRAC2012-DIR_5_1-a+MISRAC2012-DIR_5_1-b+MISRAC2012-DIR_5_1-c+MISRAC2012-DIR_5_2-a+MISRAC2012-DIR_5_3-a+MISRAC2012-RULE_12_2-a+MISRAC2012-RULE_14_3-ac+MISRAC2012-RULE_17_11-a+MISRAC2012-RULE_18_1-b+MISRAC2012-RULE_18_1-c+MISRAC2012-RULE_19_1-c+MISRAC2012-RULE_1_3-b+MISRAC2012-RULE_1_5-f+MISRAC2012-RULE_1_5-g+MISRAC2012-RULE_21_13-a+MISRAC2012-RULE_21_14-a+MISRAC2012-RULE_21_18-a+MISRAC2012-RULE_21_20-a+MISRAC2012-RULE_22_10-a+MISRAC2012-RULE_22_11-a+MISRAC2012-RULE_22_14-a+MISRAC2012-RULE_22_15-a+MISRAC2012-RULE_22_20-a+MISRAC2012-RULE_22_3-a+MISRAC2012-RULE_22_4-a+MISRAC2012-RULE_22_7-a+MISRAC2012-RULE_22_8-a+MISRAC2012-RULE_22_9-a+MISRAC2012-RULE_9_7-a | 1     | 0.181     | 0.181   | 0.181   | 0.181   |
+| FA rule: MISRAC2012-DIR_4_1-d                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | 8     | 0.157     | 0.0     | 0.11    | 0.019   |
+| FA rule: MISRAC2012-DIR_4_13-a                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 8     | 0.012     | 0.0     | 0.008   | 0.001   |
+| FA rule: MISRAC2012-DIR_4_13-b                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 8     | 0.006     | 0.0     | 0.004   | 0.0     |
+| FA rule: MISRAC2012-RULE_21_26-a                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 1     | 0.005     | 0.005   | 0.005   | 0.005   |
+| FA rule: MISRAC2012-RULE_22_1-a                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | 8     | 0.003     | 0.0     | 0.001   | 0.0     |
+| FA rule: MISRAC2012-DIR_4_13-e                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 8     | 0.002     | 0.0     | 0.001   | 0.0     |
+| FA rule: MISRAC2012-DIR_4_14-c                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 8     | 0.001     | 0.0     | 0.0     | 0.0     |
+| FA rule: MISRAC2012-DIR_4_14-d                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 8     | 0.001     | 0.0     | 0.0     | 0.0     |
+| FA rule: MISRAC2012-DIR_4_14-h                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 8     | 0.001     | 0.0     | 0.0     | 0.0     |
+| FA rule: MISRAC2012-DIR_4_14-l                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| FA rule: MISRAC2012-DIR_4_14-b                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| FA rule: MISRAC2012-DIR_4_14-a                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| FA rule: MISRAC2012-DIR_4_14-f                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| FA rule: MISRAC2012-DIR_4_14-g                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| FA rule: MISRAC2012-DIR_4_14-e                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| FA rule: MISRAC2012-DIR_4_14-j                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| FA rule: MISRAC2012-DIR_4_14-k                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 1.148s
 
 flowanalysis.important.profiler.id
-+ ---------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| NAME                                                       | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
-+ ---------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| RuleEnforcer.enforce                                       | 278   | 2.0       | 0.0     | 0.265   | 0.007   |
-| ParallelGraphsIteratorJob.work3 [Thread-100]               | 1     | 0.521     | 0.521   | 0.521   | 0.521   |
-| ParallelGraphsIteratorJob.work3 [Thread-79]                | 1     | 0.414     | 0.414   | 0.414   | 0.414   |
-| Preanalysis                                                | 1     | 0.284     | 0.284   | 0.284   | 0.284   |
-| ParallelGraphsIteratorJob.work3 [Thread-94]                | 1     | 0.269     | 0.269   | 0.269   | 0.269   |
-| ParallelGraphsIteratorJob.work3 [Thread-92]                | 1     | 0.237     | 0.237   | 0.237   | 0.237   |
-| ParallelGraphsIteratorJob.work3 [Thread-91]                | 1     | 0.193     | 0.193   | 0.193   | 0.193   |
-| ParallelGraphsIteratorJob.work3 [Thread-93]                | 1     | 0.116     | 0.116   | 0.116   | 0.116   |
-| ParallelGraphsIteratorJob.work3 [Thread-96]                | 1     | 0.096     | 0.096   | 0.096   | 0.096   |
-| HandlersMapBuilder.analyzeGraph                            | 17    | 0.087     | 0.0     | 0.087   | 0.005   |
-| ParallelGraphsIteratorJob.work3 [Thread-97]                | 1     | 0.079     | 0.079   | 0.079   | 0.079   |
-| ParallelGraphsIteratorJob.work3 [Thread-99]                | 1     | 0.077     | 0.077   | 0.077   | 0.077   |
-| ParallelGraphsIteratorJob.work3 [Thread-98]                | 1     | 0.064     | 0.064   | 0.064   | 0.064   |
-| ParallelGraphsIteratorJob.work3 [Thread-90]                | 1     | 0.041     | 0.041   | 0.041   | 0.041   |
-| ParallelGraphsIteratorJob.work3 [Thread-89]                | 1     | 0.036     | 0.036   | 0.036   | 0.036   |
-| GlobalsMapBuilder.postInitialize                           | 1     | 0.031     | 0.031   | 0.031   | 0.031   |
-| AbstractPropertiesStorage.store handlerRegistrationMethods | 17    | 0.025     | 0.001   | 0.003   | 0.001   |
-| AbstractPropertiesStorage.store terminatorsMethods         | 17    | 0.021     | 0.0     | 0.003   | 0.001   |
-| ParallelGraphsIteratorJob.work3 [Thread-86]                | 1     | 0.018     | 0.018   | 0.018   | 0.018   |
-| ParallelGraphsIteratorJob.work3 [Thread-95]                | 1     | 0.016     | 0.016   | 0.016   | 0.016   |
-| ParallelGraphsIteratorJob.work3 [Thread-88]                | 1     | 0.01      | 0.01    | 0.01    | 0.01    |
-| sorting inputs                                             | 1     | 0.009     | 0.009   | 0.009   | 0.009   |
-| IndexedExceptionsFinderBuilder.postInitialize              | 1     | 0.009     | 0.009   | 0.009   | 0.009   |
-| ParallelGraphsIteratorJob.work3 [Thread-87]                | 1     | 0.008     | 0.008   | 0.008   | 0.008   |
-| GlobalsMapBuilder.analyzeGraph                             | 17    | 0.007     | 0.0     | 0.007   | 0.0     |
-| ParallelGraphsIteratorJob.work3 [Thread-85]                | 1     | 0.005     | 0.005   | 0.005   | 0.005   |
-| IndexedExceptionsFinderBuilder.analyzeGraph                | 17    | 0.002     | 0.0     | 0.001   | 0.0     |
-| IndexedMethodCallGraphBuilder.postInitialize               | 1     | 0.002     | 0.002   | 0.002   | 0.002   |
-| AbstractPropertiesStorage.store exitedmethods              | 17    | 0.002     | 0.0     | 0.001   | 0.0     |
-| IndexedMethodCallGraphBuilder.analyzeGraph                 | 17    | 0.002     | 0.0     | 0.001   | 0.0     |
-| LOOPS: New loop approach                                   | 4     | 0.0       | 0.0     | 0.0     | 0.0     |
-| GlobalsMapBuilder.preInitialize                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| IndexedExceptionsFinderBuilder.preInitialize               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| FinalsMapBuilder.preInitialize                             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| TerminatorsFinder.postInitialize                           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-89]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| TerminatorsFinder.analyzeGraph                             | 17    | 0.0       | 0.0     | 0.0     | 0.0     |
-| TerminatorsFinder.preInitialize                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| FinalsMapBuilder.analyzeGraph                              | 17    | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-97]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-85]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-93]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-100]                           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| IndexedMethodCallGraphBuilder.preInitialize                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-98]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-86]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-94]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-90]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| HandlersMapBuilder.preInitialize                           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-79]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-99]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-87]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-95]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-91]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| AbstractPropertiesStorage.store virtualmethods             | 17    | 0.0       | 0.0     | 0.0     | 0.0     |
-| FinalsMapBuilder.postInitialize                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-88]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-96]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| ReadAndCheckIncData [Thread-92]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-+ ---------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 4.681s
++ ------------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| NAME                                                               | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ------------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+| ParallelGraphsIteratorJob.work3 [Thread-78]                        | 1     | 1.233     | 1.233   | 1.233   | 1.233   |
+| RuleEnforcer.enforce                                               | 91    | 1.155     | 0.0     | 0.379   | 0.012   |
+| Preanalysis                                                        | 1     | 0.353     | 0.353   | 0.353   | 0.353   |
+| HandlersMapBuilder.analyzeGraph                                    | 17    | 0.077     | 0.0     | 0.075   | 0.004   |
+| GlobalsMapBuilder.postInitialize                                   | 1     | 0.036     | 0.036   | 0.036   | 0.036   |
+| ParallelGraphsIteratorJob.work3 [Thread-71]                        | 1     | 0.031     | 0.031   | 0.031   | 0.031   |
+| ReadAndCheckIncData [Thread-71]                                    | 1     | 0.027     | 0.027   | 0.027   | 0.027   |
+| AbstractPropertiesStorage.changedSingle handlerRegistrationMethods | 16    | 0.025     | 0.0     | 0.004   | 0.001   |
+| AbstractPropertiesStorage.changedSingle terminatorsMethods         | 16    | 0.025     | 0.001   | 0.005   | 0.001   |
+| AbstractPropertiesStorage.changed terminatorsMethods               | 16    | 0.025     | 0.001   | 0.005   | 0.001   |
+| AbstractPropertiesStorage.changed handlerRegistrationMethods       | 16    | 0.025     | 0.0     | 0.004   | 0.001   |
+| AbstractPropertiesStorage.changedSingle exitedmethods              | 12    | 0.023     | 0.001   | 0.005   | 0.001   |
+| AbstractPropertiesStorage.changed exitedmethods                    | 16    | 0.023     | 0.0     | 0.007   | 0.001   |
+| ParallelGraphsIteratorJob.work3 [Thread-89]                        | 1     | 0.017     | 0.017   | 0.017   | 0.017   |
+| ParallelGraphsIteratorJob.work3 [Thread-84]                        | 1     | 0.016     | 0.016   | 0.016   | 0.016   |
+| ReadAndCheckIncData [Thread-89]                                    | 1     | 0.015     | 0.015   | 0.015   | 0.015   |
+| IndexedExceptionsFinderBuilder.postInitialize                      | 1     | 0.015     | 0.015   | 0.015   | 0.015   |
+| ParallelGraphsIteratorJob.work3 [Thread-81]                        | 1     | 0.014     | 0.014   | 0.014   | 0.014   |
+| ParallelGraphsIteratorJob.work3 [Thread-85]                        | 1     | 0.014     | 0.014   | 0.014   | 0.014   |
+| ReadAndCheckIncData [Thread-81]                                    | 1     | 0.013     | 0.013   | 0.013   | 0.013   |
+| ParallelGraphsIteratorJob.work3 [Thread-91]                        | 1     | 0.013     | 0.013   | 0.013   | 0.013   |
+| ReadAndCheckIncData [Thread-84]                                    | 1     | 0.013     | 0.013   | 0.013   | 0.013   |
+| ReadAndCheckIncData [Thread-91]                                    | 1     | 0.012     | 0.012   | 0.012   | 0.012   |
+| ParallelGraphsIteratorJob.work3 [Thread-83]                        | 1     | 0.012     | 0.012   | 0.012   | 0.012   |
+| ReadAndCheckIncData [Thread-85]                                    | 1     | 0.011     | 0.011   | 0.011   | 0.011   |
+| ParallelGraphsIteratorJob.work3 [Thread-92]                        | 1     | 0.011     | 0.011   | 0.011   | 0.011   |
+| ReadAndCheckIncData [Thread-83]                                    | 1     | 0.011     | 0.011   | 0.011   | 0.011   |
+| ParallelGraphsIteratorJob.work3 [Thread-90]                        | 1     | 0.011     | 0.011   | 0.011   | 0.011   |
+| sorting inputs                                                     | 1     | 0.01      | 0.01    | 0.01    | 0.01    |
+| ParallelGraphsIteratorJob.work3 [Thread-80]                        | 1     | 0.01      | 0.01    | 0.01    | 0.01    |
+| ParallelGraphsIteratorJob.work3 [Thread-82]                        | 1     | 0.01      | 0.01    | 0.01    | 0.01    |
+| GlobalsMapBuilder.analyzeGraph                                     | 17    | 0.009     | 0.0     | 0.005   | 0.0     |
+| ReadAndCheckIncData [Thread-82]                                    | 1     | 0.009     | 0.009   | 0.009   | 0.009   |
+| ReadAndCheckIncData [Thread-90]                                    | 1     | 0.009     | 0.009   | 0.009   | 0.009   |
+| ParallelGraphsIteratorJob.work3 [Thread-87]                        | 1     | 0.009     | 0.009   | 0.009   | 0.009   |
+| ReadAndCheckIncData [Thread-92]                                    | 1     | 0.009     | 0.009   | 0.009   | 0.009   |
+| ReadAndCheckIncData [Thread-80]                                    | 1     | 0.009     | 0.009   | 0.009   | 0.009   |
+| ReadAndCheckIncData [Thread-87]                                    | 1     | 0.008     | 0.008   | 0.008   | 0.008   |
+| ParallelGraphsIteratorJob.work3 [Thread-79]                        | 1     | 0.008     | 0.008   | 0.008   | 0.008   |
+| ReadAndCheckIncData [Thread-78]                                    | 1     | 0.007     | 0.007   | 0.007   | 0.007   |
+| ParallelGraphsIteratorJob.work3 [Thread-88]                        | 1     | 0.007     | 0.007   | 0.007   | 0.007   |
+| ReadAndCheckIncData [Thread-79]                                    | 1     | 0.007     | 0.007   | 0.007   | 0.007   |
+| IndexedMethodCallGraphBuilder.analyzeGraph                         | 17    | 0.007     | 0.0     | 0.002   | 0.0     |
+| ParallelGraphsIteratorJob.work3 [Thread-86]                        | 1     | 0.006     | 0.006   | 0.006   | 0.006   |
+| ParallelGraphsIteratorJob.work3 [Thread-77]                        | 1     | 0.006     | 0.006   | 0.006   | 0.006   |
+| ReadAndCheckIncData [Thread-88]                                    | 1     | 0.006     | 0.006   | 0.006   | 0.006   |
+| TerminatorsFinder.analyzeGraph                                     | 17    | 0.005     | 0.0     | 0.003   | 0.0     |
+| ReadAndCheckIncData [Thread-77]                                    | 1     | 0.005     | 0.005   | 0.005   | 0.005   |
+| IndexedExceptionsFinderBuilder.analyzeGraph                        | 17    | 0.005     | 0.0     | 0.003   | 0.0     |
+| ReadAndCheckIncData [Thread-86]                                    | 1     | 0.005     | 0.005   | 0.005   | 0.005   |
+| IndexedMethodCallGraphBuilder.postInitialize                       | 1     | 0.005     | 0.005   | 0.005   | 0.005   |
+| AbstractPropertiesStorage.store exitedmethods                      | 1     | 0.003     | 0.003   | 0.003   | 0.003   |
+| TerminatorsFinder.postInitialize                                   | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| AbstractPropertiesStorage.store handlerRegistrationMethods         | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| AbstractPropertiesStorage.store terminatorsMethods                 | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| AbstractPropertiesStorage.changed virtualmethods                   | 16    | 0.0       | 0.0     | 0.0     | 0.0     |
+| GlobalsMapBuilder.preInitialize                                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IndexedExceptionsFinderBuilder.preInitialize                       | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| FinalsMapBuilder.preInitialize                                     | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| TerminatorsFinder.preInitialize                                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| FinalsMapBuilder.analyzeGraph                                      | 17    | 0.0       | 0.0     | 0.0     | 0.0     |
+| IndexedMethodCallGraphBuilder.preInitialize                        | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| HandlersMapBuilder.preInitialize                                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| AbstractPropertiesStorage.store virtualmethods                     | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| FinalsMapBuilder.postInitialize                                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
++ ------------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 3.433s
 
 License Profiler
 + ------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
 | NAME                                                         | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-| LicenseService.isEnabled[Main]                               | 60    | 0.631     | 0.0     | 0.313   | 0.01    |
-| IntLicManager.getState[C++Test]                              | 89    | 0.628     | 0.0     | 0.312   | 0.007   |
-| IntLicManager.activateLicense                                | 1     | 0.314     | 0.314   | 0.314   | 0.314   |
-| IntLicManager.WAIT[main]                                     | 1     | 0.31      | 0.31    | 0.31    | 0.31    |
-| IntLicManager.WAIT[ServiceDiagnosticCollector Thread]        | 1     | 0.309     | 0.309   | 0.309   | 0.309   |
-| IntLicManager.releaseLicenes                                 | 1     | 0.196     | 0.196   | 0.196   | 0.196   |
-| LicenseModule.initializeModule                               | 1     | 0.078     | 0.078   | 0.078   | 0.078   |
-| IntLicManager.activateFinished                               | 1     | 0.029     | 0.029   | 0.029   | 0.029   |
+| LicenseModule.initializeModule                               | 1     | 1.829     | 1.829   | 1.829   | 1.829   |
+| IntLicManager.releaseLicenes                                 | 1     | 0.948     | 0.948   | 0.948   | 0.948   |
+| LicenseService.isEnabled[Main]                               | 60    | 0.599     | 0.0     | 0.297   | 0.009   |
+| IntLicManager.getState[C++Test]                              | 89    | 0.593     | 0.0     | 0.293   | 0.006   |
+| IntLicManager.activateLicense                                | 1     | 0.294     | 0.294   | 0.294   | 0.294   |
+| IntLicManager.WAIT[main]                                     | 1     | 0.288     | 0.288   | 0.288   | 0.288   |
+| IntLicManager.WAIT[ServiceDiagnosticCollector Thread]        | 1     | 0.287     | 0.287   | 0.287   | 0.287   |
+| IntLicManager.activateFinished                               | 1     | 0.034     | 0.034   | 0.034   | 0.034   |
 | IntLicManager.checkFinished                                  | 1     | 0.021     | 0.021   | 0.021   | 0.021   |
-| IntLicManager.getState[C++Test Automation]                   | 63    | 0.004     | 0.0     | 0.0     | 0.0     |
-| LicenseService.isEnabled[Team-Share-Results-Upload]          | 8     | 0.001     | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test Automation]                   | 78    | 0.01      | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Team-Share-Results-Upload]          | 8     | 0.002     | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Flow-Analysis]                      | 4     | 0.001     | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[Coding-Standards]                   | 14    | 0.001     | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test DTP Publish]                  | 8     | 0.001     | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Security]                           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Command-Line-Execution]             | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
-| LicenseService.isEnabled[Flow-Analysis]                      | 4     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Team-Share-Edit]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Team-Share-Access]                  | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | IntLicManager.getState[C++Test Flow Analysis]                | 5     | 0.0       | 0.0     | 0.0     | 0.0     |
@@ -6217,7 +6250,7 @@ License Profiler
 | LicenseService.isEnabled[Coverage]                           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Spring-Framework]                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Concerto-Access]                    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| IntLicManager.getState[C++Test MISRA C++ 2023 Rules]         | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| LicenseService.isEnabled[MISRA C 2012 Rules]                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Enforce-Max-Errors]                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Rule-Wizard]                        | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | IntLicManager.getState[C++Test LLM Integration]              | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
@@ -6233,136 +6266,136 @@ License Profiler
 | LicenseService.isEnabled[Flow-Analysis-Data]                 | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[XML-Report-Generation]              | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Application-Monitoring]             | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| LicenseService.isEnabled[MISRA C++ 2023 Rules]               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseServiceModules .statusChanged                         | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
-| LicenseService.isEnabled[Coding-Standards]                   | 14    | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Change-Based-Testing]               | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Sniffer]                            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Bug-Detective]                      | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Generate-Recommendations]           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | IntLicManager.getState[C++Test Coding Standards]             | 14    | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Source-Control]                     | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
-| IntLicManager.getState[C++Test DTP Publish]                  | 8     | 0.0       | 0.0     | 0.0     | 0.0     |
+| IntLicManager.getState[C++Test MISRA C 2012 Rules]           | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | IntLicManager.invokeAsyncCallsQueue                          | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Parameterization]                   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | IntLicManager.getState[C++Test Coverage]                     | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 | LicenseService.isEnabled[Self-Healing]                       | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 + ------------------------------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 2.521s
+TOTAL: 4.908s
 
 Scope Filters Profiler
 + ---------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                               | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ---------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| [Resources Filter].parallelProcess | 1     | 0.008     | 0.008   | 0.008   | 0.008   |
+| [Resources Filter].parallelProcess | 1     | 0.019     | 0.019   | 0.019   | 0.019   |
 + ---------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.008s
+TOTAL: 0.019s
 
 DefaultFlowExecutor
 + ----------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                    | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ----------------------- + ----- + --------- + ------- + ------- + ------- +
-| finalizeReporters       | 1     | 3.683     | 3.683   | 3.683   | 3.683   |
-| reportResults           | 6     | 2.19      | 0.0     | 1.674   | 0.365   |
-| getPostProcessedResults | 5     | 0.358     | 0.013   | 0.229   | 0.071   |
+| finalizeReporters       | 1     | 8.289     | 8.289   | 8.289   | 8.289   |
+| reportResults           | 6     | 4.437     | 0.0     | 3.462   | 0.739   |
+| getPostProcessedResults | 5     | 0.67      | 0.028   | 0.428   | 0.134   |
 + ----------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 6.231s
+TOTAL: 13.396s
 
 Flow Analysis Profiler
 + --------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                                | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + --------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| JcsRepository.store [graphs]                        | 17    | 0.214     | 0.001   | 0.055   | 0.012   |
-| JcsRepository.store [language]                      | 51    | 0.078     | 0.0     | 0.009   | 0.001   |
-| JcsRepository.retrieve [language]                   | 42    | 0.058     | 0.0     | 0.009   | 0.001   |
-| JcsRepository.store [cfgCoverage]                   | 17    | 0.035     | 0.0     | 0.011   | 0.002   |
-| JcsRepository.store [handlerRegistrationMethods]    | 17    | 0.024     | 0.001   | 0.003   | 0.001   |
-| JcsRepository.store [terminatorsMethods]            | 17    | 0.02      | 0.0     | 0.003   | 0.001   |
-| JcsRepository.close [handlerRegistrationMethods]    | 34    | 0.018     | 0.0     | 0.012   | 0.0     |
-| JcsRepository.close [terminatorsMethods]            | 34    | 0.015     | 0.0     | 0.008   | 0.0     |
-| JcsRepository.close [cfgCoverage]                   | 34    | 0.014     | 0.0     | 0.008   | 0.0     |
-| JcsRepository.close [exitedmethods]                 | 34    | 0.012     | 0.0     | 0.006   | 0.0     |
-| JcsRepository.close [language]                      | 1     | 0.011     | 0.011   | 0.011   | 0.011   |
-| JcsRepository.close [virtualmethods]                | 34    | 0.01      | 0.0     | 0.005   | 0.0     |
-| JcsRepository.close [graphs]                        | 2     | 0.009     | 0.0     | 0.009   | 0.004   |
-| JcsRepository.store [exitedmethods]                 | 2     | 0.002     | 0.001   | 0.001   | 0.001   |
-| JcsRepository.retrieve [handlerRegistrationMethods] | 17    | 0.0       | 0.0     | 0.0     | 0.0     |
-| JcsRepository.retrieve [exitedmethods]              | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
-| JcsRepository.retrieve [terminatorsMethods]         | 17    | 0.0       | 0.0     | 0.0     | 0.0     |
-| JcsRepository.retrieve [cfgCoverage]                | 17    | 0.0       | 0.0     | 0.0     | 0.0     |
+| JcsRepository.retrieve [graphs]                     | 17    | 0.212     | 0.002   | 0.093   | 0.012   |
+| JcsRepository.retrieve [language]                   | 38    | 0.086     | 0.0     | 0.017   | 0.002   |
+| JcsRepository.retrieve [cfgCoverage]                | 17    | 0.043     | 0.001   | 0.006   | 0.002   |
+| JcsRepository.close [exitedmethods]                 | 34    | 0.032     | 0.0     | 0.017   | 0.0     |
+| JcsRepository.close [virtualmethods]                | 34    | 0.025     | 0.0     | 0.015   | 0.0     |
+| JcsRepository.close [cfgCoverage]                   | 34    | 0.025     | 0.0     | 0.012   | 0.0     |
+| JcsRepository.retrieve [handlerRegistrationMethods] | 17    | 0.024     | 0.0     | 0.004   | 0.001   |
+| JcsRepository.retrieve [exitedmethods]              | 15    | 0.024     | 0.0     | 0.005   | 0.001   |
+| JcsRepository.retrieve [terminatorsMethods]         | 17    | 0.024     | 0.0     | 0.005   | 0.001   |
+| JcsRepository.close [handlerRegistrationMethods]    | 34    | 0.024     | 0.0     | 0.015   | 0.0     |
+| JcsRepository.close [terminatorsMethods]            | 34    | 0.023     | 0.0     | 0.012   | 0.0     |
+| JcsRepository.close [language]                      | 1     | 0.018     | 0.018   | 0.018   | 0.018   |
+| JcsRepository.close [graphs]                        | 2     | 0.017     | 0.0     | 0.017   | 0.008   |
+| JcsRepository.store [cfgCoverage]                   | 1     | 0.012     | 0.012   | 0.012   | 0.012   |
 + --------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.52s
+TOTAL: 0.589s
 
 Async Call Profiler
 + ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                        | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| InternalLicenseManager.activateLicense:391  | 1     | 0.343     | 0.343   | 0.343   | 0.343   |
-| InternalLicenseManager.invokeAsyncCall:1244 | 187   | 0.196     | 0.0     | 0.196   | 0.001   |
+| InternalLicenseManager.invokeAsyncCall:1244 | 202   | 0.95      | 0.0     | 0.948   | 0.004   |
+| InternalLicenseManager.activateLicense:391  | 1     | 0.328     | 0.328   | 0.328   | 0.328   |
 | AsyncCallHandler.startThread                | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 + ------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.539s
+TOTAL: 1.278s
 
 Results Profiler
-+ -------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| NAME                                                                             | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
-+ -------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| ResultLocationProcessor.processInput: ResultLocationOwner(CWCViolation)          | 92    | 0.55      | 0.002   | 0.013   | 0.005   |
-| ResultLocationProcessor.processLine: ResultLocationOwner(CWCViolation)           | 92    | 0.36      | 0.001   | 0.006   | 0.003   |
-| ResultLocationProcessor.processInput: PathElementLocationOwner                   | 24    | 0.14      | 0.004   | 0.007   | 0.005   |
-| ResultLocationProcessor.processLine: PathElementLocationOwner                    | 24    | 0.096     | 0.002   | 0.006   | 0.004   |
-| ResultLocationProcessor.processInput: ResultLocationOwner(ScopeResult)           | 8     | 0.024     | 0.002   | 0.004   | 0.003   |
-| ResultLocationProcessor.processInput: CauseLocationOwner                         | 3     | 0.018     | 0.005   | 0.006   | 0.006   |
-| ResultLocationProcessor.processInput: ResultLocationOwner(FlowAnalysisViolation) | 3     | 0.017     | 0.005   | 0.006   | 0.005   |
-| ResultLocationProcessor.processLine: CauseLocationOwner                          | 3     | 0.012     | 0.003   | 0.005   | 0.004   |
-| ResultLocationProcessor.processLine: ResultLocationOwner(FlowAnalysisViolation)  | 3     | 0.011     | 0.003   | 0.004   | 0.003   |
-| ResultLocationProcessor.adapt: CWCViolation                                      | 552   | 0.007     | 0.0     | 0.0     | 0.0     |
-| ResultLocationProcessor.adapt: FlowAnalysisViolation                             | 18    | 0.0       | 0.0     | 0.0     | 0.0     |
-| ResultLocationProcessor.adapt: ScopeResult                                       | 24    | 0.0       | 0.0     | 0.0     | 0.0     |
-+ -------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 1.235s
++ ---------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| NAME                                                                               | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
++ ---------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+| ResultLocationProcessor.processInput: ResultLocationOwner(CWCViolation)            | 191   | 0.735     | 0.0     | 0.012   | 0.003   |
+| ResultLocationProcessor.processLine: ResultLocationOwner(CWCViolation)             | 191   | 0.464     | 0.0     | 0.006   | 0.002   |
+| ResultLocationProcessor.processInput: PathElementLocationOwner                     | 33    | 0.149     | 0.002   | 0.006   | 0.004   |
+| ResultLocationProcessor.processLine: PathElementLocationOwner                      | 33    | 0.095     | 0.001   | 0.005   | 0.002   |
+| ResultLocationProcessor.processInput: ResultLocationOwner(ScopeResult)             | 8     | 0.045     | 0.004   | 0.007   | 0.005   |
+| ResultLocationProcessor.processInput: ResultLocationOwner(GlobalAnalysisViolation) | 7     | 0.033     | 0.003   | 0.006   | 0.004   |
+| ResultLocationProcessor.processInput: CauseLocationOwner                           | 5     | 0.022     | 0.002   | 0.005   | 0.004   |
+| ResultLocationProcessor.processInput: ResultLocationOwner(FlowAnalysisViolation)   | 5     | 0.021     | 0.003   | 0.006   | 0.004   |
+| ResultLocationProcessor.processLine: ResultLocationOwner(GlobalAnalysisViolation)  | 7     | 0.02      | 0.001   | 0.005   | 0.002   |
+| ResultLocationProcessor.processLine: CauseLocationOwner                            | 5     | 0.016     | 0.002   | 0.004   | 0.003   |
+| ResultLocationProcessor.processLine: ResultLocationOwner(FlowAnalysisViolation)    | 5     | 0.015     | 0.002   | 0.003   | 0.003   |
+| ResultLocationProcessor.adapt: CWCViolation                                        | 1150  | 0.011     | 0.0     | 0.0     | 0.0     |
+| ResultLocationProcessor.adapt: ScopeResult                                         | 24    | 0.001     | 0.0     | 0.0     | 0.0     |
+| ResultLocationProcessor.adapt: FlowAnalysisViolation                               | 30    | 0.0       | 0.0     | 0.0     | 0.0     |
+| ResultLocationProcessor.adapt: GlobalAnalysisViolation                             | 42    | 0.0       | 0.0     | 0.0     | 0.0     |
++ ---------------------------------------------------------------------------------- + ----- + --------- + ------- + ------- + ------- +
+TOTAL: 1.627s
 
 Result Processors Profiler
 + --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
 | NAME                                    | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-| ResultLocationProcessor.parallelProcess | 3     | 0.736     | 0.028   | 0.404   | 0.245   |
-| SuppressionsProcessor.parallelProcess   | 2     | 0.448     | 0.039   | 0.409   | 0.224   |
-| AuthorshipProcessor.parallelProcess     | 2     | 0.127     | 0.003   | 0.124   | 0.063   |
-| ResultLocationProcessor.adapt           | 594   | 0.01      | 0.0     | 0.0     | 0.0     |
-| RulesProcessor.parallelProcess          | 2     | 0.004     | 0.001   | 0.003   | 0.002   |
-| GoalsProcessor.parallelProcess          | 2     | 0.003     | 0.0     | 0.002   | 0.001   |
-| GoalsProcessor.adapt                    | 190   | 0.002     | 0.0     | 0.0     | 0.0     |
-| ScopeResultProcessor.process            | 107   | 0.001     | 0.0     | 0.001   | 0.0     |
-| RuleLimitProcessor.process              | 107   | 0.0       | 0.0     | 0.0     | 0.0     |
-| SourceControlProcessor.adapt            | 95    | 0.0       | 0.0     | 0.0     | 0.0     |
-| UuidMetadataProcessor.parallelProcess   | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
+| SuppressionsProcessor.parallelProcess   | 5     | 1.282     | 0.044   | 0.915   | 0.256   |
+| ResultLocationProcessor.parallelProcess | 6     | 0.938     | 0.027   | 0.435   | 0.156   |
+| AuthorshipProcessor.parallelProcess     | 5     | 0.208     | 0.004   | 0.111   | 0.041   |
+| ResultLocationProcessor.adapt           | 1246  | 0.017     | 0.0     | 0.0     | 0.0     |
+| RulesProcessor.parallelProcess          | 5     | 0.012     | 0.001   | 0.004   | 0.002   |
+| GoalsProcessor.parallelProcess          | 5     | 0.011     | 0.001   | 0.004   | 0.002   |
+| GoalsProcessor.adapt                    | 406   | 0.007     | 0.0     | 0.001   | 0.0     |
+| UuidMetadataProcessor.parallelProcess   | 1     | 0.001     | 0.001   | 0.001   | 0.001   |
+| ScopeResultProcessor.process            | 215   | 0.001     | 0.0     | 0.0     | 0.0     |
+| SuppressionsProcessor.adapt             | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
+| RuleLimitProcessor.process              | 215   | 0.0       | 0.0     | 0.0     | 0.0     |
+| SourceControlProcessor.adapt            | 203   | 0.0       | 0.0     | 0.0     | 0.0     |
 + --------------------------------------- + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 1.331s
+TOTAL: 2.477s
 
 VM Info Profiler
 + ------ + ----- + --------- + ------- + ------- + ------- +
 | NAME   | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ------ + ----- + --------- + ------- + ------- + ------- +
-| Docker | 1     | 0.008     | 0.008   | 0.008   | 0.008   |
-| AWS    | 1     | 0.003     | 0.003   | 0.003   | 0.003   |
-| Azure  | 1     | 0.003     | 0.003   | 0.003   | 0.003   |
+| Docker | 1     | 0.022     | 0.022   | 0.022   | 0.022   |
+| Azure  | 1     | 0.002     | 0.002   | 0.002   | 0.002   |
+| AWS    | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 + ------ + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 0.014s
+TOTAL: 0.024s
 
 Default Profiler
 + ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
 | NAME                                 | COUNT | TOTAL [s] | MIN [s] | MAX [s] | AVG [s] |
 + ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-| getModificationTime()                | 398   | 0.783     | 0.0     | 0.031   | 0.001   |
-| TestableInputUtil.calculateFileHash  | 130   | 0.495     | 0.001   | 0.009   | 0.003   |
-| TestableInputUtil.calculateLineHash  | 122   | 0.478     | 0.001   | 0.006   | 0.003   |
-| TestableInputUtil.countLines         | 8     | 0.055     | 0.005   | 0.011   | 0.006   |
-| FileInfoService.getLineCount.compute | 8     | 0.036     | 0.002   | 0.006   | 0.004   |
+| getModificationTime()                | 763   | 1.155     | 0.0     | 0.012   | 0.001   |
+| TestableInputUtil.calculateFileHash  | 249   | 0.675     | 0.0     | 0.011   | 0.002   |
+| TestableInputUtil.calculateLineHash  | 241   | 0.608     | 0.0     | 0.006   | 0.002   |
+| TestableInputUtil.countLines         | 8     | 0.09      | 0.006   | 0.024   | 0.011   |
+| FileInfoService.getLineCount.compute | 8     | 0.062     | 0.003   | 0.016   | 0.007   |
+| CryptUtil.decryptLSData              | 24    | 0.006     | 0.0     | 0.0     | 0.0     |
+| CryptUtil.encryptLSData              | 24    | 0.005     | 0.0     | 0.0     | 0.0     |
 | CryptUtil.decryptPassword            | 2     | 0.0       | 0.0     | 0.0     | 0.0     |
 | CryptUtil.encryptPassword            | 1     | 0.0       | 0.0     | 0.0     | 0.0     |
 + ------------------------------------ + ----- + --------- + ------- + ------- + ------- +
-TOTAL: 1.847s
+TOTAL: 2.601s
 ================================================================================================
 MEMORY STATISTICS
 ================================================================================================
@@ -6370,9 +6403,9 @@ MEMORY STATISTICS
 + -------------- + --------- +
 | Memory Metric  | Size [MB] |
 + -------------- + --------- +
-| Current memory | 49        |
+| Current memory | 78        |
 | Max memory     | 2147      |
-| Total memory   | 86        |
+| Total memory   | 250       |
 + -------------- + --------- +
 ================================================================================================
 LOG ISSUES
@@ -6383,9 +6416,9 @@ LOG ISSUES
 + ------------- + ----- +
 | TRACE         | 0     |
 | TIME          | 4     |
-| DEBUG         | 965   |
-| INFO          | 727   |
-| WARN          | 41    |
+| DEBUG         | 1091  |
+| INFO          | 1040  |
+| WARN          | 36    |
 | ERROR         | 0     |
 | FATAL         | 0     |
 + ------------- + ----- +
@@ -6396,47 +6429,47 @@ Services provider profiler (COUNT > 1):
 + --------------------------------------------- + ----- + --------- +
 | NAME                                          | COUNT | TOTAL [s] |
 + --------------------------------------------- + ----- + --------- +
-| getService(ISuppressionsService)              | 5     | 0.0       |
 | getServices(IDupCodeService)                  | 8     | 0.001     |
-| getService(ICoveragePreprocessor)             | 2     | 0.001     |
 | getServiceRefs(IRulesService)                 | 10    | 0.001     |
-| getService(IProfilerService)                  | 19    | 0.002     |
-| getServices(IAnalyzerRunnerService)           | 3     | 0.002     |
-| getService(IRulesService$Factory)             | 15    | 0.003     |
-| getService(IRulesService)                     | 14    | 0.003     |
-| getService(IProfilerService$Factory)          | 45    | 0.004     |
-| getServices(IPreferenceValidationRules)       | 2     | 0.004     |
-| getService(ICoverageService)                  | 8     | 0.004     |
-| getService(IProxySettingsProviderService)     | 8     | 0.006     |
-| getService(IProfilerStatisticsService)        | 19    | 0.007     |
-| getServices(IGoalReferenceReportProvider)     | 6     | 0.007     |
-| getService(ILocationsManager)                 | 99    | 0.007     |
-| getServices(IReportPublisherService)          | 2     | 0.008     |
-| getService(IGoalsProvider)                    | 19    | 0.009     |
-| getService(ISharingRepository)                | 4     | 0.014     |
-| getServices(IViolationXmlStorage)             | 2     | 0.015     |
-| getService(ISystemService)                    | 9     | 0.016     |
-| getService(IAuthorshipService)                | 102   | 0.017     |
-| getService(IParallelRunner)                   | 41    | 0.018     |
-| getServices(IScopeFilter)                     | 2     | 0.024     |
-| getServices(ITechSupportItemsProviderService) | 4     | 0.025     |
-| getService(IScmService)                       | 3     | 0.025     |
-| getService(IOidcService)                      | 15    | 0.03      |
-| getService(ITelemetryReporter)                | 8     | 0.035     |
-| getService(ITechSupportService)               | 2     | 0.051     |
-| getServices(ISuppressionsService)             | 97    | 0.052     |
-| getService(IFileInfoService)                  | 141   | 0.062     |
-| getServices(IResultPostProcessorService)      | 292   | 0.075     |
-| getService(ILicenseService)                   | 147   | 0.083     |
-| getServices(IReportTransformerService)        | 3     | 0.118     |
-| getServices(IAnalyzerService)                 | 8     | 0.119     |
-| getService(IPreferencesService)               | 3     | 0.148     |
-| getServices(IReassignmentsService)            | 95    | 0.158     |
-| getServices(IPreferences)                     | 230   | 0.186     |
-| getService(IApplication)                      | 230   | 0.401     |
-| getService(IDtpServiceRegistry)               | 13    | 1.107     |
+| getService(ICoveragePreprocessor)             | 2     | 0.004     |
+| getService(ISuppressionsService)              | 5     | 0.004     |
+| getService(IRulesService$Factory)             | 15    | 0.005     |
+| getService(IProfilerService)                  | 19    | 0.005     |
+| getServices(IAnalyzerRunnerService)           | 3     | 0.006     |
+| getServices(IPreferenceValidationRules)       | 2     | 0.008     |
+| getService(IProfilerService$Factory)          | 51    | 0.009     |
+| getService(IProxySettingsProviderService)     | 32    | 0.009     |
+| getService(ICoverageService)                  | 8     | 0.01      |
+| getService(IRulesService)                     | 44    | 0.011     |
+| getServices(IGoalReferenceReportProvider)     | 6     | 0.012     |
+| getService(IProfilerStatisticsService)        | 19    | 0.016     |
+| getService(IGoalsProvider)                    | 32    | 0.017     |
+| getService(ISharingRepository)                | 4     | 0.017     |
+| getService(ISystemService)                    | 9     | 0.023     |
+| getService(ILocationsManager)                 | 207   | 0.024     |
+| getServices(IReportPublisherService)          | 2     | 0.033     |
+| getService(IParallelRunner)                   | 41    | 0.04      |
+| getService(IOidcService)                      | 18    | 0.041     |
+| getService(IAuthorshipService)                | 210   | 0.043     |
+| getServices(IViolationXmlStorage)             | 2     | 0.045     |
+| getServices(ITechSupportItemsProviderService) | 4     | 0.05      |
+| getService(IScmService)                       | 3     | 0.052     |
+| getServices(IScopeFilter)                     | 2     | 0.067     |
+| getService(ITelemetryReporter)                | 8     | 0.075     |
+| getService(ITechSupportService)               | 2     | 0.107     |
+| getService(IFileInfoService)                  | 281   | 0.122     |
+| getServices(ISuppressionsService)             | 205   | 0.135     |
+| getService(ILicenseService)                   | 162   | 0.14      |
+| getServices(IReportTransformerService)        | 3     | 0.145     |
+| getServices(IResultPostProcessorService)      | 616   | 0.174     |
+| getService(IPreferencesService)               | 3     | 0.205     |
+| getServices(IAnalyzerService)                 | 8     | 0.214     |
+| getServices(IPreferences)                     | 455   | 0.288     |
+| getServices(IReassignmentsService)            | 203   | 0.337     |
+| getService(IApplication)                      | 248   | 0.64      |
+| getService(IDtpServiceRegistry)               | 16    | 1.757     |
 + --------------------------------------------- + ----- + --------- +
-TOTAL: 2.848
+TOTAL: 4.892
 ================================================================================================
 SERVICES INSTANCES COUNT
 ================================================================================================
@@ -6566,6 +6599,7 @@ SERVICES INSTANCES COUNT
 | com.parasoft.xtest.cpp.util.config.PreferenceValidationRules                        | 1     |
 | com.parasoft.xtest.dupcode.DupCodeAnalyzer                                          | 1     |
 | com.parasoft.xtest.dupcode.DupCodePreAnalyzer                                       | 1     |
+| com.parasoft.xtest.lic.client.LicenseNetworkAdvancedPreferences                     | 1     |
 | com.parasoft.xtest.lic.client.LicensePreferences                                    | 1     |
 | com.parasoft.xtest.lic.client.internal.service.LicenseService                       | 1     |
 | com.parasoft.xtest.reports.internal.ReportsService                                  | 1     |

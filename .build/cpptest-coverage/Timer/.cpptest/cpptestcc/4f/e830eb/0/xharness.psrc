@@ -2,16 +2,16 @@ xharness.parseFile true
 xharness.addCoverage true
 xharness.reconstruct true
 edgtk.keepDependencyGenerationOptions true
-xharness.useStatementCoverage false
+xharness.useStatementCoverage true
 xharness.useDecisionCoverage false
-xharness.useBlockCoverage true
+xharness.useBlockCoverage false
 xharness.useMcDcCoverage false
 xharness.useSimpleConditionCoverage false
 xharness.useFunctionCoverage false
 xharness.usePathCoverage false
 xharness.useCallCoverage false
 xharness.addRuntimeAutoFinalization true
-xharness.coverageMapFile /mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/.build/cpptest-coverage/Timer/.cpptest/cpptestcc/1743693965906_323126/0/clock.c.map
+xharness.coverageMapFile /mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/.build/cpptest-coverage/Timer/.cpptest/cpptestcc/1751909624921_81070/0/clock.c.map
 xharness.routineManager "symbol_file=*" command=setProperty property=canAddCoverageIn value=off
 xharness.routineManager "symbol_file=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/*" command=setProperty property=canAddCoverageIn value=on
 xharness.routineManager "symbol_file=/mnt/c/Users/syoung/Documents/RepoLinux/VSCodeIntegrate/.build/*" command=setProperty property=canAddCoverageIn value=off

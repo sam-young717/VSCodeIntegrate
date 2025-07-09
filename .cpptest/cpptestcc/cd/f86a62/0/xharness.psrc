@@ -1,0 +1,16 @@
+xharness.parseFile true
+xharness.addCoverage true
+xharness.reconstruct true
+edgtk.keepDependencyGenerationOptions true
+xharness.useStatementCoverage true
+xharness.useDecisionCoverage false
+xharness.useBlockCoverage false
+xharness.useMcDcCoverage false
+xharness.useSimpleConditionCoverage false
+xharness.useFunctionCoverage false
+xharness.usePathCoverage false
+xharness.useCallCoverage false
+xharness.enableFastCoverage true
+xharness.enableFastCoverageAutoInit true
+xharness.addRuntimeAutoFinalization true
+xharness.coverageMapFile ./.cpptest/cpptestcc/1744303042423_358881/6/timer.c.map

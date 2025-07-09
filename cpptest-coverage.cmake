@@ -26,7 +26,7 @@ function (cpptest_enable_coverage)
   # Configure C/C++test compiler identifier
   set(CPPTEST_COMPILER_ID "gcc_9-64")
   # Configure coverage type(s) - see 'cpptestcc -help' for details
-  set(CPPTEST_COVERAGE_TYPE_FLAGS -block-coverage)
+  set(CPPTEST_COVERAGE_TYPE_FLAGS -line-coverage)
   # Configure C/C++test project name
   set(CPPTEST_PROJECT_NAME ${CMAKE_PROJECT_NAME})
   # Configure coverage workspace folder
