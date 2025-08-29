@@ -41,6 +41,9 @@ jobs:
 
     - name: Verify Location First
       run: ls
+
+    - name: Check Machine ID
+      run: cpptestcli -machineId
       
 
     # Builds your CMake project. (This step is optional, as it is not required for code analysis).
